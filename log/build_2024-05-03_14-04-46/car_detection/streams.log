@@ -1,0 +1,167 @@
+[1.670s] Invoking command in '/home/zerda/ros2_ws/src/car_detection': PYTHONPATH=/home/zerda/ros2_ws/build/car_detection/prefix_override:/home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/car_detection build --build-base /home/zerda/ros2_ws/build/car_detection/build install --record /home/zerda/ros2_ws/build/car_detection/install.log --single-version-externally-managed install_data
+[2.225s] running egg_info
+[2.259s] writing ../../build/car_detection/car_detection.egg-info/PKG-INFO
+[2.260s] writing dependency_links to ../../build/car_detection/car_detection.egg-info/dependency_links.txt
+[2.261s] writing requirements to ../../build/car_detection/car_detection.egg-info/requires.txt
+[2.261s] writing top-level names to ../../build/car_detection/car_detection.egg-info/top_level.txt
+[2.333s] reading manifest file '../../build/car_detection/car_detection.egg-info/SOURCES.txt'
+[2.336s] writing manifest file '../../build/car_detection/car_detection.egg-info/SOURCES.txt'
+[2.336s] running build
+[2.336s] running build_py
+[2.337s] copying car_detection/benchmarks.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection
+[2.337s] copying car_detection/__init__.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection
+[2.337s] copying car_detection/train.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection
+[2.337s] copying car_detection/export.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection
+[2.338s] copying car_detection/val.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection
+[2.338s] copying car_detection/detect.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection
+[2.338s] copying car_detection/hubconf.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection
+[2.339s] creating /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/models
+[2.339s] copying car_detection/models/yolo.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/models
+[2.339s] copying car_detection/models/common.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/models
+[2.340s] copying car_detection/models/__init__.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/models
+[2.340s] copying car_detection/models/experimental.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/models
+[2.340s] copying car_detection/models/tf.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/models
+[2.341s] creating /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils
+[2.341s] copying car_detection/utils/callbacks.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils
+[2.341s] copying car_detection/utils/autoanchor.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils
+[2.342s] copying car_detection/utils/__init__.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils
+[2.342s] copying car_detection/utils/torch_utils.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils
+[2.342s] copying car_detection/utils/metrics.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils
+[2.342s] copying car_detection/utils/loss.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils
+[2.343s] copying car_detection/utils/plots.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils
+[2.343s] copying car_detection/utils/triton.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils
+[2.343s] copying car_detection/utils/downloads.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils
+[2.343s] copying car_detection/utils/autobatch.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils
+[2.344s] copying car_detection/utils/dataloaders.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils
+[2.344s] copying car_detection/utils/activations.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils
+[2.344s] copying car_detection/utils/general.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils
+[2.345s] copying car_detection/utils/augmentations.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils
+[2.346s] creating /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/segment
+[2.346s] copying car_detection/utils/segment/__init__.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/segment
+[2.346s] copying car_detection/utils/segment/metrics.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/segment
+[2.346s] copying car_detection/utils/segment/loss.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/segment
+[2.347s] copying car_detection/utils/segment/plots.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/segment
+[2.347s] copying car_detection/utils/segment/dataloaders.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/segment
+[2.347s] copying car_detection/utils/segment/general.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/segment
+[2.347s] copying car_detection/utils/segment/augmentations.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/segment
+[2.348s] creating /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/loggers
+[2.348s] copying car_detection/utils/loggers/__init__.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/loggers
+[2.349s] creating /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/aws
+[2.349s] copying car_detection/utils/aws/__init__.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/aws
+[2.349s] copying car_detection/utils/aws/resume.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/aws
+[2.349s] creating /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/loggers/comet
+[2.350s] copying car_detection/utils/loggers/comet/hpo.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/loggers/comet
+[2.350s] copying car_detection/utils/loggers/comet/__init__.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/loggers/comet
+[2.350s] copying car_detection/utils/loggers/comet/comet_utils.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/loggers/comet
+[2.350s] creating /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/loggers/clearml
+[2.350s] copying car_detection/utils/loggers/clearml/hpo.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/loggers/clearml
+[2.351s] copying car_detection/utils/loggers/clearml/__init__.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/loggers/clearml
+[2.351s] copying car_detection/utils/loggers/clearml/clearml_utils.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/loggers/clearml
+[2.351s] creating /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/loggers/wandb
+[2.352s] copying car_detection/utils/loggers/wandb/__init__.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/loggers/wandb
+[2.352s] copying car_detection/utils/loggers/wandb/wandb_utils.py -> /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/loggers/wandb
+[2.355s] running install
+[2.367s] running install_lib
+[2.402s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/benchmarks.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection
+[2.402s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/train.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection
+[2.403s] creating /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/models
+[2.403s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/models/yolo.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/models
+[2.403s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/models/common.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/models
+[2.403s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/models/__init__.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/models
+[2.404s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/models/experimental.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/models
+[2.404s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/models/tf.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/models
+[2.404s] creating /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils
+[2.404s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/callbacks.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils
+[2.405s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/autoanchor.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils
+[2.405s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/__init__.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils
+[2.405s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/torch_utils.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils
+[2.405s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/metrics.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils
+[2.405s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/loss.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils
+[2.406s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/plots.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils
+[2.406s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/triton.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils
+[2.406s] creating /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/segment
+[2.406s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/segment/__init__.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/segment
+[2.406s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/segment/metrics.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/segment
+[2.407s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/segment/loss.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/segment
+[2.407s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/segment/plots.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/segment
+[2.407s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/segment/dataloaders.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/segment
+[2.407s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/segment/general.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/segment
+[2.408s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/segment/augmentations.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/segment
+[2.408s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/downloads.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils
+[2.408s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/autobatch.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils
+[2.409s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/dataloaders.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils
+[2.409s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/activations.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils
+[2.409s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/general.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils
+[2.409s] creating /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/loggers
+[2.409s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/loggers/__init__.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/loggers
+[2.410s] creating /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/loggers/comet
+[2.410s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/loggers/comet/hpo.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/loggers/comet
+[2.410s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/loggers/comet/__init__.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/loggers/comet
+[2.410s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/loggers/comet/comet_utils.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/loggers/comet
+[2.411s] creating /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/loggers/clearml
+[2.411s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/loggers/clearml/hpo.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/loggers/clearml
+[2.411s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/loggers/clearml/__init__.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/loggers/clearml
+[2.411s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/loggers/clearml/clearml_utils.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/loggers/clearml
+[2.412s] creating /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/loggers/wandb
+[2.412s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/loggers/wandb/__init__.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/loggers/wandb
+[2.412s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/loggers/wandb/wandb_utils.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/loggers/wandb
+[2.412s] creating /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/aws
+[2.412s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/aws/__init__.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/aws
+[2.413s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/aws/resume.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/aws
+[2.413s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/utils/augmentations.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils
+[2.413s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/export.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection
+[2.413s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/val.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection
+[2.414s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/detect.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection
+[2.414s] copying /home/zerda/ros2_ws/build/car_detection/build/lib/car_detection/hubconf.py -> /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection
+[2.415s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/benchmarks.py to benchmarks.cpython-310.pyc
+[2.418s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/train.py to train.cpython-310.pyc
+[2.431s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/models/yolo.py to yolo.cpython-310.pyc
+[2.440s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/models/common.py to common.cpython-310.pyc
+[2.458s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/models/__init__.py to __init__.cpython-310.pyc
+[2.459s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/models/experimental.py to experimental.cpython-310.pyc
+[2.461s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/models/tf.py to tf.cpython-310.pyc
+[2.473s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/callbacks.py to callbacks.cpython-310.pyc
+[2.474s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/autoanchor.py to autoanchor.cpython-310.pyc
+[2.477s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/__init__.py to __init__.cpython-310.pyc
+[2.479s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/torch_utils.py to torch_utils.cpython-310.pyc
+[2.487s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/metrics.py to metrics.cpython-310.pyc
+[2.493s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/loss.py to loss.cpython-310.pyc
+[2.498s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/plots.py to plots.cpython-310.pyc
+[2.507s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/triton.py to triton.cpython-310.pyc
+[2.509s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/segment/__init__.py to __init__.cpython-310.pyc
+[2.510s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/segment/metrics.py to metrics.cpython-310.pyc
+[2.512s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/segment/loss.py to loss.cpython-310.pyc
+[2.516s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/segment/plots.py to plots.cpython-310.pyc
+[2.520s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/segment/dataloaders.py to dataloaders.cpython-310.pyc
+[2.525s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/segment/general.py to general.cpython-310.pyc
+[2.527s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/segment/augmentations.py to augmentations.cpython-310.pyc
+[2.529s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/downloads.py to downloads.cpython-310.pyc
+[2.531s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/autobatch.py to autobatch.cpython-310.pyc
+[2.533s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/dataloaders.py to dataloaders.cpython-310.pyc
+[2.556s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/activations.py to activations.cpython-310.pyc
+[2.558s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/general.py to general.cpython-310.pyc
+[2.575s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/loggers/__init__.py to __init__.cpython-310.pyc
+[2.582s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/loggers/comet/hpo.py to hpo.cpython-310.pyc
+[2.584s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/loggers/comet/__init__.py to __init__.cpython-310.pyc
+[2.591s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/loggers/comet/comet_utils.py to comet_utils.cpython-310.pyc
+[2.592s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/loggers/clearml/hpo.py to hpo.cpython-310.pyc
+[2.594s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/loggers/clearml/__init__.py to __init__.cpython-310.pyc
+[2.594s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/loggers/clearml/clearml_utils.py to clearml_utils.cpython-310.pyc
+[2.597s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/loggers/wandb/__init__.py to __init__.cpython-310.pyc
+[2.597s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/loggers/wandb/wandb_utils.py to wandb_utils.cpython-310.pyc
+[2.599s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/aws/__init__.py to __init__.cpython-310.pyc
+[2.600s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/aws/resume.py to resume.cpython-310.pyc
+[2.601s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/utils/augmentations.py to augmentations.cpython-310.pyc
+[2.608s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/export.py to export.cpython-310.pyc
+[2.619s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/val.py to val.cpython-310.pyc
+[2.627s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/detect.py to detect.cpython-310.pyc
+[2.631s] byte-compiling /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection/hubconf.py to hubconf.cpython-310.pyc
+[2.634s] running install_data
+[2.634s] copying resource/car_detection -> /home/zerda/ros2_ws/install/car_detection/share/ament_index/resource_index/packages
+[2.635s] copying package.xml -> /home/zerda/ros2_ws/install/car_detection/share/car_detection
+[2.635s] running install_egg_info
+[2.672s] removing '/home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[2.673s] Copying ../../build/car_detection/car_detection.egg-info to /home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages/car_detection-0.0.0-py3.10.egg-info
+[2.674s] running install_scripts
+[2.983s] writing list of installed files to '/home/zerda/ros2_ws/build/car_detection/install.log'
+[3.033s] Invoked command in '/home/zerda/ros2_ws/src/car_detection' returned '0': PYTHONPATH=/home/zerda/ros2_ws/build/car_detection/prefix_override:/home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/car_detection build --build-base /home/zerda/ros2_ws/build/car_detection/build install --record /home/zerda/ros2_ws/build/car_detection/install.log --single-version-externally-managed install_data

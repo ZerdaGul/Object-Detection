@@ -1,0 +1,40 @@
+[0.379s] Invoking command in '/home/zerda/ros2_ws/build/image_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/image_processing -- -j8 -l8
+[0.400s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.528s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.549s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.551s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.558s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.575s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.600s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.796s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.809s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.858s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.859s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.977s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.108s] -- Found image_common: 3.1.7 (/opt/ros/humble/share/image_common/cmake)
+[1.112s] -- Found image_transport: 3.1.7 (/opt/ros/humble/share/image_transport/cmake)
+[1.145s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.224s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.224s] -- Configured cppcheck include dirs: /home/zerda/ros2_ws/src/image_processing/include
+[1.224s] -- Configured cppcheck exclude dirs and/or files: 
+[1.225s] -- Added test 'lint_cmake' to check CMake code style
+[1.226s] -- Added test 'uncrustify' to check C / C++ code style
+[1.226s] -- Configured uncrustify additional arguments: 
+[1.227s] -- Added test 'xmllint' to check XML markup files
+[1.228s] -- Configuring done
+[1.238s] -- Generating done
+[1.241s] -- Build files have been written to: /home/zerda/ros2_ws/build/image_processing
+[1.267s] [35m[1mConsolidate compiler generated dependencies of target my_image_converter_node[0m
+[1.287s] [ 50%] [32mBuilding CXX object CMakeFiles/my_image_converter_node.dir/src/image_converter_node.cpp.o[0m
+[1.363s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.364s]                  from [01m[K/home/zerda/ros2_ws/src/image_processing/src/image_converter_node.cpp:1[m[K:
+[1.364s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30:10:[m[K [01;31m[Kfatal error: [m[Krcl/guard_condition.h: No such file or directory
+[1.364s]    30 | #include [01;31m[K"rcl/guard_condition.h"[m[K
+[1.364s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.364s] compilation terminated.
+[1.364s] gmake[2]: *** [CMakeFiles/my_image_converter_node.dir/build.make:76: CMakeFiles/my_image_converter_node.dir/src/image_converter_node.cpp.o] Error 1
+[1.364s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_image_converter_node.dir/all] Error 2
+[1.364s] gmake: *** [Makefile:146: all] Error 2
+[1.465s] Invoked command in '/home/zerda/ros2_ws/build/image_processing' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/image_processing -- -j8 -l8

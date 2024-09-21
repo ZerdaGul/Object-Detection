@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/car_detector/car_detector.egg-info/PKG-INFO
+../../build/car_detector/car_detector.egg-info/SOURCES.txt
+../../build/car_detector/car_detector.egg-info/dependency_links.txt
+../../build/car_detector/car_detector.egg-info/entry_points.txt
+../../build/car_detector/car_detector.egg-info/requires.txt
+../../build/car_detector/car_detector.egg-info/top_level.txt
+../../build/car_detector/car_detector.egg-info/zip-safe
+car_detector/__init__.py
+car_detector/camera_pub.py
+car_detector/car_detection.py
+config/camera_car_detection.rviz
+data/best.pt
+launch/camera_car_detection.launch.py
+resource/car_detector

@@ -1,0 +1,26 @@
+[0.178s] Invoking command in '/home/zerda/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[0.264s] [35m[1mConsolidate compiler generated dependencies of target image_converter_node[0m
+[0.312s] [ 50%] [32mBuilding CXX object CMakeFiles/image_converter_node.dir/src/image_converter.cpp.o[0m
+[7.794s] [100%] [32m[1mLinking CXX executable image_converter_node[0m
+[8.761s] [100%] Built target image_converter_node
+[8.787s] Invoked command in '/home/zerda/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[8.876s] Invoking command in '/home/zerda/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake --install /home/zerda/ros2_ws/build/my_cpp_pkg
+[8.895s] -- Install configuration: ""
+[8.896s] -- Installing: /home/zerda/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/image_converter_node
+[8.897s] -- Set runtime path of "/home/zerda/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/image_converter_node" to ""
+[8.899s] -- Up-to-date: /home/zerda/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[8.899s] -- Up-to-date: /home/zerda/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[8.900s] -- Up-to-date: /home/zerda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[8.900s] -- Up-to-date: /home/zerda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[8.901s] -- Up-to-date: /home/zerda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[8.901s] -- Up-to-date: /home/zerda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[8.902s] -- Up-to-date: /home/zerda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[8.902s] -- Up-to-date: /home/zerda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[8.902s] -- Up-to-date: /home/zerda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[8.903s] -- Up-to-date: /home/zerda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[8.903s] -- Installing: /home/zerda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[8.904s] -- Up-to-date: /home/zerda/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[8.905s] -- Up-to-date: /home/zerda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[8.906s] -- Up-to-date: /home/zerda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[8.907s] -- Up-to-date: /home/zerda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[8.908s] Invoked command in '/home/zerda/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake --install /home/zerda/ros2_ws/build/my_cpp_pkg

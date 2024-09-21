@@ -1,0 +1,5 @@
+  File "/home/zerda/ros2_ws/install/yolov8_detection/lib/python3.10/site-packages/yolov8_detection/car_detector.py", line 1
+    zerda@zerdaGul:~/ros2_ws$ ros2 run yolov8_detection car_detector
+                  ^
+SyntaxError: invalid syntax
+

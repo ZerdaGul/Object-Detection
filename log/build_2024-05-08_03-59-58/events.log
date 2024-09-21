@@ -1,0 +1,68 @@
+[0.000000] (-) TimerEvent: {}
+[0.000936] (car_detector) JobQueued: {'identifier': 'car_detector', 'dependencies': OrderedDict()}
+[0.001360] (car_detector) JobStarted: {'identifier': 'car_detector'}
+[0.099178] (-) TimerEvent: {}
+[0.199797] (-) TimerEvent: {}
+[0.300320] (-) TimerEvent: {}
+[0.401023] (-) TimerEvent: {}
+[0.501524] (-) TimerEvent: {}
+[0.602510] (-) TimerEvent: {}
+[0.702956] (-) TimerEvent: {}
+[0.803408] (-) TimerEvent: {}
+[0.903850] (-) TimerEvent: {}
+[1.004335] (-) TimerEvent: {}
+[1.104769] (-) TimerEvent: {}
+[1.205305] (-) TimerEvent: {}
+[1.305751] (-) TimerEvent: {}
+[1.406282] (-) TimerEvent: {}
+[1.506841] (-) TimerEvent: {}
+[1.607545] (-) TimerEvent: {}
+[1.708090] (-) TimerEvent: {}
+[1.808620] (-) TimerEvent: {}
+[1.909100] (-) TimerEvent: {}
+[2.009584] (-) TimerEvent: {}
+[2.104785] (car_detector) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/car_detector', 'build', '--build-base', '/home/zerda/ros2_ws/build/car_detector/build', 'install', '--record', '/home/zerda/ros2_ws/build/car_detector/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/zerda/ros2_ws/src/car_detector', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'zerda', 'LC_TIME': 'tr_TR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/zerda/ros2_ws/install/yolov8_msgs/lib:/home/zerda/ros2_ws/install/aruco_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/zerda', 'OLDPWD': '/home/zerda/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'tr_TR.UTF-8', 'MANAGERPID': '1482', 'SYSTEMD_EXEC_PID': '1800', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '11454', 'COLCON_PREFIX_PATH': '/home/zerda/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'zerda', 'JOURNAL_STREAM': '8:34219', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zerda', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/zerda/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/zerdaGul:@/tmp/.ICE-unix/1773,unix/zerdaGul:/tmp/.ICE-unix/1773', 'INVOCATION_ID': '80a680a5c0b0418d970715da133c0bdb', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'tr_TR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'tr_TR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/zerda/ros2_ws/install/car_detector:/home/zerda/ros2_ws/install/yolov8_bringup:/home/zerda/ros2_ws/install/yolov8_ros:/home/zerda/ros2_ws/install/yolov8_msgs:/home/zerda/ros2_ws/install/yolov8_detection:/home/zerda/ros2_ws/install/yolobot_recognition:/home/zerda/ros2_ws/install/people_detector:/home/zerda/ros2_ws/install/object_detection:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/my_object_detection_pkg:/home/zerda/ros2_ws/install/my_cpp_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/home/zerda/ros2_ws/install/car_detection:/home/zerda/ros2_ws/install/aruco_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'tr_TR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:8e57533d-aebf-4678-9f2c-96585dfa17be', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'tr_TR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'tr_TR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zerda/ros2_ws/build/car_detector', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/zerda/ros2_ws/build/car_detector/prefix_override:/home/zerda/ros2_ws/install/car_detector/lib/python3.10/site-packages:/home/zerda/ros2_ws/install/car_detector/lib/python3.10/site-packages:/home/zerda/ros2_ws/install/yolov8_ros/lib/python3.10/site-packages:/home/zerda/ros2_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages:/home/zerda/ros2_ws/install/yolov8_detection/lib/python3.10/site-packages:/home/zerda/ros2_ws/install/people_detector/lib/python3.10/site-packages:/home/zerda/ros2_ws/install/object_detection/lib/python3.10/site-packages:/home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/zerda/ros2_ws/install/my_object_detection_pkg/lib/python3.10/site-packages:/home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages:/home/zerda/ros2_ws/install/car_detection/lib/python3.10/site-packages:/home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'tr_TR.UTF-8', 'LC_PAPER': 'tr_TR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/zerda/ros2_ws/install/yolov8_bringup:/home/zerda/ros2_ws/install/yolov8_msgs:/home/zerda/ros2_ws/install/yolobot_recognition:/home/zerda/ros2_ws/install/my_cpp_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/aruco_msgs'}, 'shell': False}
+[2.111026] (-) TimerEvent: {}
+[2.212893] (-) TimerEvent: {}
+[2.313398] (-) TimerEvent: {}
+[2.413887] (-) TimerEvent: {}
+[2.514339] (-) TimerEvent: {}
+[2.614809] (-) TimerEvent: {}
+[2.685610] (car_detector) StdoutLine: {'line': b'running egg_info\n'}
+[2.714964] (-) TimerEvent: {}
+[2.722360] (car_detector) StdoutLine: {'line': b'writing ../../build/car_detector/car_detector.egg-info/PKG-INFO\n'}
+[2.723326] (car_detector) StdoutLine: {'line': b'writing dependency_links to ../../build/car_detector/car_detector.egg-info/dependency_links.txt\n'}
+[2.723791] (car_detector) StdoutLine: {'line': b'writing entry points to ../../build/car_detector/car_detector.egg-info/entry_points.txt\n'}
+[2.724268] (car_detector) StdoutLine: {'line': b'writing requirements to ../../build/car_detector/car_detector.egg-info/requires.txt\n'}
+[2.724640] (car_detector) StdoutLine: {'line': b'writing top-level names to ../../build/car_detector/car_detector.egg-info/top_level.txt\n'}
+[2.803766] (car_detector) StdoutLine: {'line': b"reading manifest file '../../build/car_detector/car_detector.egg-info/SOURCES.txt'\n"}
+[2.805713] (car_detector) StdoutLine: {'line': b"writing manifest file '../../build/car_detector/car_detector.egg-info/SOURCES.txt'\n"}
+[2.806080] (car_detector) StdoutLine: {'line': b'running build\n'}
+[2.806382] (car_detector) StdoutLine: {'line': b'running build_py\n'}
+[2.806777] (car_detector) StdoutLine: {'line': b'copying car_detector/__init__.py -> /home/zerda/ros2_ws/build/car_detector/build/lib/car_detector\n'}
+[2.807148] (car_detector) StdoutLine: {'line': b'copying car_detector/camera_pub.py -> /home/zerda/ros2_ws/build/car_detector/build/lib/car_detector\n'}
+[2.807430] (car_detector) StdoutLine: {'line': b'copying car_detector/car_detection.py -> /home/zerda/ros2_ws/build/car_detector/build/lib/car_detector\n'}
+[2.807850] (car_detector) StdoutLine: {'line': b'running install\n'}
+[2.815128] (-) TimerEvent: {}
+[2.821222] (car_detector) StdoutLine: {'line': b'running install_lib\n'}
+[2.862689] (car_detector) StdoutLine: {'line': b'running install_data\n'}
+[2.863013] (car_detector) StdoutLine: {'line': b'copying resource/car_detector -> /home/zerda/ros2_ws/install/car_detector/share/ament_index/resource_index/packages\n'}
+[2.863321] (car_detector) StdoutLine: {'line': b'copying package.xml -> /home/zerda/ros2_ws/install/car_detector/share/car_detector\n'}
+[2.863625] (car_detector) StdoutLine: {'line': b'copying launch/car_detection.py -> /home/zerda/ros2_ws/install/car_detector/share/car_detector\n'}
+[2.863909] (car_detector) StdoutLine: {'line': b'copying data/best.pt -> /home/zerda/ros2_ws/install/car_detector/share/car_detector\n'}
+[2.915279] (-) TimerEvent: {}
+[3.015731] (-) TimerEvent: {}
+[3.026412] (car_detector) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.068222] (car_detector) StdoutLine: {'line': b"removing '/home/zerda/ros2_ws/install/car_detector/lib/python3.10/site-packages/car_detector-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.068728] (car_detector) StdoutLine: {'line': b'Copying ../../build/car_detector/car_detector.egg-info to /home/zerda/ros2_ws/install/car_detector/lib/python3.10/site-packages/car_detector-0.0.0-py3.10.egg-info\n'}
+[3.070378] (car_detector) StdoutLine: {'line': b'running install_scripts\n'}
+[3.115908] (-) TimerEvent: {}
+[3.216463] (-) TimerEvent: {}
+[3.316893] (-) TimerEvent: {}
+[3.417364] (-) TimerEvent: {}
+[3.419046] (car_detector) StdoutLine: {'line': b'Installing camera_publisher script to /home/zerda/ros2_ws/install/car_detector/lib/car_detector\n'}
+[3.419528] (car_detector) StdoutLine: {'line': b'Installing car_detect_subscriber script to /home/zerda/ros2_ws/install/car_detector/lib/car_detector\n'}
+[3.420083] (car_detector) StdoutLine: {'line': b"writing list of installed files to '/home/zerda/ros2_ws/build/car_detector/install.log'\n"}
+[3.471993] (car_detector) CommandEnded: {'returncode': 0}
+[3.494671] (car_detector) JobEnded: {'identifier': 'car_detector', 'rc': 0}
+[3.496120] (-) EventReactorShutdown: {}

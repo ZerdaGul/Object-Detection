@@ -1,0 +1,11 @@
+/usr/bin/ld: CMakeFiles/my_image_converter_node.dir/src/image_converter_node.cpp.o: in function `ImageConverter::ImageConverter()':
+image_converter_node.cpp:(.text._ZN14ImageConverterC2Ev[_ZN14ImageConverterC5Ev]+0x2d7): undefined reference to `cv::namedWindow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)'
+/usr/bin/ld: CMakeFiles/my_image_converter_node.dir/src/image_converter_node.cpp.o: in function `ImageConverter::~ImageConverter()':
+image_converter_node.cpp:(.text._ZN14ImageConverterD2Ev[_ZN14ImageConverterD5Ev]+0x29): undefined reference to `cv::destroyWindow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: CMakeFiles/my_image_converter_node.dir/src/image_converter_node.cpp.o: in function `ImageConverter::imageCb(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > const> const&)':
+image_converter_node.cpp:(.text._ZN14ImageConverter7imageCbERKSt10shared_ptrIKN11sensor_msgs3msg6Image_ISaIvEEEE[_ZN14ImageConverter7imageCbERKSt10shared_ptrIKN11sensor_msgs3msg6Image_ISaIvEEEE]+0x20d): undefined reference to `cv::imshow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cv::_InputArray const&)'
+/usr/bin/ld: image_converter_node.cpp:(.text._ZN14ImageConverter7imageCbERKSt10shared_ptrIKN11sensor_msgs3msg6Image_ISaIvEEEE[_ZN14ImageConverter7imageCbERKSt10shared_ptrIKN11sensor_msgs3msg6Image_ISaIvEEEE]+0x226): undefined reference to `cv::waitKey(int)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/my_image_converter_node.dir/build.make:181: my_image_converter_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_image_converter_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

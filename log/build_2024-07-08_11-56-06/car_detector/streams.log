@@ -1,0 +1,31 @@
+[1.697s] Invoking command in '/home/zerda/ros2_ws/src/car_detector': PYTHONPATH=/home/zerda/ros2_ws/build/car_detector/prefix_override:/home/zerda/ros2_ws/install/car_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/car_detector build --build-base /home/zerda/ros2_ws/build/car_detector/build install --record /home/zerda/ros2_ws/build/car_detector/install.log --single-version-externally-managed install_data
+[2.211s] running egg_info
+[2.245s] writing ../../build/car_detector/car_detector.egg-info/PKG-INFO
+[2.246s] writing dependency_links to ../../build/car_detector/car_detector.egg-info/dependency_links.txt
+[2.246s] writing entry points to ../../build/car_detector/car_detector.egg-info/entry_points.txt
+[2.247s] writing requirements to ../../build/car_detector/car_detector.egg-info/requires.txt
+[2.247s] writing top-level names to ../../build/car_detector/car_detector.egg-info/top_level.txt
+[2.314s] reading manifest file '../../build/car_detector/car_detector.egg-info/SOURCES.txt'
+[2.316s] writing manifest file '../../build/car_detector/car_detector.egg-info/SOURCES.txt'
+[2.316s] running build
+[2.317s] running build_py
+[2.317s] copying car_detector/__init__.py -> /home/zerda/ros2_ws/build/car_detector/build/lib/car_detector
+[2.317s] copying car_detector/camera_pub.py -> /home/zerda/ros2_ws/build/car_detector/build/lib/car_detector
+[2.317s] copying car_detector/car_detection.py -> /home/zerda/ros2_ws/build/car_detector/build/lib/car_detector
+[2.318s] running install
+[2.329s] running install_lib
+[2.364s] copying /home/zerda/ros2_ws/build/car_detector/build/lib/car_detector/car_detection.py -> /home/zerda/ros2_ws/install/car_detector/lib/python3.10/site-packages/car_detector
+[2.365s] byte-compiling /home/zerda/ros2_ws/install/car_detector/lib/python3.10/site-packages/car_detector/car_detection.py to car_detection.cpython-310.pyc
+[2.367s] running install_data
+[2.367s] copying package.xml -> /home/zerda/ros2_ws/install/car_detector/share/car_detector
+[2.367s] copying launch/camera_car_detection.launch.py -> /home/zerda/ros2_ws/install/car_detector/share/car_detector/launch
+[2.367s] copying config/camera_car_detection.rviz -> /home/zerda/ros2_ws/install/car_detector/share/car_detector/config
+[2.368s] copying data/best.pt -> /home/zerda/ros2_ws/install/car_detector/share/car_detector/data
+[2.404s] running install_egg_info
+[2.440s] removing '/home/zerda/ros2_ws/install/car_detector/lib/python3.10/site-packages/car_detector-0.0.0-py3.10.egg-info' (and everything under it)
+[2.441s] Copying ../../build/car_detector/car_detector.egg-info to /home/zerda/ros2_ws/install/car_detector/lib/python3.10/site-packages/car_detector-0.0.0-py3.10.egg-info
+[2.442s] running install_scripts
+[2.743s] Installing camera_publisher script to /home/zerda/ros2_ws/install/car_detector/lib/car_detector
+[2.743s] Installing car_detection script to /home/zerda/ros2_ws/install/car_detector/lib/car_detector
+[2.744s] writing list of installed files to '/home/zerda/ros2_ws/build/car_detector/install.log'
+[2.793s] Invoked command in '/home/zerda/ros2_ws/src/car_detector' returned '0': PYTHONPATH=/home/zerda/ros2_ws/build/car_detector/prefix_override:/home/zerda/ros2_ws/install/car_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/car_detector build --build-base /home/zerda/ros2_ws/build/car_detector/build install --record /home/zerda/ros2_ws/build/car_detector/install.log --single-version-externally-managed install_data

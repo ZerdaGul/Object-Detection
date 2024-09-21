@@ -1,0 +1,11 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/zerda/ros2_ws/src/image_processing/src/image_converter_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30:10:[m[K [01;31m[Kfatal error: [m[Krcl/guard_condition.h: No such file or directory
+   30 | #include [01;31m[K"rcl/guard_condition.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/my_image_converter_node.dir/build.make:76: CMakeFiles/my_image_converter_node.dir/src/image_converter_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_image_converter_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

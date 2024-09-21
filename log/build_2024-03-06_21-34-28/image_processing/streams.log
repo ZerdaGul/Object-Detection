@@ -1,0 +1,29 @@
+[0.518s] Invoking command in '/home/zerda/ros2_ws/build/image_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/image_processing -- -j8 -l8
+[0.614s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.337s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.523s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.532s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.555s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.600s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.665s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.651s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[2.652s]   By not providing "Findcv_bridge.cmake" in CMAKE_MODULE_PATH this project
+[2.652s]   has asked CMake to find a package configuration file provided by
+[2.652s]   "cv_bridge", but CMake did not find one.
+[2.653s] 
+[2.653s]   Could not find a package configuration file provided by "cv_bridge" with
+[2.653s]   any of the following names:
+[2.654s] 
+[2.654s]     cv_bridgeConfig.cmake
+[2.654s]     cv_bridge-config.cmake
+[2.654s] 
+[2.655s]   Add the installation prefix of "cv_bridge" to CMAKE_PREFIX_PATH or set
+[2.655s]   "cv_bridge_DIR" to a directory containing one of the above files.  If
+[2.655s]   "cv_bridge" provides a separate development package or SDK, be sure it has
+[2.655s]   been installed.
+[2.656s] 
+[2.656s] [0m
+[2.656s] -- Configuring incomplete, errors occurred!
+[2.656s] See also "/home/zerda/ros2_ws/build/image_processing/CMakeFiles/CMakeOutput.log".
+[2.686s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[2.691s] Invoked command in '/home/zerda/ros2_ws/build/image_processing' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/image_processing -- -j8 -l8

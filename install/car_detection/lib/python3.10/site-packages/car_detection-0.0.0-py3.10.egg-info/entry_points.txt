@@ -1,0 +1,2 @@
+[console_scripts]
+ros_detection_yolo = car_detection.ros_detection_yolo:main

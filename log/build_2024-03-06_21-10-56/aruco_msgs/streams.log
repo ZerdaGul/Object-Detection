@@ -1,0 +1,35 @@
+[0.757s] Invoking command in '/home/zerda/ros2_ws/build/aruco_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/aruco_msgs -- -j8 -l8
+[1.804s] [35m[1mConsolidate compiler generated dependencies of target aruco_msgs__rosidl_generator_c[0m
+[1.805s] [  2%] Built target aruco_msgs__cpp
+[1.805s] [ 12%] Built target aruco_msgs__rosidl_generator_c
+[1.805s] [35m[1mConsolidate compiler generated dependencies of target aruco_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.806s] [35m[1mConsolidate compiler generated dependencies of target aruco_msgs__rosidl_typesupport_cpp[0m
+[1.806s] [35m[1mConsolidate compiler generated dependencies of target aruco_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.806s] [ 12%] Built target ament_cmake_python_copy_aruco_msgs
+[1.806s] [35m[1mConsolidate compiler generated dependencies of target aruco_msgs__rosidl_typesupport_fastrtps_c[0m
+[1.807s] [35m[1mConsolidate compiler generated dependencies of target aruco_msgs__rosidl_typesupport_introspection_c[0m
+[1.807s] [ 23%] Built target aruco_msgs__rosidl_typesupport_cpp
+[1.807s] [35m[1mConsolidate compiler generated dependencies of target aruco_msgs__rosidl_typesupport_c[0m
+[1.807s] [ 33%] Built target aruco_msgs__rosidl_typesupport_fastrtps_cpp
+[1.808s] [ 43%] Built target aruco_msgs__rosidl_typesupport_introspection_cpp
+[1.808s] [ 53%] Built target aruco_msgs__rosidl_typesupport_fastrtps_c
+[1.808s] [ 64%] Built target aruco_msgs__rosidl_typesupport_introspection_c
+[1.808s] [ 74%] Built target aruco_msgs__rosidl_typesupport_c
+[1.808s] [ 74%] Built target aruco_msgs
+[1.809s] [ 76%] Built target aruco_msgs__py
+[1.809s] [35m[1mConsolidate compiler generated dependencies of target aruco_msgs__rosidl_generator_py[0m
+[1.809s] [ 84%] Built target aruco_msgs__rosidl_generator_py
+[1.810s] [35m[1mConsolidate compiler generated dependencies of target aruco_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[1.811s] [35m[1mConsolidate compiler generated dependencies of target aruco_msgs__rosidl_typesupport_c__pyext[0m
+[1.812s] [35m[1mConsolidate compiler generated dependencies of target aruco_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.812s] [ 94%] Built target aruco_msgs__rosidl_typesupport_c__pyext
+[1.812s] [ 94%] Built target aruco_msgs__rosidl_typesupport_introspection_c__pyext
+[1.812s] [100%] Built target aruco_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.945s] running egg_info
+[1.947s] writing aruco_msgs.egg-info/PKG-INFO
+[1.949s] writing dependency_links to aruco_msgs.egg-info/dependency_links.txt
+[1.950s] writing top-level names to aruco_msgs.egg-info/top_level.txt
+[1.959s] reading manifest file 'aruco_msgs.egg-info/SOURCES.txt'
+[1.962s] writing manifest file 'aruco_msgs.egg-info/SOURCES.txt'
+[2.048s] [100%] Built target ament_cmake_python_build_aruco_msgs_egg
+[2.938s] Invoked command in '/home/zerda/ros2_ws/build/aruco_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/aruco_msgs -- -j8 -l8

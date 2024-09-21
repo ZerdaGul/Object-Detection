@@ -1,0 +1,380 @@
+[0.000000] (-) TimerEvent: {}
+[0.000417] (aruco) JobQueued: {'identifier': 'aruco', 'dependencies': OrderedDict()}
+[0.000817] (aruco_msgs) JobQueued: {'identifier': 'aruco_msgs', 'dependencies': OrderedDict()}
+[0.000896] (image_processing) JobQueued: {'identifier': 'image_processing', 'dependencies': OrderedDict()}
+[0.001732] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.002250] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.002517] (aruco_ros2) JobQueued: {'identifier': 'aruco_ros2', 'dependencies': OrderedDict([('aruco', '/home/zerda/ros2_ws/install/aruco'), ('aruco_msgs', '/home/zerda/ros2_ws/install/aruco_msgs')])}
+[0.002642] (aruco) JobStarted: {'identifier': 'aruco'}
+[0.100080] (-) TimerEvent: {}
+[0.183753] (aruco_msgs) JobStarted: {'identifier': 'aruco_msgs'}
+[0.200284] (-) TimerEvent: {}
+[0.300963] (-) TimerEvent: {}
+[0.401671] (-) TimerEvent: {}
+[0.408386] (image_processing) JobStarted: {'identifier': 'image_processing'}
+[0.501846] (-) TimerEvent: {}
+[0.582607] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.602231] (-) TimerEvent: {}
+[0.702973] (-) TimerEvent: {}
+[0.769539] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.803112] (-) TimerEvent: {}
+[0.903998] (-) TimerEvent: {}
+[0.973620] (aruco) JobProgress: {'identifier': 'aruco', 'progress': 'cmake'}
+[0.974937] (aruco) Command: {'cmd': ['/usr/bin/cmake', '/home/zerda/ros2_ws/src/aruco_ros2/aruco', '-DCMAKE_INSTALL_PREFIX=/home/zerda/ros2_ws/install/aruco'], 'cwd': '/home/zerda/ros2_ws/build/aruco', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zerda'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zerda'), ('OLDPWD', '/home/zerda'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1555'), ('SYSTEMD_EXEC_PID', '2169'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '53152'), ('COLCON_PREFIX_PATH', '/home/zerda/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zerda'), ('JOURNAL_STREAM', '8:33174'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zerda'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/zerda/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zerdaGul:@/tmp/.ICE-unix/1916,unix/zerdaGul:/tmp/.ICE-unix/1916'), ('INVOCATION_ID', '76b1f5641b194e9baa55211d0ffa62a2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9075600f-3d1d-44b7-9891-0c05477f623c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zerda/ros2_ws/build/aruco'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zerda/ros2_ws/install/my_cpp_pkg:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble')]), 'shell': False}
+[0.983494] (aruco_msgs) JobProgress: {'identifier': 'aruco_msgs', 'progress': 'cmake'}
+[0.985153] (aruco_msgs) JobProgress: {'identifier': 'aruco_msgs', 'progress': 'build'}
+[0.986594] (aruco_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zerda/ros2_ws/build/aruco_msgs', '--', '-j8', '-l8'], 'cwd': '/home/zerda/ros2_ws/build/aruco_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zerda'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zerda'), ('OLDPWD', '/home/zerda'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1555'), ('SYSTEMD_EXEC_PID', '2169'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '53152'), ('COLCON_PREFIX_PATH', '/home/zerda/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zerda'), ('JOURNAL_STREAM', '8:33174'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zerda'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/zerda/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zerdaGul:@/tmp/.ICE-unix/1916,unix/zerdaGul:/tmp/.ICE-unix/1916'), ('INVOCATION_ID', '76b1f5641b194e9baa55211d0ffa62a2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9075600f-3d1d-44b7-9891-0c05477f623c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zerda/ros2_ws/build/aruco_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zerda/ros2_ws/install/my_cpp_pkg:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble')]), 'shell': False}
+[0.992726] (image_processing) JobProgress: {'identifier': 'image_processing', 'progress': 'cmake'}
+[0.996435] (image_processing) JobProgress: {'identifier': 'image_processing', 'progress': 'build'}
+[0.997706] (image_processing) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zerda/ros2_ws/build/image_processing', '--', '-j8', '-l8'], 'cwd': '/home/zerda/ros2_ws/build/image_processing', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zerda'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zerda'), ('OLDPWD', '/home/zerda'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1555'), ('SYSTEMD_EXEC_PID', '2169'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '53152'), ('COLCON_PREFIX_PATH', '/home/zerda/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zerda'), ('JOURNAL_STREAM', '8:33174'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zerda'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/zerda/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zerdaGul:@/tmp/.ICE-unix/1916,unix/zerdaGul:/tmp/.ICE-unix/1916'), ('INVOCATION_ID', '76b1f5641b194e9baa55211d0ffa62a2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9075600f-3d1d-44b7-9891-0c05477f623c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zerda/ros2_ws/build/image_processing'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zerda/ros2_ws/install/my_cpp_pkg:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble')]), 'shell': False}
+[1.007871] (-) TimerEvent: {}
+[1.008344] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[1.009807] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[1.011147] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zerda/ros2_ws/build/my_cpp_pkg', '--', '-j8', '-l8'], 'cwd': '/home/zerda/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zerda'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zerda'), ('OLDPWD', '/home/zerda'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1555'), ('SYSTEMD_EXEC_PID', '2169'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '53152'), ('COLCON_PREFIX_PATH', '/home/zerda/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zerda'), ('JOURNAL_STREAM', '8:33174'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zerda'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/zerda/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zerdaGul:@/tmp/.ICE-unix/1916,unix/zerdaGul:/tmp/.ICE-unix/1916'), ('INVOCATION_ID', '76b1f5641b194e9baa55211d0ffa62a2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9075600f-3d1d-44b7-9891-0c05477f623c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zerda/ros2_ws/build/my_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zerda/ros2_ws/install/my_cpp_pkg:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble')]), 'shell': False}
+[1.028386] (aruco) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.108071] (-) TimerEvent: {}
+[1.145481] (aruco_msgs) StdoutLine: {'line': b'[ 10%] Built target aruco_msgs__rosidl_generator_c\n'}
+[1.157481] (aruco_msgs) StdoutLine: {'line': b'[ 12%] Built target aruco_msgs__cpp\n'}
+[1.208497] (-) TimerEvent: {}
+[1.214399] (image_processing) StdoutLine: {'line': b'[100%] Built target my_image_converter_node\n'}
+[1.217006] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/image_converter_node.dir/src/image_converter.cpp.o\x1b[0m\n'}
+[1.222109] (aruco_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_aruco_msgs\n'}
+[1.279206] (aruco_msgs) StdoutLine: {'line': b'[ 23%] Built target aruco_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.279785] (aruco_msgs) StdoutLine: {'line': b'[ 33%] Built target aruco_msgs__rosidl_typesupport_introspection_c\n'}
+[1.280197] (aruco_msgs) StdoutLine: {'line': b'[ 43%] Built target aruco_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.292328] (aruco_msgs) StdoutLine: {'line': b'[ 53%] Built target aruco_msgs__rosidl_typesupport_c\n'}
+[1.305517] (aruco_msgs) StdoutLine: {'line': b'[ 64%] Built target aruco_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.308931] (-) TimerEvent: {}
+[1.326184] (aruco_msgs) StdoutLine: {'line': b'[ 74%] Built target aruco_msgs__rosidl_typesupport_cpp\n'}
+[1.370516] (aruco_msgs) StdoutLine: {'line': b'[ 74%] Built target aruco_msgs\n'}
+[1.409069] (-) TimerEvent: {}
+[1.412306] (aruco_msgs) StdoutLine: {'line': b'[ 76%] Built target aruco_msgs__py\n'}
+[1.464694] (aruco_msgs) StdoutLine: {'line': b'[ 84%] Built target aruco_msgs__rosidl_generator_py\n'}
+[1.511135] (-) TimerEvent: {}
+[1.543098] (aruco_msgs) StdoutLine: {'line': b'[ 94%] Built target aruco_msgs__rosidl_typesupport_c__pyext\n'}
+[1.545117] (aruco_msgs) StdoutLine: {'line': b'[ 94%] Built target aruco_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[1.548913] (aruco) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.565327] (aruco_msgs) StdoutLine: {'line': b'[100%] Built target aruco_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.611389] (-) TimerEvent: {}
+[1.684109] (aruco) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.695097] (aruco) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.712349] (-) TimerEvent: {}
+[1.719633] (aruco) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.768765] (aruco) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.812506] (-) TimerEvent: {}
+[1.833059] (aruco) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.912673] (-) TimerEvent: {}
+[2.013325] (-) TimerEvent: {}
+[2.105057] (aruco) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.113215] (aruco) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.113688] (-) TimerEvent: {}
+[2.218019] (-) TimerEvent: {}
+[2.273153] (aruco_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.275816] (aruco_msgs) StdoutLine: {'line': b'writing aruco_msgs.egg-info/PKG-INFO\n'}
+[2.277383] (aruco_msgs) StdoutLine: {'line': b'writing dependency_links to aruco_msgs.egg-info/dependency_links.txt\n'}
+[2.277853] (aruco_msgs) StdoutLine: {'line': b'writing top-level names to aruco_msgs.egg-info/top_level.txt\n'}
+[2.282115] (aruco_msgs) StdoutLine: {'line': b"reading manifest file 'aruco_msgs.egg-info/SOURCES.txt'\n"}
+[2.283943] (aruco_msgs) StdoutLine: {'line': b"writing manifest file 'aruco_msgs.egg-info/SOURCES.txt'\n"}
+[2.318189] (-) TimerEvent: {}
+[2.355710] (aruco_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_aruco_msgs_egg\n'}
+[2.367847] (image_processing) CommandEnded: {'returncode': 0}
+[2.383308] (aruco_msgs) CommandEnded: {'returncode': 0}
+[2.418317] (-) TimerEvent: {}
+[2.430872] (image_processing) JobProgress: {'identifier': 'image_processing', 'progress': 'install'}
+[2.454796] (image_processing) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zerda/ros2_ws/build/image_processing'], 'cwd': '/home/zerda/ros2_ws/build/image_processing', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zerda'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zerda'), ('OLDPWD', '/home/zerda'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1555'), ('SYSTEMD_EXEC_PID', '2169'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '53152'), ('COLCON_PREFIX_PATH', '/home/zerda/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zerda'), ('JOURNAL_STREAM', '8:33174'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zerda'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/zerda/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zerdaGul:@/tmp/.ICE-unix/1916,unix/zerdaGul:/tmp/.ICE-unix/1916'), ('INVOCATION_ID', '76b1f5641b194e9baa55211d0ffa62a2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9075600f-3d1d-44b7-9891-0c05477f623c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zerda/ros2_ws/build/image_processing'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zerda/ros2_ws/install/my_cpp_pkg:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble')]), 'shell': False}
+[2.474391] (image_processing) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.477042] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/image_processing/lib/image_processing/my_image_converter_node\n'}
+[2.477598] (image_processing) StdoutLine: {'line': b'-- Installing: /home/zerda/ros2_ws/install/image_processing/share/ament_index/resource_index/package_run_dependencies/image_processing\n'}
+[2.485849] (image_processing) StdoutLine: {'line': b'-- Installing: /home/zerda/ros2_ws/install/image_processing/share/ament_index/resource_index/parent_prefix_path/image_processing\n'}
+[2.488353] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/image_processing/environment/ament_prefix_path.sh\n'}
+[2.488944] (image_processing) StdoutLine: {'line': b'-- Installing: /home/zerda/ros2_ws/install/image_processing/share/image_processing/environment/ament_prefix_path.dsv\n'}
+[2.492221] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/image_processing/environment/path.sh\n'}
+[2.492703] (image_processing) StdoutLine: {'line': b'-- Installing: /home/zerda/ros2_ws/install/image_processing/share/image_processing/environment/path.dsv\n'}
+[2.493130] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/image_processing/local_setup.bash\n'}
+[2.493511] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/image_processing/local_setup.sh\n'}
+[2.496334] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/image_processing/local_setup.zsh\n'}
+[2.498648] (image_processing) StdoutLine: {'line': b'-- Installing: /home/zerda/ros2_ws/install/image_processing/share/image_processing/local_setup.dsv\n'}
+[2.499272] (image_processing) StdoutLine: {'line': b'-- Installing: /home/zerda/ros2_ws/install/image_processing/share/image_processing/package.dsv\n'}
+[2.500923] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/ament_index/resource_index/packages/image_processing\n'}
+[2.501310] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/image_processing/cmake/image_processingConfig.cmake\n'}
+[2.502018] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/image_processing/cmake/image_processingConfig-version.cmake\n'}
+[2.502478] (image_processing) StdoutLine: {'line': b'-- Installing: /home/zerda/ros2_ws/install/image_processing/share/image_processing/package.xml\n'}
+[2.503287] (image_processing) CommandEnded: {'returncode': 0}
+[2.518694] (-) TimerEvent: {}
+[2.551113] (aruco) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.619004] (-) TimerEvent: {}
+[2.722492] (-) TimerEvent: {}
+[2.758371] (aruco_msgs) JobProgress: {'identifier': 'aruco_msgs', 'progress': 'install'}
+[2.759964] (aruco_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zerda/ros2_ws/build/aruco_msgs'], 'cwd': '/home/zerda/ros2_ws/build/aruco_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zerda'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zerda'), ('OLDPWD', '/home/zerda'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1555'), ('SYSTEMD_EXEC_PID', '2169'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '53152'), ('COLCON_PREFIX_PATH', '/home/zerda/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zerda'), ('JOURNAL_STREAM', '8:33174'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zerda'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/zerda/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zerdaGul:@/tmp/.ICE-unix/1916,unix/zerdaGul:/tmp/.ICE-unix/1916'), ('INVOCATION_ID', '76b1f5641b194e9baa55211d0ffa62a2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9075600f-3d1d-44b7-9891-0c05477f623c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zerda/ros2_ws/build/aruco_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zerda/ros2_ws/install/my_cpp_pkg:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble')]), 'shell': False}
+[2.785175] (aruco_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.787441] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/ament_index/resource_index/rosidl_interfaces/aruco_msgs\n'}
+[2.787771] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs\n'}
+[2.788032] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg\n'}
+[2.788278] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/marker_array.h\n'}
+[2.788530] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail\n'}
+[2.788833] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__functions.c\n'}
+[2.789106] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__type_support.h\n'}
+[2.789369] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__type_support.h\n'}
+[2.789623] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__functions.h\n'}
+[2.789947] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__struct.h\n'}
+[2.790222] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__functions.c\n'}
+[2.790507] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__struct.h\n'}
+[2.790777] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__functions.h\n'}
+[2.791060] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/marker.h\n'}
+[2.791343] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.791661] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/environment/library_path.sh\n'}
+[2.791966] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/environment/library_path.dsv\n'}
+[2.792320] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/lib/libaruco_msgs__rosidl_generator_c.so\n'}
+[2.794685] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs\n'}
+[2.795294] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg\n'}
+[2.795820] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail\n'}
+[2.796459] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_c.h\n'}
+[2.797365] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h\n'}
+[2.797658] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.797958] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[2.798345] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs\n'}
+[2.799168] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg\n'}
+[2.800203] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.800478] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail\n'}
+[2.800717] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_c.h\n'}
+[2.800974] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__type_support.c\n'}
+[2.801213] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__type_support.c\n'}
+[2.801462] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__rosidl_typesupport_introspection_c.h\n'}
+[2.802089] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_introspection_c.so\n'}
+[2.802407] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_c.so\n'}
+[2.802939] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs\n'}
+[2.803334] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg\n'}
+[2.803581] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/marker.hpp\n'}
+[2.803943] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/marker_array.hpp\n'}
+[2.804181] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail\n'}
+[2.804424] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__builder.hpp\n'}
+[2.804771] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__struct.hpp\n'}
+[2.805081] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__struct.hpp\n'}
+[2.805664] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__builder.hpp\n'}
+[2.806205] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__traits.hpp\n'}
+[2.806468] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__traits.hpp\n'}
+[2.806711] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs\n'}
+[2.806953] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg\n'}
+[2.807195] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.807847] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail\n'}
+[2.808240] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.808598] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.808850] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/dds_fastrtps\n'}
+[2.809235] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.810241] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs\n'}
+[2.810500] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg\n'}
+[2.810747] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail\n'}
+[2.810982] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__type_support.cpp\n'}
+[2.811216] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__type_support.cpp\n'}
+[2.811455] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.811721] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.812200] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[2.812434] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_cpp.so\n'}
+[2.812693] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/environment/pythonpath.sh\n'}
+[2.812961] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/environment/pythonpath.dsv\n'}
+[2.813191] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-2.0.0-py3.10.egg-info\n'}
+[2.813419] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-2.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.813655] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-2.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.813885] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-2.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.814434] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-2.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.814684] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs\n'}
+[2.814920] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/_aruco_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.815154] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.815389] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/__init__.py\n'}
+[2.815610] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.815847] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/_aruco_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.816069] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/libaruco_msgs__rosidl_generator_py.so\n'}
+[2.816585] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.816854] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/_aruco_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[2.817100] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg\n'}
+[2.817382] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/__init__.py\n'}
+[2.817617] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/_marker_array.py\n'}
+[2.817875] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/_marker.py\n'}
+[2.818118] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/_marker_s.c\n'}
+[2.818352] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/_marker_array_s.c\n'}
+[2.822657] (-) TimerEvent: {}
+[2.923305] (-) TimerEvent: {}
+[2.945590] (aruco_msgs) StdoutLine: {'line': b"Listing '/home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs'...\n"}
+[2.947535] (aruco_msgs) StdoutLine: {'line': b"Listing '/home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg'...\n"}
+[2.971908] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.978461] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.979103] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.979460] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/lib/libaruco_msgs__rosidl_generator_py.so\n'}
+[2.979742] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/msg/Marker.idl\n'}
+[2.980004] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/msg/MarkerArray.idl\n'}
+[2.980247] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/msg/Marker.msg\n'}
+[2.980474] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/msg/MarkerArray.msg\n'}
+[2.980699] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/ament_index/resource_index/package_run_dependencies/aruco_msgs\n'}
+[2.981025] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/ament_index/resource_index/parent_prefix_path/aruco_msgs\n'}
+[2.981297] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/environment/ament_prefix_path.sh\n'}
+[2.981529] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/environment/ament_prefix_path.dsv\n'}
+[2.981766] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/environment/path.sh\n'}
+[2.982001] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/environment/path.dsv\n'}
+[2.982422] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/local_setup.bash\n'}
+[2.982673] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/local_setup.sh\n'}
+[2.982904] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/local_setup.zsh\n'}
+[2.983167] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/local_setup.dsv\n'}
+[2.983418] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/package.dsv\n'}
+[2.983652] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/ament_index/resource_index/packages/aruco_msgs\n'}
+[2.983941] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_cExport.cmake\n'}
+[2.984185] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.984429] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.984692] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.984974] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.985240] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.985518] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_cExport.cmake\n'}
+[2.985937] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.999776] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_cppExport.cmake\n'}
+[3.000212] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.000501] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.000737] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.000998] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.001241] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[3.001487] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.002880] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_pyExport.cmake\n'}
+[3.003275] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.003532] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[3.005132] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.005483] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.005763] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.006015] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.006274] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.011713] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.012152] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgsConfig.cmake\n'}
+[3.012425] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgsConfig-version.cmake\n'}
+[3.012670] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/package.xml\n'}
+[3.023573] (-) TimerEvent: {}
+[3.124411] (-) TimerEvent: {}
+[3.165916] (image_processing) JobEnded: {'identifier': 'image_processing', 'rc': 0}
+[3.170330] (aruco_msgs) CommandEnded: {'returncode': 0}
+[3.224552] (-) TimerEvent: {}
+[3.238066] (aruco) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.324940] (-) TimerEvent: {}
+[3.425835] (-) TimerEvent: {}
+[3.527030] (-) TimerEvent: {}
+[3.628517] (-) TimerEvent: {}
+[3.639926] (aruco) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.640458] (aruco) StdoutLine: {'line': b'See also "/home/zerda/ros2_ws/build/aruco/CMakeFiles/CMakeOutput.log".\n'}
+[3.641074] (aruco) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:21 (find_package):\n'}
+[3.641531] (aruco) StderrLine: {'line': b'  Could not find a configuration file for package "OpenCV" that is compatible\n'}
+[3.642048] (aruco) StderrLine: {'line': b'  with requested version "3".\n'}
+[3.643207] (aruco) StderrLine: {'line': b'\n'}
+[3.643663] (aruco) StderrLine: {'line': b'  The following configuration files were considered but not accepted:\n'}
+[3.643988] (aruco) StderrLine: {'line': b'\n'}
+[3.644224] (aruco) StderrLine: {'line': b'    /usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake, version: 4.5.4\n'}
+[3.644476] (aruco) StderrLine: {'line': b'    /lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake, version: 4.5.4\n'}
+[3.644721] (aruco) StderrLine: {'line': b'\n'}
+[3.645016] (aruco) StderrLine: {'line': b'\n'}
+[3.645275] (aruco) StderrLine: {'line': b'\x1b[0m\n'}
+[3.728987] (-) TimerEvent: {}
+[3.831214] (-) TimerEvent: {}
+[3.837582] (aruco_msgs) JobEnded: {'identifier': 'aruco_msgs', 'rc': 0}
+[3.841871] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/home/zerda/ros2_ws/build/my_py_pkg/build', 'install', '--record', '/home/zerda/ros2_ws/build/my_py_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/zerda/ros2_ws/src/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'zerda', 'LC_TIME': 'tr_TR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/zerda', 'OLDPWD': '/home/zerda', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'tr_TR.UTF-8', 'MANAGERPID': '1555', 'SYSTEMD_EXEC_PID': '2169', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '53152', 'COLCON_PREFIX_PATH': '/home/zerda/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'zerda', 'JOURNAL_STREAM': '8:33174', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zerda', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/zerda/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/zerdaGul:@/tmp/.ICE-unix/1916,unix/zerdaGul:/tmp/.ICE-unix/1916', 'INVOCATION_ID': '76b1f5641b194e9baa55211d0ffa62a2', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'tr_TR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'tr_TR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'tr_TR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:9075600f-3d1d-44b7-9891-0c05477f623c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'tr_TR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'tr_TR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zerda/ros2_ws/build/my_py_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/zerda/ros2_ws/build/my_py_pkg/prefix_override:/home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'tr_TR.UTF-8', 'LC_PAPER': 'tr_TR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/zerda/ros2_ws/install/my_cpp_pkg'}, 'shell': False}
+[3.849288] (aruco) CommandEnded: {'returncode': 1}
+[3.931798] (-) TimerEvent: {}
+[3.975371] (aruco) JobEnded: {'identifier': 'aruco', 'rc': 1}
+[4.031969] (-) TimerEvent: {}
+[4.132578] (-) TimerEvent: {}
+[4.233179] (-) TimerEvent: {}
+[4.333765] (-) TimerEvent: {}
+[4.434369] (-) TimerEvent: {}
+[4.534964] (-) TimerEvent: {}
+[4.613861] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.616312] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[4.616726] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[4.617136] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[4.617476] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[4.617803] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[4.621669] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[4.624461] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[4.625243] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[4.625666] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[4.626695] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[4.627697] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[4.631396] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[4.633075] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.635085] (-) TimerEvent: {}
+[4.638713] (my_py_pkg) StdoutLine: {'line': b"removing '/home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.639315] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info\n'}
+[4.642149] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[4.692330] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client_no_oop script to /home/zerda/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[4.692808] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_server script to /home/zerda/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[4.693158] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/zerda/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[4.693450] (my_py_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/zerda/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[4.693669] (my_py_pkg) StdoutLine: {'line': b'Installing smartphone script to /home/zerda/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[4.694338] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/zerda/ros2_ws/build/my_py_pkg/install.log'\n"}
+[4.735254] (-) TimerEvent: {}
+[4.752090] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 'SIGINT'}
+[4.835414] (-) TimerEvent: {}
+[4.935889] (-) TimerEvent: {}
+[5.036386] (-) TimerEvent: {}
+[5.137091] (-) TimerEvent: {}
+[5.237814] (-) TimerEvent: {}
+[5.338483] (-) TimerEvent: {}
+[5.439014] (-) TimerEvent: {}
+[5.539627] (-) TimerEvent: {}
+[5.640146] (-) TimerEvent: {}
+[5.740635] (-) TimerEvent: {}
+[5.841134] (-) TimerEvent: {}
+[5.941634] (-) TimerEvent: {}
+[6.042133] (-) TimerEvent: {}
+[6.142645] (-) TimerEvent: {}
+[6.243165] (-) TimerEvent: {}
+[6.343655] (-) TimerEvent: {}
+[6.444096] (-) TimerEvent: {}
+[6.544636] (-) TimerEvent: {}
+[6.645160] (-) TimerEvent: {}
+[6.745711] (-) TimerEvent: {}
+[6.846182] (-) TimerEvent: {}
+[6.946652] (-) TimerEvent: {}
+[7.047139] (-) TimerEvent: {}
+[7.147651] (-) TimerEvent: {}
+[7.248176] (-) TimerEvent: {}
+[7.348815] (-) TimerEvent: {}
+[7.449319] (-) TimerEvent: {}
+[7.549784] (-) TimerEvent: {}
+[7.650240] (-) TimerEvent: {}
+[7.750700] (-) TimerEvent: {}
+[7.851281] (-) TimerEvent: {}
+[7.951800] (-) TimerEvent: {}
+[8.052369] (-) TimerEvent: {}
+[8.152846] (-) TimerEvent: {}
+[8.253336] (-) TimerEvent: {}
+[8.353785] (-) TimerEvent: {}
+[8.454223] (-) TimerEvent: {}
+[8.554673] (-) TimerEvent: {}
+[8.655168] (-) TimerEvent: {}
+[8.755637] (-) TimerEvent: {}
+[8.856152] (-) TimerEvent: {}
+[8.956601] (-) TimerEvent: {}
+[9.057071] (-) TimerEvent: {}
+[9.157557] (-) TimerEvent: {}
+[9.258117] (-) TimerEvent: {}
+[9.358600] (-) TimerEvent: {}
+[9.459067] (-) TimerEvent: {}
+[9.559582] (-) TimerEvent: {}
+[9.660049] (-) TimerEvent: {}
+[9.760516] (-) TimerEvent: {}
+[9.860981] (-) TimerEvent: {}
+[9.961456] (-) TimerEvent: {}
+[10.061977] (-) TimerEvent: {}
+[10.162549] (-) TimerEvent: {}
+[10.263008] (-) TimerEvent: {}
+[10.363465] (-) TimerEvent: {}
+[10.383521] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable image_converter_node\x1b[0m\n'}
+[10.463647] (-) TimerEvent: {}
+[10.564239] (-) TimerEvent: {}
+[10.664684] (-) TimerEvent: {}
+[10.765199] (-) TimerEvent: {}
+[10.865820] (-) TimerEvent: {}
+[10.966430] (-) TimerEvent: {}
+[11.067082] (-) TimerEvent: {}
+[11.167679] (-) TimerEvent: {}
+[11.268383] (-) TimerEvent: {}
+[11.369134] (-) TimerEvent: {}
+[11.469834] (-) TimerEvent: {}
+[11.570437] (-) TimerEvent: {}
+[11.607882] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target image_converter_node\n'}
+[11.631912] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 'SIGINT'}
+[11.643202] (aruco_ros2) JobSkipped: {'identifier': 'aruco_ros2'}
+[11.643406] (-) EventReactorShutdown: {}

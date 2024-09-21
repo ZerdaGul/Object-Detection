@@ -1,0 +1,551 @@
+[2.452s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.452s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd96244c670>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd9628c7a90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd9628c7a90>>)
+[2.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.630s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.630s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.630s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.630s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.630s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zerda/ros2_ws'
+[2.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.631s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.631s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.631s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.631s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.631s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.632s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.632s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.632s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.662s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.662s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.662s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.662s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.663s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.663s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.663s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.663s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.664s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.664s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.664s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.664s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.664s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.665s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.665s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.665s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.665s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.665s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.665s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.665s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.666s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.666s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.666s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2) by extensions ['ignore', 'ignore_ament_install']
+[2.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2) by extension 'ignore'
+[2.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2) by extension 'ignore_ament_install'
+[2.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2) by extensions ['colcon_pkg']
+[2.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2) by extension 'colcon_pkg'
+[2.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2) by extensions ['colcon_meta']
+[2.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2) by extension 'colcon_meta'
+[2.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2) by extensions ['ros']
+[2.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2) by extension 'ros'
+[2.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2) by extensions ['cmake', 'python']
+[2.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2) by extension 'cmake'
+[2.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2) by extension 'python'
+[2.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2) by extensions ['python_setup_py']
+[2.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2) by extension 'python_setup_py'
+[2.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/Docker) by extensions ['ignore', 'ignore_ament_install']
+[2.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/Docker) by extension 'ignore'
+[2.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/Docker) by extension 'ignore_ament_install'
+[2.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/Docker) by extensions ['colcon_pkg']
+[2.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/Docker) by extension 'colcon_pkg'
+[2.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/Docker) by extensions ['colcon_meta']
+[2.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/Docker) by extension 'colcon_meta'
+[2.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/Docker) by extensions ['ros']
+[2.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/Docker) by extension 'ros'
+[2.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/Docker) by extensions ['cmake', 'python']
+[2.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/Docker) by extension 'cmake'
+[2.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/Docker) by extension 'python'
+[2.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/Docker) by extensions ['python_setup_py']
+[2.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/Docker) by extension 'python_setup_py'
+[2.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/aruco) by extensions ['ignore', 'ignore_ament_install']
+[2.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/aruco) by extension 'ignore'
+[2.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/aruco) by extension 'ignore_ament_install'
+[2.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/aruco) by extensions ['colcon_pkg']
+[2.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/aruco) by extension 'colcon_pkg'
+[2.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/aruco) by extensions ['colcon_meta']
+[2.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/aruco) by extension 'colcon_meta'
+[2.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/aruco) by extensions ['ros']
+[2.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/aruco) by extension 'ros'
+[2.680s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aruco_ros2/aruco' with type 'ros.ament_cmake' and name 'aruco'
+[2.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/aruco_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/aruco_msgs) by extension 'ignore'
+[2.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/aruco_msgs) by extension 'ignore_ament_install'
+[2.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/aruco_msgs) by extensions ['colcon_pkg']
+[2.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/aruco_msgs) by extension 'colcon_pkg'
+[2.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/aruco_msgs) by extensions ['colcon_meta']
+[2.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/aruco_msgs) by extension 'colcon_meta'
+[2.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/aruco_msgs) by extensions ['ros']
+[2.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/aruco_msgs) by extension 'ros'
+[2.683s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aruco_ros2/aruco_msgs' with type 'ros.ament_cmake' and name 'aruco_msgs'
+[2.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/aruco_ros2) by extensions ['ignore', 'ignore_ament_install']
+[2.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/aruco_ros2) by extension 'ignore'
+[2.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/aruco_ros2) by extension 'ignore_ament_install'
+[2.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/aruco_ros2) by extensions ['colcon_pkg']
+[2.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/aruco_ros2) by extension 'colcon_pkg'
+[2.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/aruco_ros2) by extensions ['colcon_meta']
+[2.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/aruco_ros2) by extension 'colcon_meta'
+[2.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/aruco_ros2) by extensions ['ros']
+[2.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/aruco_ros2) by extension 'ros'
+[2.689s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aruco_ros2/aruco_ros2' with type 'ros.ament_cmake' and name 'aruco_ros2'
+[2.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs) by extensions ['ignore', 'ignore_ament_install']
+[2.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs) by extension 'ignore'
+[2.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs) by extension 'ignore_ament_install'
+[2.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs) by extensions ['colcon_pkg']
+[2.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs) by extension 'colcon_pkg'
+[2.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs) by extensions ['colcon_meta']
+[2.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs) by extension 'colcon_meta'
+[2.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs) by extensions ['ros']
+[2.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs) by extension 'ros'
+[2.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs) by extensions ['cmake', 'python']
+[2.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs) by extension 'cmake'
+[2.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs) by extension 'python'
+[2.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs) by extensions ['python_setup_py']
+[2.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs) by extension 'python_setup_py'
+[2.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/html) by extensions ['ignore', 'ignore_ament_install']
+[2.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/html) by extension 'ignore'
+[2.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/html) by extension 'ignore_ament_install'
+[2.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/html) by extensions ['colcon_pkg']
+[2.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/html) by extension 'colcon_pkg'
+[2.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/html) by extensions ['colcon_meta']
+[2.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/html) by extension 'colcon_meta'
+[2.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/html) by extensions ['ros']
+[2.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/html) by extension 'ros'
+[2.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/html) by extensions ['cmake', 'python']
+[2.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/html) by extension 'cmake'
+[2.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/html) by extension 'python'
+[2.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/html) by extensions ['python_setup_py']
+[2.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/html) by extension 'python_setup_py'
+[2.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/html/search) by extensions ['ignore', 'ignore_ament_install']
+[2.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/html/search) by extension 'ignore'
+[2.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/html/search) by extension 'ignore_ament_install'
+[2.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/html/search) by extensions ['colcon_pkg']
+[2.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/html/search) by extension 'colcon_pkg'
+[2.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/html/search) by extensions ['colcon_meta']
+[2.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/html/search) by extension 'colcon_meta'
+[2.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/html/search) by extensions ['ros']
+[2.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/html/search) by extension 'ros'
+[2.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/html/search) by extensions ['cmake', 'python']
+[2.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/html/search) by extension 'cmake'
+[2.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/html/search) by extension 'python'
+[2.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/html/search) by extensions ['python_setup_py']
+[2.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/html/search) by extension 'python_setup_py'
+[2.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/latex) by extensions ['ignore', 'ignore_ament_install']
+[2.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/latex) by extension 'ignore'
+[2.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/latex) by extension 'ignore_ament_install'
+[2.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/latex) by extensions ['colcon_pkg']
+[2.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/latex) by extension 'colcon_pkg'
+[2.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/latex) by extensions ['colcon_meta']
+[2.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/latex) by extension 'colcon_meta'
+[2.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/latex) by extensions ['ros']
+[2.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/latex) by extension 'ros'
+[2.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/latex) by extensions ['cmake', 'python']
+[2.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/latex) by extension 'cmake'
+[2.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/latex) by extension 'python'
+[2.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/latex) by extensions ['python_setup_py']
+[2.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/docs/latex) by extension 'python_setup_py'
+[2.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc) by extensions ['ignore', 'ignore_ament_install']
+[2.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc) by extension 'ignore'
+[2.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc) by extension 'ignore_ament_install'
+[2.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc) by extensions ['colcon_pkg']
+[2.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc) by extension 'colcon_pkg'
+[2.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc) by extensions ['colcon_meta']
+[2.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc) by extension 'colcon_meta'
+[2.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc) by extensions ['ros']
+[2.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc) by extension 'ros'
+[2.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc) by extensions ['cmake', 'python']
+[2.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc) by extension 'cmake'
+[2.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc) by extension 'python'
+[2.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc) by extensions ['python_setup_py']
+[2.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc) by extension 'python_setup_py'
+[2.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build) by extensions ['ignore', 'ignore_ament_install']
+[2.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build) by extension 'ignore'
+[2.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build) by extension 'ignore_ament_install'
+[2.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build) by extensions ['colcon_pkg']
+[2.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build) by extension 'colcon_pkg'
+[2.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build) by extensions ['colcon_meta']
+[2.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build) by extension 'colcon_meta'
+[2.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build) by extensions ['ros']
+[2.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build) by extension 'ros'
+[2.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build) by extensions ['cmake', 'python']
+[2.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build) by extension 'cmake'
+[2.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build) by extension 'python'
+[2.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build) by extensions ['python_setup_py']
+[2.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build) by extension 'python_setup_py'
+[2.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/doctrees) by extensions ['ignore', 'ignore_ament_install']
+[2.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/doctrees) by extension 'ignore'
+[2.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/doctrees) by extension 'ignore_ament_install'
+[2.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/doctrees) by extensions ['colcon_pkg']
+[2.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/doctrees) by extension 'colcon_pkg'
+[2.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/doctrees) by extensions ['colcon_meta']
+[2.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/doctrees) by extension 'colcon_meta'
+[2.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/doctrees) by extensions ['ros']
+[2.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/doctrees) by extension 'ros'
+[2.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/doctrees) by extensions ['cmake', 'python']
+[2.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/doctrees) by extension 'cmake'
+[2.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/doctrees) by extension 'python'
+[2.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/doctrees) by extensions ['python_setup_py']
+[2.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/doctrees) by extension 'python_setup_py'
+[2.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html) by extensions ['ignore', 'ignore_ament_install']
+[2.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html) by extension 'ignore'
+[2.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html) by extension 'ignore_ament_install'
+[2.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html) by extensions ['colcon_pkg']
+[2.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html) by extension 'colcon_pkg'
+[2.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html) by extensions ['colcon_meta']
+[2.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html) by extension 'colcon_meta'
+[2.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html) by extensions ['ros']
+[2.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html) by extension 'ros'
+[2.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html) by extensions ['cmake', 'python']
+[2.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html) by extension 'cmake'
+[2.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html) by extension 'python'
+[2.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html) by extensions ['python_setup_py']
+[2.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html) by extension 'python_setup_py'
+[2.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_sources) by extensions ['ignore', 'ignore_ament_install']
+[2.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_sources) by extension 'ignore'
+[2.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_sources) by extension 'ignore_ament_install'
+[2.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_sources) by extensions ['colcon_pkg']
+[2.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_sources) by extension 'colcon_pkg'
+[2.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_sources) by extensions ['colcon_meta']
+[2.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_sources) by extension 'colcon_meta'
+[2.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_sources) by extensions ['ros']
+[2.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_sources) by extension 'ros'
+[2.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_sources) by extensions ['cmake', 'python']
+[2.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_sources) by extension 'cmake'
+[2.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_sources) by extension 'python'
+[2.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_sources) by extensions ['python_setup_py']
+[2.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_sources) by extension 'python_setup_py'
+[2.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static) by extensions ['ignore', 'ignore_ament_install']
+[2.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static) by extension 'ignore'
+[2.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static) by extension 'ignore_ament_install'
+[2.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static) by extensions ['colcon_pkg']
+[2.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static) by extension 'colcon_pkg'
+[2.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static) by extensions ['colcon_meta']
+[2.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static) by extension 'colcon_meta'
+[2.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static) by extensions ['ros']
+[2.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static) by extension 'ros'
+[2.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static) by extensions ['cmake', 'python']
+[2.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static) by extension 'cmake'
+[2.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static) by extension 'python'
+[2.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static) by extensions ['python_setup_py']
+[2.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static) by extension 'python_setup_py'
+[2.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/css) by extensions ['ignore', 'ignore_ament_install']
+[2.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/css) by extension 'ignore'
+[2.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/css) by extension 'ignore_ament_install'
+[2.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/css) by extensions ['colcon_pkg']
+[2.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/css) by extension 'colcon_pkg'
+[2.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/css) by extensions ['colcon_meta']
+[2.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/css) by extension 'colcon_meta'
+[2.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/css) by extensions ['ros']
+[2.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/css) by extension 'ros'
+[2.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/css) by extensions ['cmake', 'python']
+[2.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/css) by extension 'cmake'
+[2.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/css) by extension 'python'
+[2.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/css) by extensions ['python_setup_py']
+[2.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/css) by extension 'python_setup_py'
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/css/fonts) by extensions ['ignore', 'ignore_ament_install']
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/css/fonts) by extension 'ignore'
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/css/fonts) by extension 'ignore_ament_install'
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/css/fonts) by extensions ['colcon_pkg']
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/css/fonts) by extension 'colcon_pkg'
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/css/fonts) by extensions ['colcon_meta']
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/css/fonts) by extension 'colcon_meta'
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/css/fonts) by extensions ['ros']
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/css/fonts) by extension 'ros'
+[2.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/css/fonts) by extensions ['cmake', 'python']
+[2.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/css/fonts) by extension 'cmake'
+[2.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/css/fonts) by extension 'python'
+[2.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/css/fonts) by extensions ['python_setup_py']
+[2.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/css/fonts) by extension 'python_setup_py'
+[2.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts) by extensions ['ignore', 'ignore_ament_install']
+[2.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts) by extension 'ignore'
+[2.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts) by extension 'ignore_ament_install'
+[2.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts) by extensions ['colcon_pkg']
+[2.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts) by extension 'colcon_pkg'
+[2.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts) by extensions ['colcon_meta']
+[2.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts) by extension 'colcon_meta'
+[2.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts) by extensions ['ros']
+[2.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts) by extension 'ros'
+[2.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts) by extensions ['cmake', 'python']
+[2.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts) by extension 'cmake'
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts) by extension 'python'
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts) by extensions ['python_setup_py']
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts) by extension 'python_setup_py'
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts/Lato) by extensions ['ignore', 'ignore_ament_install']
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts/Lato) by extension 'ignore'
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts/Lato) by extension 'ignore_ament_install'
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts/Lato) by extensions ['colcon_pkg']
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts/Lato) by extension 'colcon_pkg'
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts/Lato) by extensions ['colcon_meta']
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts/Lato) by extension 'colcon_meta'
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts/Lato) by extensions ['ros']
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts/Lato) by extension 'ros'
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts/Lato) by extensions ['cmake', 'python']
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts/Lato) by extension 'cmake'
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts/Lato) by extension 'python'
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts/Lato) by extensions ['python_setup_py']
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts/Lato) by extension 'python_setup_py'
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts/RobotoSlab) by extensions ['ignore', 'ignore_ament_install']
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts/RobotoSlab) by extension 'ignore'
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts/RobotoSlab) by extension 'ignore_ament_install'
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts/RobotoSlab) by extensions ['colcon_pkg']
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts/RobotoSlab) by extension 'colcon_pkg'
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts/RobotoSlab) by extensions ['colcon_meta']
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts/RobotoSlab) by extension 'colcon_meta'
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts/RobotoSlab) by extensions ['ros']
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts/RobotoSlab) by extension 'ros'
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts/RobotoSlab) by extensions ['cmake', 'python']
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts/RobotoSlab) by extension 'cmake'
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts/RobotoSlab) by extension 'python'
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts/RobotoSlab) by extensions ['python_setup_py']
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/fonts/RobotoSlab) by extension 'python_setup_py'
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/js) by extensions ['ignore', 'ignore_ament_install']
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/js) by extension 'ignore'
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/js) by extension 'ignore_ament_install'
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/js) by extensions ['colcon_pkg']
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/js) by extension 'colcon_pkg'
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/js) by extensions ['colcon_meta']
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/js) by extension 'colcon_meta'
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/js) by extensions ['ros']
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/js) by extension 'ros'
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/js) by extensions ['cmake', 'python']
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/js) by extension 'cmake'
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/js) by extension 'python'
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/js) by extensions ['python_setup_py']
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/build/html/_static/js) by extension 'python_setup_py'
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/source) by extensions ['ignore', 'ignore_ament_install']
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/source) by extension 'ignore'
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/source) by extension 'ignore_ament_install'
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/source) by extensions ['colcon_pkg']
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/source) by extension 'colcon_pkg'
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/source) by extensions ['colcon_meta']
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/source) by extension 'colcon_meta'
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/source) by extensions ['ros']
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/source) by extension 'ros'
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/source) by extensions ['cmake', 'python']
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/source) by extension 'cmake'
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/source) by extension 'python'
+[2.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/source) by extensions ['python_setup_py']
+[2.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/readdoc/source) by extension 'python_setup_py'
+[2.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/results) by extensions ['ignore', 'ignore_ament_install']
+[2.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/results) by extension 'ignore'
+[2.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/results) by extension 'ignore_ament_install'
+[2.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/results) by extensions ['colcon_pkg']
+[2.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/results) by extension 'colcon_pkg'
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/results) by extensions ['colcon_meta']
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/results) by extension 'colcon_meta'
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/results) by extensions ['ros']
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/results) by extension 'ros'
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/results) by extensions ['cmake', 'python']
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/results) by extension 'cmake'
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/results) by extension 'python'
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/results) by extensions ['python_setup_py']
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros2/results) by extension 'python_setup_py'
+[2.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_processing) by extensions ['ignore', 'ignore_ament_install']
+[2.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_processing) by extension 'ignore'
+[2.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_processing) by extension 'ignore_ament_install'
+[2.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_processing) by extensions ['colcon_pkg']
+[2.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_processing) by extension 'colcon_pkg'
+[2.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_processing) by extensions ['colcon_meta']
+[2.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_processing) by extension 'colcon_meta'
+[2.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_processing) by extensions ['ros']
+[2.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_processing) by extension 'ros'
+[2.734s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_processing' with type 'ros.ament_cmake' and name 'image_processing'
+[2.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'ignore'
+[2.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'ignore_ament_install'
+[2.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['colcon_pkg']
+[2.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'colcon_pkg'
+[2.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['colcon_meta']
+[2.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'colcon_meta'
+[2.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['ros']
+[2.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'ros'
+[2.737s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_cpp_pkg' with type 'ros.ament_cmake' and name 'my_cpp_pkg'
+[2.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore'
+[2.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore_ament_install'
+[2.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_pkg']
+[2.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_pkg'
+[2.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_meta']
+[2.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_meta'
+[2.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ros']
+[2.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ros'
+[2.739s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_py_pkg' with type 'ros.ament_python' and name 'my_py_pkg'
+[2.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.002s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.002s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.070s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/zerda/ros2_ws/install
+[3.108s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 265 installed packages in /opt/ros/humble
+[3.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.324s] Level 5:colcon.colcon_core.verb:set package 'aruco' build argument 'cmake_args' from command line to 'None'
+[3.324s] Level 5:colcon.colcon_core.verb:set package 'aruco' build argument 'cmake_target' from command line to 'None'
+[3.324s] Level 5:colcon.colcon_core.verb:set package 'aruco' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.324s] Level 5:colcon.colcon_core.verb:set package 'aruco' build argument 'cmake_clean_cache' from command line to 'False'
+[3.324s] Level 5:colcon.colcon_core.verb:set package 'aruco' build argument 'cmake_clean_first' from command line to 'False'
+[3.324s] Level 5:colcon.colcon_core.verb:set package 'aruco' build argument 'cmake_force_configure' from command line to 'False'
+[3.325s] Level 5:colcon.colcon_core.verb:set package 'aruco' build argument 'ament_cmake_args' from command line to 'None'
+[3.325s] Level 5:colcon.colcon_core.verb:set package 'aruco' build argument 'catkin_cmake_args' from command line to 'None'
+[3.325s] Level 5:colcon.colcon_core.verb:set package 'aruco' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.325s] DEBUG:colcon.colcon_core.verb:Building package 'aruco' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zerda/ros2_ws/build/aruco', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zerda/ros2_ws/install/aruco', 'merge_install': False, 'path': '/home/zerda/ros2_ws/src/aruco_ros2/aruco', 'symlink_install': False, 'test_result_base': None}
+[3.356s] Level 5:colcon.colcon_core.verb:set package 'aruco_msgs' build argument 'cmake_args' from command line to 'None'
+[3.356s] Level 5:colcon.colcon_core.verb:set package 'aruco_msgs' build argument 'cmake_target' from command line to 'None'
+[3.356s] Level 5:colcon.colcon_core.verb:set package 'aruco_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.356s] Level 5:colcon.colcon_core.verb:set package 'aruco_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[3.356s] Level 5:colcon.colcon_core.verb:set package 'aruco_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[3.356s] Level 5:colcon.colcon_core.verb:set package 'aruco_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[3.356s] Level 5:colcon.colcon_core.verb:set package 'aruco_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[3.356s] Level 5:colcon.colcon_core.verb:set package 'aruco_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[3.357s] Level 5:colcon.colcon_core.verb:set package 'aruco_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.357s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zerda/ros2_ws/build/aruco_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zerda/ros2_ws/install/aruco_msgs', 'merge_install': False, 'path': '/home/zerda/ros2_ws/src/aruco_ros2/aruco_msgs', 'symlink_install': False, 'test_result_base': None}
+[3.389s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'cmake_args' from command line to 'None'
+[3.389s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'cmake_target' from command line to 'None'
+[3.389s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.389s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'cmake_clean_cache' from command line to 'False'
+[3.389s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'cmake_clean_first' from command line to 'False'
+[3.389s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'cmake_force_configure' from command line to 'False'
+[3.389s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'ament_cmake_args' from command line to 'None'
+[3.389s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'catkin_cmake_args' from command line to 'None'
+[3.389s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.389s] DEBUG:colcon.colcon_core.verb:Building package 'image_processing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zerda/ros2_ws/build/image_processing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zerda/ros2_ws/install/image_processing', 'merge_install': False, 'path': '/home/zerda/ros2_ws/src/image_processing', 'symlink_install': False, 'test_result_base': None}
+[3.420s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_args' from command line to 'None'
+[3.420s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_target' from command line to 'None'
+[3.420s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.420s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[3.420s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[3.420s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[3.420s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[3.420s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[3.420s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.420s] DEBUG:colcon.colcon_core.verb:Building package 'my_cpp_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zerda/ros2_ws/build/my_cpp_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zerda/ros2_ws/install/my_cpp_pkg', 'merge_install': False, 'path': '/home/zerda/ros2_ws/src/my_cpp_pkg', 'symlink_install': False, 'test_result_base': None}
+[3.451s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_args' from command line to 'None'
+[3.451s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target' from command line to 'None'
+[3.451s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.451s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[3.451s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[3.451s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[3.451s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[3.451s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[3.451s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.451s] DEBUG:colcon.colcon_core.verb:Building package 'my_py_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zerda/ros2_ws/build/my_py_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zerda/ros2_ws/install/my_py_pkg', 'merge_install': False, 'path': '/home/zerda/ros2_ws/src/my_py_pkg', 'symlink_install': False, 'test_result_base': None}
+[3.483s] Level 5:colcon.colcon_core.verb:set package 'aruco_ros2' build argument 'cmake_args' from command line to 'None'
+[3.483s] Level 5:colcon.colcon_core.verb:set package 'aruco_ros2' build argument 'cmake_target' from command line to 'None'
+[3.483s] Level 5:colcon.colcon_core.verb:set package 'aruco_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.483s] Level 5:colcon.colcon_core.verb:set package 'aruco_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[3.483s] Level 5:colcon.colcon_core.verb:set package 'aruco_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[3.483s] Level 5:colcon.colcon_core.verb:set package 'aruco_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[3.483s] Level 5:colcon.colcon_core.verb:set package 'aruco_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[3.483s] Level 5:colcon.colcon_core.verb:set package 'aruco_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[3.483s] Level 5:colcon.colcon_core.verb:set package 'aruco_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.484s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zerda/ros2_ws/build/aruco_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zerda/ros2_ws/install/aruco_ros2', 'merge_install': False, 'path': '/home/zerda/ros2_ws/src/aruco_ros2/aruco_ros2', 'symlink_install': False, 'test_result_base': None}
+[3.514s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.546s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.547s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zerda/ros2_ws/src/aruco_ros2/aruco' with build type 'ament_cmake'
+[3.547s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zerda/ros2_ws/src/aruco_ros2/aruco'
+[3.594s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.595s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.595s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.708s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zerda/ros2_ws/src/aruco_ros2/aruco_msgs' with build type 'ament_cmake'
+[3.709s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zerda/ros2_ws/src/aruco_ros2/aruco_msgs'
+[3.741s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.742s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.851s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zerda/ros2_ws/src/image_processing' with build type 'ament_cmake'
+[3.852s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zerda/ros2_ws/src/image_processing'
+[3.889s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.889s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.014s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zerda/ros2_ws/src/my_cpp_pkg' with build type 'ament_cmake'
+[4.015s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zerda/ros2_ws/src/my_cpp_pkg'
+[4.046s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.047s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.162s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/zerda/ros2_ws/src/my_py_pkg' with build type 'ament_python'
+[4.163s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'ament_prefix_path')
+[4.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerda/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.ps1'
+[4.198s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zerda/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.dsv'
+[4.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerda/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.sh'
+[4.239s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.239s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zerda/ros2_ws/build/aruco': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake /home/zerda/ros2_ws/src/aruco_ros2/aruco -DCMAKE_INSTALL_PREFIX=/home/zerda/ros2_ws/install/aruco
+[4.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zerda/ros2_ws/build/aruco_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/aruco_msgs -- -j8 -l8
+[4.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zerda/ros2_ws/build/image_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/image_processing -- -j8 -l8
+[4.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zerda/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[5.560s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/zerda/ros2_ws/src/my_py_pkg'
+[5.615s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.615s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zerda/ros2_ws/build/aruco_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/aruco_msgs -- -j8 -l8
+[6.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zerda/ros2_ws/build/aruco_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake --install /home/zerda/ros2_ws/build/aruco_msgs
+[6.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zerda/ros2_ws/build/image_processing' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/image_processing -- -j8 -l8
+[6.702s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_msgs)
+[6.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zerda/ros2_ws/build/aruco_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake --install /home/zerda/ros2_ws/build/aruco_msgs
+[6.807s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/aruco_msgs' for CMake module files
+[6.809s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/aruco_msgs' for CMake config files
+[6.810s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_msgs', 'cmake_prefix_path')
+[6.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/hook/cmake_prefix_path.ps1'
+[6.872s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/hook/cmake_prefix_path.dsv'
+[6.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/hook/cmake_prefix_path.sh'
+[6.876s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/aruco_msgs/lib'
+[6.876s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_msgs', 'ld_library_path_lib')
+[6.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/hook/ld_library_path_lib.ps1'
+[6.934s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/hook/ld_library_path_lib.dsv'
+[6.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/hook/ld_library_path_lib.sh'
+[6.936s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/aruco_msgs/bin'
+[6.937s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/aruco_msgs/lib/pkgconfig/aruco_msgs.pc'
+[6.937s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/aruco_msgs/lib/python3.10/site-packages'
+[6.938s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/aruco_msgs/bin'
+[6.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/package.ps1'
+[6.994s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/package.dsv'
+[6.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/package.sh'
+[7.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/package.bash'
+[7.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/package.zsh'
+[7.010s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zerda/ros2_ws/install/aruco_msgs/share/colcon-core/packages/aruco_msgs)
+[7.075s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_processing)
+[7.137s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/image_processing' for CMake module files
+[7.145s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/image_processing' for CMake config files
+[7.146s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_processing', 'cmake_prefix_path')
+[7.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerda/ros2_ws/install/image_processing/share/image_processing/hook/cmake_prefix_path.ps1'
+[7.230s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zerda/ros2_ws/install/image_processing/share/image_processing/hook/cmake_prefix_path.dsv'
+[7.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerda/ros2_ws/install/image_processing/share/image_processing/hook/cmake_prefix_path.sh'
+[7.235s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/image_processing/lib'
+[7.235s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/image_processing/bin'
+[7.236s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/image_processing/lib/pkgconfig/image_processing.pc'
+[7.236s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/image_processing/lib/python3.10/site-packages'
+[7.238s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/image_processing/bin'
+[7.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerda/ros2_ws/install/image_processing/share/image_processing/package.ps1'
+[7.315s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zerda/ros2_ws/install/image_processing/share/image_processing/package.dsv'
+[7.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerda/ros2_ws/install/image_processing/share/image_processing/package.sh'
+[7.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerda/ros2_ws/install/image_processing/share/image_processing/package.bash'
+[7.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerda/ros2_ws/install/image_processing/share/image_processing/package.zsh'
+[7.331s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zerda/ros2_ws/install/image_processing/share/colcon-core/packages/image_processing)
+[7.751s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.751s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.752s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[7.752s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.835s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.836s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.836s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.867s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.926s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zerda/ros2_ws/install/local_setup.ps1'
+[7.930s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zerda/ros2_ws/install/_local_setup_util_ps1.py'
+[7.936s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zerda/ros2_ws/install/setup.ps1'
+[8.003s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zerda/ros2_ws/install/local_setup.sh'
+[8.006s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zerda/ros2_ws/install/_local_setup_util_sh.py'
+[8.008s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zerda/ros2_ws/install/setup.sh'
+[8.085s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zerda/ros2_ws/install/local_setup.bash'
+[8.088s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zerda/ros2_ws/install/setup.bash'
+[8.156s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zerda/ros2_ws/install/local_setup.zsh'
+[8.158s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zerda/ros2_ws/install/setup.zsh'

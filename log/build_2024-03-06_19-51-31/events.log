@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.000996] (-) JobUnselected: {'identifier': 'challenge1'}
+[0.001195] (-) JobUnselected: {'identifier': 'image_processing'}
+[0.001237] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.001279] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.001320] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.099403] (-) TimerEvent: {}
+[0.169115] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.170429] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.172034] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zerda/ros2_ws/build/my_cpp_pkg', '--', '-j8', '-l8'], 'cwd': '/home/zerda/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zerda'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zerda'), ('OLDPWD', '/home/zerda'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1555'), ('SYSTEMD_EXEC_PID', '1939'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '33228'), ('COLCON_PREFIX_PATH', '/home/zerda/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zerda'), ('JOURNAL_STREAM', '8:32165'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zerda'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/zerda/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zerdaGul:@/tmp/.ICE-unix/1916,unix/zerdaGul:/tmp/.ICE-unix/1916'), ('INVOCATION_ID', '885891d5614a4d2ca493a7e0902d6f9c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/my_cpp_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:4d38e087-894a-4c04-ab63-1013887d00ee'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zerda/ros2_ws/build/my_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zerda/ros2_ws/install/my_cpp_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble')]), 'shell': False}
+[0.199575] (-) TimerEvent: {}
+[0.265114] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target image_converter_node\x1b[0m\n'}
+[0.299732] (-) TimerEvent: {}
+[0.312888] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/image_converter_node.dir/src/image_converter.cpp.o\x1b[0m\n'}
+[0.399905] (-) TimerEvent: {}
+[0.500542] (-) TimerEvent: {}
+[0.600993] (-) TimerEvent: {}
+[0.701574] (-) TimerEvent: {}
+[0.802231] (-) TimerEvent: {}
+[0.902749] (-) TimerEvent: {}
+[1.003225] (-) TimerEvent: {}
+[1.103655] (-) TimerEvent: {}
+[1.204147] (-) TimerEvent: {}
+[1.304686] (-) TimerEvent: {}
+[1.405148] (-) TimerEvent: {}
+[1.505658] (-) TimerEvent: {}
+[1.606383] (-) TimerEvent: {}
+[1.706932] (-) TimerEvent: {}
+[1.807586] (-) TimerEvent: {}
+[1.908207] (-) TimerEvent: {}
+[2.008963] (-) TimerEvent: {}
+[2.109509] (-) TimerEvent: {}
+[2.210098] (-) TimerEvent: {}
+[2.310593] (-) TimerEvent: {}
+[2.411088] (-) TimerEvent: {}
+[2.511569] (-) TimerEvent: {}
+[2.612124] (-) TimerEvent: {}
+[2.712742] (-) TimerEvent: {}
+[2.813258] (-) TimerEvent: {}
+[2.913752] (-) TimerEvent: {}
+[3.014246] (-) TimerEvent: {}
+[3.114722] (-) TimerEvent: {}
+[3.215189] (-) TimerEvent: {}
+[3.315682] (-) TimerEvent: {}
+[3.416147] (-) TimerEvent: {}
+[3.516687] (-) TimerEvent: {}
+[3.617159] (-) TimerEvent: {}
+[3.717633] (-) TimerEvent: {}
+[3.818055] (-) TimerEvent: {}
+[3.918580] (-) TimerEvent: {}
+[4.019038] (-) TimerEvent: {}
+[4.119495] (-) TimerEvent: {}
+[4.220091] (-) TimerEvent: {}
+[4.320600] (-) TimerEvent: {}
+[4.421075] (-) TimerEvent: {}
+[4.521588] (-) TimerEvent: {}
+[4.622087] (-) TimerEvent: {}
+[4.722572] (-) TimerEvent: {}
+[4.823097] (-) TimerEvent: {}
+[4.923565] (-) TimerEvent: {}
+[5.024078] (-) TimerEvent: {}
+[5.124527] (-) TimerEvent: {}
+[5.225060] (-) TimerEvent: {}
+[5.325576] (-) TimerEvent: {}
+[5.426125] (-) TimerEvent: {}
+[5.526581] (-) TimerEvent: {}
+[5.627022] (-) TimerEvent: {}
+[5.727499] (-) TimerEvent: {}
+[5.827962] (-) TimerEvent: {}
+[5.928526] (-) TimerEvent: {}
+[6.029068] (-) TimerEvent: {}
+[6.129533] (-) TimerEvent: {}
+[6.230012] (-) TimerEvent: {}
+[6.330502] (-) TimerEvent: {}
+[6.430968] (-) TimerEvent: {}
+[6.531517] (-) TimerEvent: {}
+[6.631985] (-) TimerEvent: {}
+[6.732499] (-) TimerEvent: {}
+[6.832954] (-) TimerEvent: {}
+[6.933454] (-) TimerEvent: {}
+[7.033970] (-) TimerEvent: {}
+[7.134433] (-) TimerEvent: {}
+[7.234896] (-) TimerEvent: {}
+[7.335378] (-) TimerEvent: {}
+[7.435861] (-) TimerEvent: {}
+[7.536296] (-) TimerEvent: {}
+[7.636741] (-) TimerEvent: {}
+[7.737252] (-) TimerEvent: {}
+[7.794859] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable image_converter_node\x1b[0m\n'}
+[7.837397] (-) TimerEvent: {}
+[7.937965] (-) TimerEvent: {}
+[8.038467] (-) TimerEvent: {}
+[8.139033] (-) TimerEvent: {}
+[8.239679] (-) TimerEvent: {}
+[8.340235] (-) TimerEvent: {}
+[8.440838] (-) TimerEvent: {}
+[8.541473] (-) TimerEvent: {}
+[8.642086] (-) TimerEvent: {}
+[8.742684] (-) TimerEvent: {}
+[8.762168] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target image_converter_node\n'}
+[8.787894] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[8.842832] (-) TimerEvent: {}
+[8.850948] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[8.875787] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zerda/ros2_ws/build/my_cpp_pkg'], 'cwd': '/home/zerda/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zerda'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zerda'), ('OLDPWD', '/home/zerda'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1555'), ('SYSTEMD_EXEC_PID', '1939'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '33228'), ('COLCON_PREFIX_PATH', '/home/zerda/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zerda'), ('JOURNAL_STREAM', '8:32165'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zerda'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/zerda/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zerdaGul:@/tmp/.ICE-unix/1916,unix/zerdaGul:/tmp/.ICE-unix/1916'), ('INVOCATION_ID', '885891d5614a4d2ca493a7e0902d6f9c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/my_cpp_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:4d38e087-894a-4c04-ab63-1013887d00ee'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zerda/ros2_ws/build/my_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zerda/ros2_ws/install/my_cpp_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble')]), 'shell': False}
+[8.896033] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.896588] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/zerda/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/image_converter_node\n'}
+[8.898438] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/zerda/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/image_converter_node" to ""\n'}
+[8.899540] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[8.900188] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[8.900687] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[8.901188] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[8.901601] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[8.902047] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[8.902529] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[8.903021] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[8.903375] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[8.903676] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[8.903984] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/zerda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[8.904331] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[8.905184] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[8.906711] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[8.907344] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[8.908075] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[8.942990] (-) TimerEvent: {}
+[9.043982] (-) TimerEvent: {}
+[9.144681] (-) TimerEvent: {}
+[9.245891] (-) TimerEvent: {}
+[9.346871] (-) TimerEvent: {}
+[9.358561] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[9.359905] (-) EventReactorShutdown: {}

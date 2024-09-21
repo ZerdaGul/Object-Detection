@@ -1,0 +1,2 @@
+[console_scripts]
+car_detector = yolov8_detection.car_detector:main

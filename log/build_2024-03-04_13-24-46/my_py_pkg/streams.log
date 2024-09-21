@@ -1,0 +1,25 @@
+[2.486s] Invoking command in '/home/zerda/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/zerda/ros2_ws/build/my_py_pkg/prefix_override:/home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/zerda/ros2_ws/build/my_py_pkg/build install --record /home/zerda/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[3.057s] running egg_info
+[3.058s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[3.059s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[3.059s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[3.060s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[3.060s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[3.064s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[3.066s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[3.066s] running build
+[3.067s] running build_py
+[3.067s] running install
+[3.068s] running install_lib
+[3.071s] running install_data
+[3.072s] running install_egg_info
+[3.075s] removing '/home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[3.076s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[3.079s] running install_scripts
+[3.123s] Installing add_two_ints_client_no_oop script to /home/zerda/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.124s] Installing add_two_ints_server script to /home/zerda/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.124s] Installing py_node script to /home/zerda/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.124s] Installing robot_news_station script to /home/zerda/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.125s] Installing smartphone script to /home/zerda/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.125s] writing list of installed files to '/home/zerda/ros2_ws/build/my_py_pkg/install.log'
+[3.190s] Invoked command in '/home/zerda/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/zerda/ros2_ws/build/my_py_pkg/prefix_override:/home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/zerda/ros2_ws/build/my_py_pkg/build install --record /home/zerda/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed

@@ -1,0 +1,17 @@
+{
+  "package_name": "yolov8_msgs",
+  "non_idl_tuples": [
+    "/home/zerda/ros2_ws/src/yolov8_msgs:msg/Point2D.msg",
+    "/home/zerda/ros2_ws/src/yolov8_msgs:msg/Vector2.msg",
+    "/home/zerda/ros2_ws/src/yolov8_msgs:msg/Pose2D.msg",
+    "/home/zerda/ros2_ws/src/yolov8_msgs:msg/BoundingBox2D.msg",
+    "/home/zerda/ros2_ws/src/yolov8_msgs:msg/BoundingBox3D.msg",
+    "/home/zerda/ros2_ws/src/yolov8_msgs:msg/Mask.msg",
+    "/home/zerda/ros2_ws/src/yolov8_msgs:msg/KeyPoint2D.msg",
+    "/home/zerda/ros2_ws/src/yolov8_msgs:msg/KeyPoint2DArray.msg",
+    "/home/zerda/ros2_ws/src/yolov8_msgs:msg/KeyPoint3D.msg",
+    "/home/zerda/ros2_ws/src/yolov8_msgs:msg/KeyPoint3DArray.msg",
+    "/home/zerda/ros2_ws/src/yolov8_msgs:msg/Detection.msg",
+    "/home/zerda/ros2_ws/src/yolov8_msgs:msg/DetectionArray.msg"
+  ]
+}

@@ -1,0 +1,56 @@
+[0.000000] (-) TimerEvent: {}
+[0.000846] (my_object_detection_pkg) JobQueued: {'identifier': 'my_object_detection_pkg', 'dependencies': OrderedDict()}
+[0.001151] (my_object_detection_pkg) JobStarted: {'identifier': 'my_object_detection_pkg'}
+[0.098682] (-) TimerEvent: {}
+[0.199115] (-) TimerEvent: {}
+[0.299567] (-) TimerEvent: {}
+[0.400012] (-) TimerEvent: {}
+[0.500461] (-) TimerEvent: {}
+[0.600905] (-) TimerEvent: {}
+[0.701427] (-) TimerEvent: {}
+[0.801962] (-) TimerEvent: {}
+[0.902396] (-) TimerEvent: {}
+[1.002821] (-) TimerEvent: {}
+[1.103227] (-) TimerEvent: {}
+[1.203612] (-) TimerEvent: {}
+[1.304147] (-) TimerEvent: {}
+[1.404791] (-) TimerEvent: {}
+[1.505245] (-) TimerEvent: {}
+[1.605695] (-) TimerEvent: {}
+[1.627803] (my_object_detection_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_object_detection_pkg', 'build', '--build-base', '/home/zerda/ros2_ws/build/my_object_detection_pkg/build', 'install', '--record', '/home/zerda/ros2_ws/build/my_object_detection_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/zerda/ros2_ws/src/my_object_detection_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'zerda', 'LC_TIME': 'tr_TR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/zerda', 'OLDPWD': '/home/zerda/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'tr_TR.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1799', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c0ea6ee27b99cd71bb4debe766329835', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'zerda', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zerda', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/zerda/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/zerdaGul:@/tmp/.ICE-unix/1799,unix/zerdaGul:/tmp/.ICE-unix/1799', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'tr_TR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/75f8885c_a397_479a_a53d_e1f2e8bfcf22', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'tr_TR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.189', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'tr_TR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'tr_TR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'tr_TR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zerda/ros2_ws/build/my_object_detection_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c0ea6ee27b99cd71bb4debe766329835', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/zerda/ros2_ws/build/my_object_detection_pkg/prefix_override:/home/zerda/ros2_ws/install/my_object_detection_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'tr_TR.UTF-8', 'LC_PAPER': 'tr_TR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.705896] (-) TimerEvent: {}
+[1.806353] (-) TimerEvent: {}
+[1.906835] (-) TimerEvent: {}
+[2.007254] (-) TimerEvent: {}
+[2.107671] (-) TimerEvent: {}
+[2.138116] (my_object_detection_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.171430] (my_object_detection_pkg) StdoutLine: {'line': b'writing ../../build/my_object_detection_pkg/my_object_detection_pkg.egg-info/PKG-INFO\n'}
+[2.172450] (my_object_detection_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_object_detection_pkg/my_object_detection_pkg.egg-info/dependency_links.txt\n'}
+[2.172825] (my_object_detection_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_object_detection_pkg/my_object_detection_pkg.egg-info/entry_points.txt\n'}
+[2.173405] (my_object_detection_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_object_detection_pkg/my_object_detection_pkg.egg-info/requires.txt\n'}
+[2.173839] (my_object_detection_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_object_detection_pkg/my_object_detection_pkg.egg-info/top_level.txt\n'}
+[2.207842] (-) TimerEvent: {}
+[2.240430] (my_object_detection_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_object_detection_pkg/my_object_detection_pkg.egg-info/SOURCES.txt'\n"}
+[2.242307] (my_object_detection_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_object_detection_pkg/my_object_detection_pkg.egg-info/SOURCES.txt'\n"}
+[2.242604] (my_object_detection_pkg) StdoutLine: {'line': b'running build\n'}
+[2.242808] (my_object_detection_pkg) StdoutLine: {'line': b'running build_py\n'}
+[2.243003] (my_object_detection_pkg) StdoutLine: {'line': b'copying my_object_detection_pkg/__init__.py -> /home/zerda/ros2_ws/build/my_object_detection_pkg/build/lib/my_object_detection_pkg\n'}
+[2.243413] (my_object_detection_pkg) StdoutLine: {'line': b'running install\n'}
+[2.255389] (my_object_detection_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[2.288881] (my_object_detection_pkg) StdoutLine: {'line': b'running install_data\n'}
+[2.289252] (my_object_detection_pkg) StdoutLine: {'line': b'copying resource/my_object_detection_pkg -> /home/zerda/ros2_ws/install/my_object_detection_pkg/share/ament_index/resource_index/packages\n'}
+[2.289589] (my_object_detection_pkg) StdoutLine: {'line': b'copying package.xml -> /home/zerda/ros2_ws/install/my_object_detection_pkg/share/my_object_detection_pkg\n'}
+[2.289786] (my_object_detection_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.307998] (-) TimerEvent: {}
+[2.324210] (my_object_detection_pkg) StdoutLine: {'line': b"removing '/home/zerda/ros2_ws/install/my_object_detection_pkg/lib/python3.10/site-packages/my_object_detection_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.324748] (my_object_detection_pkg) StdoutLine: {'line': b'Copying ../../build/my_object_detection_pkg/my_object_detection_pkg.egg-info to /home/zerda/ros2_ws/install/my_object_detection_pkg/lib/python3.10/site-packages/my_object_detection_pkg-0.0.0-py3.10.egg-info\n'}
+[2.326177] (my_object_detection_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[2.408220] (-) TimerEvent: {}
+[2.508659] (-) TimerEvent: {}
+[2.609071] (-) TimerEvent: {}
+[2.666026] (my_object_detection_pkg) StdoutLine: {'line': b'Installing detector script to /home/zerda/ros2_ws/install/my_object_detection_pkg/lib/my_object_detection_pkg\n'}
+[2.666552] (my_object_detection_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/zerda/ros2_ws/build/my_object_detection_pkg/install.log'\n"}
+[2.709234] (-) TimerEvent: {}
+[2.725498] (my_object_detection_pkg) CommandEnded: {'returncode': 0}
+[2.748222] (my_object_detection_pkg) JobEnded: {'identifier': 'my_object_detection_pkg', 'rc': 0}
+[2.749510] (-) EventReactorShutdown: {}

@@ -1,0 +1,21 @@
+[1.640s] Invoking command in '/home/zerda/ros2_ws/src/YOLOv7_ROS2/object_detection': PYTHONPATH=/home/zerda/ros2_ws/build/object_detection/prefix_override:/home/zerda/ros2_ws/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/object_detection build --build-base /home/zerda/ros2_ws/build/object_detection/build install --record /home/zerda/ros2_ws/build/object_detection/install.log --single-version-externally-managed install_data
+[2.120s] running egg_info
+[2.151s] writing ../../../build/object_detection/object_detection.egg-info/PKG-INFO
+[2.159s] writing dependency_links to ../../../build/object_detection/object_detection.egg-info/dependency_links.txt
+[2.160s] writing entry points to ../../../build/object_detection/object_detection.egg-info/entry_points.txt
+[2.160s] writing requirements to ../../../build/object_detection/object_detection.egg-info/requires.txt
+[2.161s] writing top-level names to ../../../build/object_detection/object_detection.egg-info/top_level.txt
+[2.224s] reading manifest file '../../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[2.226s] writing manifest file '../../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[2.226s] running build
+[2.226s] running build_py
+[2.227s] running install
+[2.239s] running install_lib
+[2.272s] running install_data
+[2.273s] running install_egg_info
+[2.308s] removing '/home/zerda/ros2_ws/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[2.308s] Copying ../../../build/object_detection/object_detection.egg-info to /home/zerda/ros2_ws/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.0-py3.10.egg-info
+[2.310s] running install_scripts
+[2.596s] Installing object_detection script to /home/zerda/ros2_ws/install/object_detection/lib/object_detection
+[2.597s] writing list of installed files to '/home/zerda/ros2_ws/build/object_detection/install.log'
+[2.646s] Invoked command in '/home/zerda/ros2_ws/src/YOLOv7_ROS2/object_detection' returned '0': PYTHONPATH=/home/zerda/ros2_ws/build/object_detection/prefix_override:/home/zerda/ros2_ws/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/object_detection build --build-base /home/zerda/ros2_ws/build/object_detection/build install --record /home/zerda/ros2_ws/build/object_detection/install.log --single-version-externally-managed install_data

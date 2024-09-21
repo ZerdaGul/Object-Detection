@@ -1,0 +1,23 @@
+[0.027s] Invoking command in '/home/zerda/ros2_ws/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/object_detection:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/my_object_detection_pkg:/home/zerda/ros2_ws/install/challenge1:/home/zerda/ros2_ws/install/car_detection:/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/yolov8_msgs -- -j8 -l8
+[0.129s] [  5%] Built target yolov8_msgs__cpp
+[0.129s] [ 12%] Built target yolov8_msgs__rosidl_generator_c
+[0.146s] [ 12%] Built target ament_cmake_python_copy_yolov8_msgs
+[0.190s] [ 23%] Built target yolov8_msgs__rosidl_typesupport_c
+[0.193s] [ 33%] Built target yolov8_msgs__rosidl_typesupport_introspection_c
+[0.196s] [ 43%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c
+[0.203s] [ 53%] Built target yolov8_msgs__rosidl_typesupport_introspection_cpp
+[0.210s] [ 64%] Built target yolov8_msgs__rosidl_typesupport_cpp
+[0.212s] [ 74%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_cpp
+[0.253s] [ 74%] Built target yolov8_msgs
+[0.294s] [ 76%] Built target yolov8_msgs__py
+[0.338s] [ 84%] Built target yolov8_msgs__rosidl_generator_py
+[0.381s] [ 97%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.381s] [ 97%] Built target yolov8_msgs__rosidl_typesupport_c__pyext
+[0.381s] [100%] Built target yolov8_msgs__rosidl_typesupport_introspection_c__pyext
+[0.617s] running egg_info
+[0.652s] writing yolov8_msgs.egg-info/PKG-INFO
+[0.653s] writing dependency_links to yolov8_msgs.egg-info/dependency_links.txt
+[0.654s] writing top-level names to yolov8_msgs.egg-info/top_level.txt
+[0.753s] reading manifest file 'yolov8_msgs.egg-info/SOURCES.txt'
+[0.754s] writing manifest file 'yolov8_msgs.egg-info/SOURCES.txt'
+[0.803s] [100%] Built target ament_cmake_python_build_yolov8_msgs_egg

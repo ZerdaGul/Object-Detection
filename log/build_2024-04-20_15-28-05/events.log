@@ -1,0 +1,181 @@
+[0.000000] (-) TimerEvent: {}
+[0.000381] (aruco) JobQueued: {'identifier': 'aruco', 'dependencies': OrderedDict()}
+[0.000450] (aruco_msgs) JobQueued: {'identifier': 'aruco_msgs', 'dependencies': OrderedDict()}
+[0.000748] (image_processing) JobQueued: {'identifier': 'image_processing', 'dependencies': OrderedDict()}
+[0.000787] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000817] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.000850] (object_detection) JobQueued: {'identifier': 'object_detection', 'dependencies': OrderedDict()}
+[0.000881] (aruco_ros2) JobQueued: {'identifier': 'aruco_ros2', 'dependencies': OrderedDict([('aruco', '/home/zerda/ros2_ws/install/aruco'), ('aruco_msgs', '/home/zerda/ros2_ws/install/aruco_msgs')])}
+[0.001988] (aruco) JobStarted: {'identifier': 'aruco'}
+[0.099320] (-) TimerEvent: {}
+[0.106627] (aruco_msgs) JobStarted: {'identifier': 'aruco_msgs'}
+[0.198857] (image_processing) JobStarted: {'identifier': 'image_processing'}
+[0.199403] (-) TimerEvent: {}
+[0.286505] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.299627] (-) TimerEvent: {}
+[0.376846] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.399781] (-) TimerEvent: {}
+[0.486919] (object_detection) JobStarted: {'identifier': 'object_detection'}
+[0.500581] (-) TimerEvent: {}
+[0.597801] (aruco) JobProgress: {'identifier': 'aruco', 'progress': 'cmake'}
+[0.600071] (aruco) Command: {'cmd': ['/usr/bin/cmake', '/home/zerda/ros2_ws/src/aruco_ros2/aruco', '-DCMAKE_INSTALL_PREFIX=/home/zerda/ros2_ws/install/aruco'], 'cwd': '/home/zerda/ros2_ws/build/aruco', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zerda'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/zerda/ros2_ws/install/aruco_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zerda'), ('OLDPWD', '/home/zerda/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu-wayland'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1592'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c5105f892a8e0115a61e78df6623bd42'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zerda/ros2_ws/install'), ('LOGNAME', 'zerda'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zerda'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/humble/bin:/home/zerda/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zerdaGul:@/tmp/.ICE-unix/1592,unix/zerdaGul:/tmp/.ICE-unix/1592'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6429e8f3_03f4_47c5_b1f8_67622934ed21'), ('GNOME_SETUP_DISPLAY', ':2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-wayland'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Y9SFM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.144'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/home/zerda/ros2_ws/install/aruco_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-wayland'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zerda/ros2_ws/build/aruco'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c5105f892a8e0115a61e78df6623bd42'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-wayland:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages:/home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zerda/ros2_ws/install/my_cpp_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/aruco_msgs:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble')]), 'shell': False}
+[0.604873] (-) TimerEvent: {}
+[0.606480] (aruco_msgs) JobProgress: {'identifier': 'aruco_msgs', 'progress': 'cmake'}
+[0.607960] (aruco_msgs) JobProgress: {'identifier': 'aruco_msgs', 'progress': 'build'}
+[0.610029] (aruco_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zerda/ros2_ws/build/aruco_msgs', '--', '-j8', '-l8'], 'cwd': '/home/zerda/ros2_ws/build/aruco_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zerda'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/zerda/ros2_ws/install/aruco_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zerda'), ('OLDPWD', '/home/zerda/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu-wayland'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1592'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c5105f892a8e0115a61e78df6623bd42'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zerda/ros2_ws/install'), ('LOGNAME', 'zerda'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zerda'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/humble/bin:/home/zerda/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zerdaGul:@/tmp/.ICE-unix/1592,unix/zerdaGul:/tmp/.ICE-unix/1592'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6429e8f3_03f4_47c5_b1f8_67622934ed21'), ('GNOME_SETUP_DISPLAY', ':2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-wayland'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Y9SFM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.144'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/home/zerda/ros2_ws/install/aruco_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-wayland'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zerda/ros2_ws/build/aruco_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c5105f892a8e0115a61e78df6623bd42'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-wayland:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages:/home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zerda/ros2_ws/install/my_cpp_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/aruco_msgs:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble')]), 'shell': False}
+[0.613444] (image_processing) JobProgress: {'identifier': 'image_processing', 'progress': 'cmake'}
+[0.614291] (image_processing) JobProgress: {'identifier': 'image_processing', 'progress': 'build'}
+[0.614974] (image_processing) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zerda/ros2_ws/build/image_processing', '--', '-j8', '-l8'], 'cwd': '/home/zerda/ros2_ws/build/image_processing', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zerda'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/zerda/ros2_ws/install/aruco_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zerda'), ('OLDPWD', '/home/zerda/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu-wayland'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1592'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c5105f892a8e0115a61e78df6623bd42'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zerda/ros2_ws/install'), ('LOGNAME', 'zerda'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zerda'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/humble/bin:/home/zerda/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zerdaGul:@/tmp/.ICE-unix/1592,unix/zerdaGul:/tmp/.ICE-unix/1592'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6429e8f3_03f4_47c5_b1f8_67622934ed21'), ('GNOME_SETUP_DISPLAY', ':2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-wayland'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Y9SFM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.144'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/home/zerda/ros2_ws/install/aruco_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-wayland'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zerda/ros2_ws/build/image_processing'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c5105f892a8e0115a61e78df6623bd42'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-wayland:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages:/home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zerda/ros2_ws/install/my_cpp_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/aruco_msgs:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble')]), 'shell': False}
+[0.619226] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.620206] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.621681] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zerda/ros2_ws/build/my_cpp_pkg', '--', '-j8', '-l8'], 'cwd': '/home/zerda/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zerda'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/zerda/ros2_ws/install/aruco_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zerda'), ('OLDPWD', '/home/zerda/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu-wayland'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1592'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c5105f892a8e0115a61e78df6623bd42'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zerda/ros2_ws/install'), ('LOGNAME', 'zerda'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zerda'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/humble/bin:/home/zerda/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zerdaGul:@/tmp/.ICE-unix/1592,unix/zerdaGul:/tmp/.ICE-unix/1592'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6429e8f3_03f4_47c5_b1f8_67622934ed21'), ('GNOME_SETUP_DISPLAY', ':2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-wayland'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Y9SFM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.144'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/home/zerda/ros2_ws/install/aruco_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-wayland'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zerda/ros2_ws/build/my_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c5105f892a8e0115a61e78df6623bd42'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-wayland:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages:/home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zerda/ros2_ws/install/my_cpp_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/aruco_msgs:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble')]), 'shell': False}
+[0.705070] (-) TimerEvent: {}
+[0.805665] (-) TimerEvent: {}
+[0.906280] (-) TimerEvent: {}
+[1.006854] (-) TimerEvent: {}
+[1.107507] (-) TimerEvent: {}
+[1.208435] (-) TimerEvent: {}
+[1.216330] (aruco) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.218244] (aruco_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.220578] (image_processing) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.221309] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.308579] (-) TimerEvent: {}
+[1.412275] (-) TimerEvent: {}
+[1.493312] (aruco) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.512414] (-) TimerEvent: {}
+[1.537164] (aruco_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.612555] (-) TimerEvent: {}
+[1.669309] (image_processing) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.705210] (my_cpp_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.712699] (-) TimerEvent: {}
+[1.754052] (aruco) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.785278] (aruco_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:15 (find_package):\n'}
+[1.786347] (aruco_msgs) StderrLine: {'line': b'  By not providing "Findrosidl_default_generators.cmake" in CMAKE_MODULE_PATH\n'}
+[1.786711] (aruco_msgs) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[1.786962] (aruco_msgs) StderrLine: {'line': b'  by "rosidl_default_generators", but CMake did not find one.\n'}
+[1.787210] (aruco_msgs) StderrLine: {'line': b'\n'}
+[1.788102] (aruco_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[1.788563] (aruco_msgs) StderrLine: {'line': b'  "rosidl_default_generators" with any of the following names:\n'}
+[1.790053] (aruco_msgs) StderrLine: {'line': b'\n'}
+[1.791387] (aruco_msgs) StderrLine: {'line': b'    rosidl_default_generatorsConfig.cmake\n'}
+[1.791663] (aruco_msgs) StderrLine: {'line': b'    rosidl_default_generators-config.cmake\n'}
+[1.791948] (aruco_msgs) StderrLine: {'line': b'\n'}
+[1.793229] (aruco_msgs) StderrLine: {'line': b'  Add the installation prefix of "rosidl_default_generators" to\n'}
+[1.795218] (aruco_msgs) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "rosidl_default_generators_DIR" to a directory\n'}
+[1.795981] (aruco_msgs) StderrLine: {'line': b'  containing one of the above files.  If "rosidl_default_generators" provides\n'}
+[1.796595] (aruco_msgs) StderrLine: {'line': b'  a separate development package or SDK, be sure it has been installed.\n'}
+[1.797564] (aruco_msgs) StderrLine: {'line': b'\n'}
+[1.798085] (aruco_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[1.799454] (aruco_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.800514] (aruco_msgs) StdoutLine: {'line': b'See also "/home/zerda/ros2_ws/build/aruco_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[1.800875] (aruco_msgs) StderrLine: {'line': b'gmake: *** [Makefile:963: cmake_check_build_system] Error 1\n'}
+[1.802624] (aruco_msgs) CommandEnded: {'returncode': 2}
+[1.812858] (-) TimerEvent: {}
+[1.839698] (image_processing) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.870482] (aruco) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.881954] (aruco) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.902090] (aruco) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.907642] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.912982] (-) TimerEvent: {}
+[1.926287] (image_processing) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.936044] (image_processing) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.937172] (aruco) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.958711] (image_processing) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.986285] (aruco) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.003125] (image_processing) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.006692] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.013174] (-) TimerEvent: {}
+[2.016350] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.038857] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.066051] (image_processing) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.082443] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.113735] (-) TimerEvent: {}
+[2.126899] (aruco_msgs) JobEnded: {'identifier': 'aruco_msgs', 'rc': 2}
+[2.141555] (aruco) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.143828] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.147265] (aruco) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.213871] (-) TimerEvent: {}
+[2.314413] (-) TimerEvent: {}
+[2.372725] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.378021] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.390687] (aruco) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.414585] (-) TimerEvent: {}
+[2.515054] (-) TimerEvent: {}
+[2.615633] (-) TimerEvent: {}
+[2.706174] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.715772] (-) TimerEvent: {}
+[2.773714] (image_processing) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:11 (find_package):\n'}
+[2.774218] (image_processing) StderrLine: {'line': b'  By not providing "Findcv_bridge.cmake" in CMAKE_MODULE_PATH this project\n'}
+[2.774492] (image_processing) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[2.774748] (image_processing) StderrLine: {'line': b'  "cv_bridge", but CMake did not find one.\n'}
+[2.774984] (image_processing) StderrLine: {'line': b'\n'}
+[2.775217] (image_processing) StderrLine: {'line': b'  Could not find a package configuration file provided by "cv_bridge" with\n'}
+[2.775443] (image_processing) StderrLine: {'line': b'  any of the following names:\n'}
+[2.775664] (image_processing) StderrLine: {'line': b'\n'}
+[2.775919] (image_processing) StderrLine: {'line': b'    cv_bridgeConfig.cmake\n'}
+[2.776168] (image_processing) StderrLine: {'line': b'    cv_bridge-config.cmake\n'}
+[2.776397] (image_processing) StderrLine: {'line': b'\n'}
+[2.776631] (image_processing) StderrLine: {'line': b'  Add the installation prefix of "cv_bridge" to CMAKE_PREFIX_PATH or set\n'}
+[2.776870] (image_processing) StderrLine: {'line': b'  "cv_bridge_DIR" to a directory containing one of the above files.  If\n'}
+[2.777100] (image_processing) StderrLine: {'line': b'  "cv_bridge" provides a separate development package or SDK, be sure it has\n'}
+[2.777329] (image_processing) StderrLine: {'line': b'  been installed.\n'}
+[2.777559] (image_processing) StderrLine: {'line': b'\n'}
+[2.777805] (image_processing) StderrLine: {'line': b'\x1b[0m\n'}
+[2.778039] (image_processing) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.778288] (image_processing) StdoutLine: {'line': b'See also "/home/zerda/ros2_ws/build/image_processing/CMakeFiles/CMakeOutput.log".\n'}
+[2.781000] (image_processing) StderrLine: {'line': b'gmake: *** [Makefile:267: cmake_check_build_system] Error 1\n'}
+[2.785366] (image_processing) JobEnded: {'identifier': 'image_processing', 'rc': 'SIGINT'}
+[2.815950] (-) TimerEvent: {}
+[2.880382] (aruco) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.916092] (-) TimerEvent: {}
+[3.016669] (-) TimerEvent: {}
+[3.017797] (object_detection) JobEnded: {'identifier': 'object_detection', 'rc': 'SIGINT'}
+[3.018740] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 'SIGINT'}
+[3.116823] (-) TimerEvent: {}
+[3.134404] (my_cpp_pkg) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.181892] (aruco) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:21 (find_package):\n'}
+[3.182358] (aruco) StderrLine: {'line': b'  By not providing "FindOpenCV.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[3.182512] (aruco) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "OpenCV", but\n'}
+[3.182657] (aruco) StderrLine: {'line': b'  CMake did not find one.\n'}
+[3.182791] (aruco) StderrLine: {'line': b'\n'}
+[3.182913] (aruco) StderrLine: {'line': b'  Could not find a package configuration file provided by "OpenCV" (requested\n'}
+[3.183028] (aruco) StderrLine: {'line': b'  version 3) with any of the following names:\n'}
+[3.183141] (aruco) StderrLine: {'line': b'\n'}
+[3.183255] (aruco) StderrLine: {'line': b'    OpenCVConfig.cmake\n'}
+[3.183370] (aruco) StderrLine: {'line': b'    opencv-config.cmake\n'}
+[3.183483] (aruco) StderrLine: {'line': b'\n'}
+[3.183596] (aruco) StderrLine: {'line': b'  Add the installation prefix of "OpenCV" to CMAKE_PREFIX_PATH or set\n'}
+[3.183721] (aruco) StderrLine: {'line': b'  "OpenCV_DIR" to a directory containing one of the above files.  If "OpenCV"\n'}
+[3.183875] (aruco) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[3.184000] (aruco) StderrLine: {'line': b'  installed.\n'}
+[3.184115] (aruco) StderrLine: {'line': b'\n'}
+[3.184228] (aruco) StderrLine: {'line': b'\x1b[0m\n'}
+[3.184343] (aruco) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.184472] (aruco) StdoutLine: {'line': b'See also "/home/zerda/ros2_ws/build/aruco/CMakeFiles/CMakeOutput.log".\n'}
+[3.193796] (aruco) JobEnded: {'identifier': 'aruco', 'rc': 'SIGINT'}
+[3.216959] (-) TimerEvent: {}
+[3.317415] (-) TimerEvent: {}
+[3.411488] (my_cpp_pkg) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:12 (find_package):\n'}
+[3.411922] (my_cpp_pkg) StderrLine: {'line': b'  By not providing "Findcv_bridge.cmake" in CMAKE_MODULE_PATH this project\n'}
+[3.412075] (my_cpp_pkg) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[3.412193] (my_cpp_pkg) StderrLine: {'line': b'  "cv_bridge", but CMake did not find one.\n'}
+[3.412306] (my_cpp_pkg) StderrLine: {'line': b'\n'}
+[3.412423] (my_cpp_pkg) StderrLine: {'line': b'  Could not find a package configuration file provided by "cv_bridge" with\n'}
+[3.412540] (my_cpp_pkg) StderrLine: {'line': b'  any of the following names:\n'}
+[3.412656] (my_cpp_pkg) StderrLine: {'line': b'\n'}
+[3.412772] (my_cpp_pkg) StderrLine: {'line': b'    cv_bridgeConfig.cmake\n'}
+[3.412887] (my_cpp_pkg) StderrLine: {'line': b'    cv_bridge-config.cmake\n'}
+[3.413001] (my_cpp_pkg) StderrLine: {'line': b'\n'}
+[3.413114] (my_cpp_pkg) StderrLine: {'line': b'  Add the installation prefix of "cv_bridge" to CMAKE_PREFIX_PATH or set\n'}
+[3.413227] (my_cpp_pkg) StderrLine: {'line': b'  "cv_bridge_DIR" to a directory containing one of the above files.  If\n'}
+[3.413340] (my_cpp_pkg) StderrLine: {'line': b'  "cv_bridge" provides a separate development package or SDK, be sure it has\n'}
+[3.413453] (my_cpp_pkg) StderrLine: {'line': b'  been installed.\n'}
+[3.413563] (my_cpp_pkg) StderrLine: {'line': b'\n'}
+[3.413671] (my_cpp_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[3.413780] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.413905] (my_cpp_pkg) StdoutLine: {'line': b'See also "/home/zerda/ros2_ws/build/my_cpp_pkg/CMakeFiles/CMakeOutput.log".\n'}
+[3.417550] (-) TimerEvent: {}
+[3.421765] (my_cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:267: cmake_check_build_system] Error 1\n'}
+[3.424970] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 'SIGINT'}
+[3.436257] (aruco_ros2) JobSkipped: {'identifier': 'aruco_ros2'}
+[3.436370] (-) EventReactorShutdown: {}

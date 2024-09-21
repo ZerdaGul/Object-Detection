@@ -1,0 +1,37 @@
+[1.241s] Invoking command in '/home/zerda/ros2_ws/src/challenge1': PYTHONPATH=/home/zerda/ros2_ws/build/challenge1/prefix_override:/home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/challenge1 build --build-base /home/zerda/ros2_ws/build/challenge1/build install --record /home/zerda/ros2_ws/build/challenge1/install.log --single-version-externally-managed
+[1.511s] running egg_info
+[1.512s] creating ../../build/challenge1/challenge1.egg-info
+[1.512s] writing ../../build/challenge1/challenge1.egg-info/PKG-INFO
+[1.512s] writing dependency_links to ../../build/challenge1/challenge1.egg-info/dependency_links.txt
+[1.512s] writing entry points to ../../build/challenge1/challenge1.egg-info/entry_points.txt
+[1.512s] writing requirements to ../../build/challenge1/challenge1.egg-info/requires.txt
+[1.513s] writing top-level names to ../../build/challenge1/challenge1.egg-info/top_level.txt
+[1.513s] writing manifest file '../../build/challenge1/challenge1.egg-info/SOURCES.txt'
+[1.515s] reading manifest file '../../build/challenge1/challenge1.egg-info/SOURCES.txt'
+[1.515s] writing manifest file '../../build/challenge1/challenge1.egg-info/SOURCES.txt'
+[1.516s] running build
+[1.516s] running build_py
+[1.516s] creating /home/zerda/ros2_ws/build/challenge1/build
+[1.516s] creating /home/zerda/ros2_ws/build/challenge1/build/lib
+[1.516s] creating /home/zerda/ros2_ws/build/challenge1/build/lib/challenge1
+[1.516s] copying challenge1/turtle_catcher.py -> /home/zerda/ros2_ws/build/challenge1/build/lib/challenge1
+[1.516s] copying challenge1/__init__.py -> /home/zerda/ros2_ws/build/challenge1/build/lib/challenge1
+[1.516s] running install
+[1.516s] running install_lib
+[1.517s] creating /home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages/challenge1
+[1.518s] copying /home/zerda/ros2_ws/build/challenge1/build/lib/challenge1/turtle_catcher.py -> /home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages/challenge1
+[1.518s] copying /home/zerda/ros2_ws/build/challenge1/build/lib/challenge1/__init__.py -> /home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages/challenge1
+[1.518s] byte-compiling /home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages/challenge1/turtle_catcher.py to turtle_catcher.cpython-310.pyc
+[1.520s] byte-compiling /home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages/challenge1/__init__.py to __init__.cpython-310.pyc
+[1.521s] running install_data
+[1.521s] creating /home/zerda/ros2_ws/install/challenge1/share/ament_index
+[1.521s] creating /home/zerda/ros2_ws/install/challenge1/share/ament_index/resource_index
+[1.521s] creating /home/zerda/ros2_ws/install/challenge1/share/ament_index/resource_index/packages
+[1.521s] copying resource/challenge1 -> /home/zerda/ros2_ws/install/challenge1/share/ament_index/resource_index/packages
+[1.521s] copying package.xml -> /home/zerda/ros2_ws/install/challenge1/share/challenge1
+[1.521s] running install_egg_info
+[1.523s] Copying ../../build/challenge1/challenge1.egg-info to /home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages/challenge1-0.0.0-py3.10.egg-info
+[1.524s] running install_scripts
+[1.548s] Installing turtlec script to /home/zerda/ros2_ws/install/challenge1/lib/challenge1
+[1.548s] writing list of installed files to '/home/zerda/ros2_ws/build/challenge1/install.log'
+[1.599s] Invoked command in '/home/zerda/ros2_ws/src/challenge1' returned '0': PYTHONPATH=/home/zerda/ros2_ws/build/challenge1/prefix_override:/home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/challenge1 build --build-base /home/zerda/ros2_ws/build/challenge1/build install --record /home/zerda/ros2_ws/build/challenge1/install.log --single-version-externally-managed

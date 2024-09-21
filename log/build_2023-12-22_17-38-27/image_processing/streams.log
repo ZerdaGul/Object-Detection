@@ -1,0 +1,16 @@
+[0.433s] Invoking command in '/home/zerda/ros2_ws/build/image_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/image_processing -- -j8 -l8
+[0.472s] [35m[1mConsolidate compiler generated dependencies of target my_image_converter_node[0m
+[0.492s] [ 50%] [32mBuilding CXX object CMakeFiles/my_image_converter_node.dir/src/image_converter_node.cpp.o[0m
+[4.209s] [100%] [32m[1mLinking CXX executable my_image_converter_node[0m
+[4.503s] /usr/bin/ld: CMakeFiles/my_image_converter_node.dir/src/image_converter_node.cpp.o: in function `ImageConverter::ImageConverter()':
+[4.503s] image_converter_node.cpp:(.text._ZN14ImageConverterC2Ev[_ZN14ImageConverterC5Ev]+0x2db): undefined reference to `cv::namedWindow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)'
+[4.504s] /usr/bin/ld: CMakeFiles/my_image_converter_node.dir/src/image_converter_node.cpp.o: in function `ImageConverter::~ImageConverter()':
+[4.504s] image_converter_node.cpp:(.text._ZN14ImageConverterD2Ev[_ZN14ImageConverterD5Ev]+0x29): undefined reference to `cv::destroyWindow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[4.504s] /usr/bin/ld: CMakeFiles/my_image_converter_node.dir/src/image_converter_node.cpp.o: in function `ImageConverter::imageCb(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > const> const&)':
+[4.504s] image_converter_node.cpp:(.text._ZN14ImageConverter7imageCbERKSt10shared_ptrIKN11sensor_msgs3msg6Image_ISaIvEEEE[_ZN14ImageConverter7imageCbERKSt10shared_ptrIKN11sensor_msgs3msg6Image_ISaIvEEEE]+0x20d): undefined reference to `cv::imshow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cv::_InputArray const&)'
+[4.504s] /usr/bin/ld: image_converter_node.cpp:(.text._ZN14ImageConverter7imageCbERKSt10shared_ptrIKN11sensor_msgs3msg6Image_ISaIvEEEE[_ZN14ImageConverter7imageCbERKSt10shared_ptrIKN11sensor_msgs3msg6Image_ISaIvEEEE]+0x226): undefined reference to `cv::waitKey(int)'
+[4.529s] collect2: error: ld returned 1 exit status
+[4.531s] gmake[2]: *** [CMakeFiles/my_image_converter_node.dir/build.make:181: my_image_converter_node] Error 1
+[4.531s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_image_converter_node.dir/all] Error 2
+[4.531s] gmake: *** [Makefile:146: all] Error 2
+[4.535s] Invoked command in '/home/zerda/ros2_ws/build/image_processing' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/image_processing -- -j8 -l8

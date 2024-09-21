@@ -1,0 +1,32 @@
+[0.600s] Invoking command in '/home/zerda/ros2_ws/build/aruco': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake /home/zerda/ros2_ws/src/aruco_ros2/aruco -DCMAKE_INSTALL_PREFIX=/home/zerda/ros2_ws/install/aruco
+[1.216s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.491s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.753s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.869s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.880s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.900s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.935s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.985s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.140s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.145s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.389s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.879s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.180s] [31mCMake Error at CMakeLists.txt:21 (find_package):
+[3.180s]   By not providing "FindOpenCV.cmake" in CMAKE_MODULE_PATH this project has
+[3.180s]   asked CMake to find a package configuration file provided by "OpenCV", but
+[3.181s]   CMake did not find one.
+[3.181s] 
+[3.181s]   Could not find a package configuration file provided by "OpenCV" (requested
+[3.181s]   version 3) with any of the following names:
+[3.181s] 
+[3.181s]     OpenCVConfig.cmake
+[3.181s]     opencv-config.cmake
+[3.181s] 
+[3.182s]   Add the installation prefix of "OpenCV" to CMAKE_PREFIX_PATH or set
+[3.182s]   "OpenCV_DIR" to a directory containing one of the above files.  If "OpenCV"
+[3.182s]   provides a separate development package or SDK, be sure it has been
+[3.182s]   installed.
+[3.182s] 
+[3.182s] [0m
+[3.182s] -- Configuring incomplete, errors occurred!
+[3.182s] See also "/home/zerda/ros2_ws/build/aruco/CMakeFiles/CMakeOutput.log".

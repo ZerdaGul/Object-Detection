@@ -1,0 +1,161 @@
+[0.565s] Invoking command in '/home/zerda/ros2_ws/build/aruco_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/aruco_msgs -- -j8 -l8
+[0.721s] [ 10%] Built target aruco_msgs__cpp
+[0.723s] [ 12%] Built target aruco_msgs__rosidl_generator_c
+[0.775s] [ 12%] Built target ament_cmake_python_copy_aruco_msgs
+[0.789s] [ 23%] Built target aruco_msgs__rosidl_typesupport_fastrtps_c
+[0.790s] [ 33%] Built target aruco_msgs__rosidl_typesupport_introspection_c
+[0.816s] [ 43%] Built target aruco_msgs__rosidl_typesupport_c
+[0.825s] [ 53%] Built target aruco_msgs__rosidl_typesupport_fastrtps_cpp
+[0.833s] [ 64%] Built target aruco_msgs__rosidl_typesupport_introspection_cpp
+[0.850s] [ 74%] Built target aruco_msgs__rosidl_typesupport_cpp
+[0.910s] [ 74%] Built target aruco_msgs
+[0.972s] [ 76%] Built target aruco_msgs__py
+[1.031s] [ 84%] Built target aruco_msgs__rosidl_generator_py
+[1.121s] [ 89%] Built target aruco_msgs__rosidl_typesupport_introspection_c__pyext
+[1.142s] [ 94%] Built target aruco_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.143s] [100%] Built target aruco_msgs__rosidl_typesupport_c__pyext
+[1.755s] running egg_info
+[1.757s] writing aruco_msgs.egg-info/PKG-INFO
+[1.757s] writing dependency_links to aruco_msgs.egg-info/dependency_links.txt
+[1.758s] writing top-level names to aruco_msgs.egg-info/top_level.txt
+[1.765s] reading manifest file 'aruco_msgs.egg-info/SOURCES.txt'
+[1.767s] writing manifest file 'aruco_msgs.egg-info/SOURCES.txt'
+[1.834s] [100%] Built target ament_cmake_python_build_aruco_msgs_egg
+[1.870s] Invoked command in '/home/zerda/ros2_ws/build/aruco_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/aruco_msgs -- -j8 -l8
+[2.114s] Invoking command in '/home/zerda/ros2_ws/build/aruco_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake --install /home/zerda/ros2_ws/build/aruco_msgs
+[2.131s] -- Install configuration: ""
+[2.132s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/ament_index/resource_index/rosidl_interfaces/aruco_msgs
+[2.132s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs
+[2.132s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg
+[2.133s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/marker_array.h
+[2.133s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail
+[2.134s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__functions.c
+[2.134s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__type_support.h
+[2.134s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__type_support.h
+[2.135s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__functions.h
+[2.135s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__struct.h
+[2.139s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__functions.c
+[2.145s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__struct.h
+[2.145s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__functions.h
+[2.146s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/marker.h
+[2.146s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.150s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/environment/library_path.sh
+[2.150s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/environment/library_path.dsv
+[2.151s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/lib/libaruco_msgs__rosidl_generator_c.so
+[2.151s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs
+[2.151s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg
+[2.151s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail
+[2.152s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_c.h
+[2.152s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h
+[2.152s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.152s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_fastrtps_c.so
+[2.153s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs
+[2.153s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg
+[2.153s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.153s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail
+[2.154s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_c.h
+[2.154s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__type_support.c
+[2.154s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__type_support.c
+[2.154s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__rosidl_typesupport_introspection_c.h
+[2.155s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_introspection_c.so
+[2.155s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_c.so
+[2.155s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs
+[2.155s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg
+[2.156s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/marker.hpp
+[2.156s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/marker_array.hpp
+[2.157s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail
+[2.158s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__builder.hpp
+[2.158s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__struct.hpp
+[2.159s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__struct.hpp
+[2.159s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__builder.hpp
+[2.159s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__traits.hpp
+[2.159s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__traits.hpp
+[2.160s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs
+[2.160s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg
+[2.160s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.160s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail
+[2.161s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_cpp.hpp
+[2.161s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_cpp.hpp
+[2.161s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/dds_fastrtps
+[2.161s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.162s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs
+[2.162s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg
+[2.162s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail
+[2.162s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__type_support.cpp
+[2.162s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__type_support.cpp
+[2.163s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_cpp.hpp
+[2.163s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp
+[2.163s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_introspection_cpp.so
+[2.163s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_cpp.so
+[2.164s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/environment/pythonpath.sh
+[2.164s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/environment/pythonpath.dsv
+[2.164s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-2.0.0-py3.10.egg-info
+[2.164s] -- Installing: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-2.0.0-py3.10.egg-info/top_level.txt
+[2.165s] -- Installing: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-2.0.0-py3.10.egg-info/dependency_links.txt
+[2.165s] -- Installing: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-2.0.0-py3.10.egg-info/PKG-INFO
+[2.165s] -- Installing: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-2.0.0-py3.10.egg-info/SOURCES.txt
+[2.165s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs
+[2.166s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/_aruco_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.166s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.166s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/__init__.py
+[2.166s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.167s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/_aruco_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.167s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/libaruco_msgs__rosidl_generator_py.so
+[2.167s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.167s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/_aruco_msgs_s.ep.rosidl_typesupport_c.c
+[2.168s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg
+[2.168s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/__init__.py
+[2.168s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/_marker_array.py
+[2.168s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/_marker.py
+[2.169s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/_marker_s.c
+[2.169s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/_marker_array_s.c
+[2.239s] Listing '/home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs'...
+[2.240s] Listing '/home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg'...
+[2.253s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.254s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.256s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.259s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/lib/libaruco_msgs__rosidl_generator_py.so
+[2.261s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/msg/Marker.idl
+[2.263s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/msg/MarkerArray.idl
+[2.265s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/msg/Marker.msg
+[2.266s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/msg/MarkerArray.msg
+[2.267s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/ament_index/resource_index/package_run_dependencies/aruco_msgs
+[2.267s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/ament_index/resource_index/parent_prefix_path/aruco_msgs
+[2.267s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/environment/ament_prefix_path.sh
+[2.268s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/environment/ament_prefix_path.dsv
+[2.268s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/environment/path.sh
+[2.268s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/environment/path.dsv
+[2.269s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/local_setup.bash
+[2.269s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/local_setup.sh
+[2.269s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/local_setup.zsh
+[2.269s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/local_setup.dsv
+[2.270s] -- Installing: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/package.dsv
+[2.270s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/ament_index/resource_index/packages/aruco_msgs
+[2.270s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_cExport.cmake
+[2.270s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.270s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.271s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.272s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.273s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.273s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_cExport.cmake
+[2.274s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.275s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_cppExport.cmake
+[2.282s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.282s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.283s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.284s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.284s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_cppExport.cmake
+[2.285s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.286s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_pyExport.cmake
+[2.286s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.286s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/rosidl_cmake-extras.cmake
+[2.287s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.289s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.294s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.294s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.295s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.295s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.295s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgsConfig.cmake
+[2.295s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgsConfig-version.cmake
+[2.296s] -- Up-to-date: /home/zerda/ros2_ws/install/aruco_msgs/share/aruco_msgs/package.xml
+[2.306s] Invoked command in '/home/zerda/ros2_ws/build/aruco_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake --install /home/zerda/ros2_ws/build/aruco_msgs

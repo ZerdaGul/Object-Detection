@@ -1,0 +1,3 @@
+[console_scripts]
+people_detect_subscriber = people_detector.people_detect:main
+video_publisher = people_detector.video_pub:main

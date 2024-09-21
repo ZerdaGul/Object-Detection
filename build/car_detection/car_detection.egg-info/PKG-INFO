@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: car_detection
+Version: 0.0.0
+Summary: TODO: Package description
+Maintainer: zerda
+Maintainer-email: zerda@todo.todo
+License: TODO: License declaration
+Requires-Dist: setuptools
+Requires-Dist: cv_bridge
+Requires-Dist: rclpy
+Requires-Dist: gitpython
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: pillow
+Requires-Dist: psutil
+Requires-Dist: PyYAML
+Requires-Dist: requests
+Requires-Dist: scipy
+Requires-Dist: thop
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: tqdm
+Requires-Dist: ultralytics
+Requires-Dist: pandas
+Requires-Dist: seaborn
+Requires-Dist: setuptools
+Requires-Dist: wheel

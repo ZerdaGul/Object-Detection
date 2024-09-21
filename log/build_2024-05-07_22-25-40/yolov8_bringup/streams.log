@@ -1,0 +1,43 @@
+[0.016s] Invoking command in '/home/zerda/ros2_ws/build/yolov8_bringup': AMENT_PREFIX_PATH=/home/zerda/ros2_ws/install/yolov8_ros:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/yolov8_detection:/home/zerda/ros2_ws/install/object_detection:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/my_object_detection_pkg:/home/zerda/ros2_ws/install/challenge1:/home/zerda/ros2_ws/install/car_detection:/opt/ros/humble PYTHONPATH=/home/zerda/ros2_ws/install/yolov8_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/zerda/ros2_ws/src/yolov8_bringup -DCMAKE_INSTALL_PREFIX=/home/zerda/ros2_ws/install/yolov8_bringup
+[0.188s] -- The C compiler identification is GNU 11.4.0
+[0.343s] -- The CXX compiler identification is GNU 11.4.0
+[0.359s] -- Detecting C compiler ABI info
+[0.499s] -- Detecting C compiler ABI info - done
+[0.514s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.514s] -- Detecting C compile features
+[0.515s] -- Detecting C compile features - done
+[0.521s] -- Detecting CXX compiler ABI info
+[0.679s] -- Detecting CXX compiler ABI info - done
+[0.696s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.697s] -- Detecting CXX compile features
+[0.699s] -- Detecting CXX compile features - done
+[0.705s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.501s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.892s] -- Configuring done
+[1.897s] -- Generating done
+[1.898s] -- Build files have been written to: /home/zerda/ros2_ws/build/yolov8_bringup
+[1.906s] Invoked command in '/home/zerda/ros2_ws/build/yolov8_bringup' returned '0': AMENT_PREFIX_PATH=/home/zerda/ros2_ws/install/yolov8_ros:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/yolov8_detection:/home/zerda/ros2_ws/install/object_detection:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/my_object_detection_pkg:/home/zerda/ros2_ws/install/challenge1:/home/zerda/ros2_ws/install/car_detection:/opt/ros/humble PYTHONPATH=/home/zerda/ros2_ws/install/yolov8_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/zerda/ros2_ws/src/yolov8_bringup -DCMAKE_INSTALL_PREFIX=/home/zerda/ros2_ws/install/yolov8_bringup
+[1.909s] Invoking command in '/home/zerda/ros2_ws/build/yolov8_bringup': AMENT_PREFIX_PATH=/home/zerda/ros2_ws/install/yolov8_ros:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/yolov8_detection:/home/zerda/ros2_ws/install/object_detection:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/my_object_detection_pkg:/home/zerda/ros2_ws/install/challenge1:/home/zerda/ros2_ws/install/car_detection:/opt/ros/humble PYTHONPATH=/home/zerda/ros2_ws/install/yolov8_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zerda/ros2_ws/build/yolov8_bringup -- -j8 -l8
+[1.984s] Invoked command in '/home/zerda/ros2_ws/build/yolov8_bringup' returned '0': AMENT_PREFIX_PATH=/home/zerda/ros2_ws/install/yolov8_ros:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/yolov8_detection:/home/zerda/ros2_ws/install/object_detection:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/my_object_detection_pkg:/home/zerda/ros2_ws/install/challenge1:/home/zerda/ros2_ws/install/car_detection:/opt/ros/humble PYTHONPATH=/home/zerda/ros2_ws/install/yolov8_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zerda/ros2_ws/build/yolov8_bringup -- -j8 -l8
+[2.047s] Invoking command in '/home/zerda/ros2_ws/build/yolov8_bringup': AMENT_PREFIX_PATH=/home/zerda/ros2_ws/install/yolov8_ros:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/yolov8_detection:/home/zerda/ros2_ws/install/object_detection:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/my_object_detection_pkg:/home/zerda/ros2_ws/install/challenge1:/home/zerda/ros2_ws/install/car_detection:/opt/ros/humble PYTHONPATH=/home/zerda/ros2_ws/install/yolov8_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zerda/ros2_ws/build/yolov8_bringup
+[2.062s] -- Install configuration: ""
+[2.063s] -- Installing: /home/zerda/ros2_ws/install/yolov8_bringup/share/yolov8_bringup//launch
+[2.063s] -- Installing: /home/zerda/ros2_ws/install/yolov8_bringup/share/yolov8_bringup//launch/yolov9.launch.py
+[2.064s] -- Installing: /home/zerda/ros2_ws/install/yolov8_bringup/share/yolov8_bringup//launch/yolov8_3d.launch.py
+[2.064s] -- Installing: /home/zerda/ros2_ws/install/yolov8_bringup/share/yolov8_bringup//launch/yolov8.launch.py
+[2.064s] -- Installing: /home/zerda/ros2_ws/install/yolov8_bringup/share/ament_index/resource_index/package_run_dependencies/yolov8_bringup
+[2.064s] -- Installing: /home/zerda/ros2_ws/install/yolov8_bringup/share/ament_index/resource_index/parent_prefix_path/yolov8_bringup
+[2.065s] -- Installing: /home/zerda/ros2_ws/install/yolov8_bringup/share/yolov8_bringup/environment/ament_prefix_path.sh
+[2.065s] -- Installing: /home/zerda/ros2_ws/install/yolov8_bringup/share/yolov8_bringup/environment/ament_prefix_path.dsv
+[2.065s] -- Installing: /home/zerda/ros2_ws/install/yolov8_bringup/share/yolov8_bringup/environment/path.sh
+[2.065s] -- Installing: /home/zerda/ros2_ws/install/yolov8_bringup/share/yolov8_bringup/environment/path.dsv
+[2.065s] -- Installing: /home/zerda/ros2_ws/install/yolov8_bringup/share/yolov8_bringup/local_setup.bash
+[2.066s] -- Installing: /home/zerda/ros2_ws/install/yolov8_bringup/share/yolov8_bringup/local_setup.sh
+[2.066s] -- Installing: /home/zerda/ros2_ws/install/yolov8_bringup/share/yolov8_bringup/local_setup.zsh
+[2.066s] -- Installing: /home/zerda/ros2_ws/install/yolov8_bringup/share/yolov8_bringup/local_setup.dsv
+[2.066s] -- Installing: /home/zerda/ros2_ws/install/yolov8_bringup/share/yolov8_bringup/package.dsv
+[2.066s] -- Installing: /home/zerda/ros2_ws/install/yolov8_bringup/share/ament_index/resource_index/packages/yolov8_bringup
+[2.067s] -- Installing: /home/zerda/ros2_ws/install/yolov8_bringup/share/yolov8_bringup/cmake/yolov8_bringupConfig.cmake
+[2.067s] -- Installing: /home/zerda/ros2_ws/install/yolov8_bringup/share/yolov8_bringup/cmake/yolov8_bringupConfig-version.cmake
+[2.067s] -- Installing: /home/zerda/ros2_ws/install/yolov8_bringup/share/yolov8_bringup/package.xml
+[2.072s] Invoked command in '/home/zerda/ros2_ws/build/yolov8_bringup' returned '0': AMENT_PREFIX_PATH=/home/zerda/ros2_ws/install/yolov8_ros:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/yolov8_detection:/home/zerda/ros2_ws/install/object_detection:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/my_object_detection_pkg:/home/zerda/ros2_ws/install/challenge1:/home/zerda/ros2_ws/install/car_detection:/opt/ros/humble PYTHONPATH=/home/zerda/ros2_ws/install/yolov8_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zerda/ros2_ws/build/yolov8_bringup

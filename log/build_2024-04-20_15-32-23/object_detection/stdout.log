@@ -1,0 +1,52 @@
+running egg_info
+creating ../../../build/object_detection/object_detection.egg-info
+writing ../../../build/object_detection/object_detection.egg-info/PKG-INFO
+writing dependency_links to ../../../build/object_detection/object_detection.egg-info/dependency_links.txt
+writing entry points to ../../../build/object_detection/object_detection.egg-info/entry_points.txt
+writing requirements to ../../../build/object_detection/object_detection.egg-info/requires.txt
+writing top-level names to ../../../build/object_detection/object_detection.egg-info/top_level.txt
+writing manifest file '../../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+reading manifest file '../../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+writing manifest file '../../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/zerda/ros2_ws/build/object_detection/build
+creating /home/zerda/ros2_ws/build/object_detection/build/lib
+creating /home/zerda/ros2_ws/build/object_detection/build/lib/object_detection
+copying object_detection/__init__.py -> /home/zerda/ros2_ws/build/object_detection/build/lib/object_detection
+copying object_detection/object_detection.py -> /home/zerda/ros2_ws/build/object_detection/build/lib/object_detection
+running install
+running install_lib
+creating /home/zerda/ros2_ws/install/object_detection/lib/python3.10/site-packages/object_detection
+copying /home/zerda/ros2_ws/build/object_detection/build/lib/object_detection/__init__.py -> /home/zerda/ros2_ws/install/object_detection/lib/python3.10/site-packages/object_detection
+copying /home/zerda/ros2_ws/build/object_detection/build/lib/object_detection/object_detection.py -> /home/zerda/ros2_ws/install/object_detection/lib/python3.10/site-packages/object_detection
+byte-compiling /home/zerda/ros2_ws/install/object_detection/lib/python3.10/site-packages/object_detection/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/zerda/ros2_ws/install/object_detection/lib/python3.10/site-packages/object_detection/object_detection.py to object_detection.cpython-310.pyc
+running install_data
+creating /home/zerda/ros2_ws/install/object_detection/share/ament_index
+creating /home/zerda/ros2_ws/install/object_detection/share/ament_index/resource_index
+creating /home/zerda/ros2_ws/install/object_detection/share/ament_index/resource_index/packages
+copying resource/object_detection -> /home/zerda/ros2_ws/install/object_detection/share/ament_index/resource_index/packages
+copying package.xml -> /home/zerda/ros2_ws/install/object_detection/share/object_detection
+copying launch/object_detection.launch.xml -> /home/zerda/ros2_ws/install/object_detection/share/object_detection
+creating /home/zerda/ros2_ws/install/object_detection/lib/object_detection
+creating /home/zerda/ros2_ws/install/object_detection/lib/object_detection/models
+copying models/experimental.py -> /home/zerda/ros2_ws/install/object_detection/lib/object_detection/models/
+copying models/common.py -> /home/zerda/ros2_ws/install/object_detection/lib/object_detection/models/
+copying models/yolo.py -> /home/zerda/ros2_ws/install/object_detection/lib/object_detection/models/
+creating /home/zerda/ros2_ws/install/object_detection/lib/object_detection/utils
+copying utils/general.py -> /home/zerda/ros2_ws/install/object_detection/lib/object_detection/utils/
+copying utils/torch_utils.py -> /home/zerda/ros2_ws/install/object_detection/lib/object_detection/utils/
+copying utils/plots.py -> /home/zerda/ros2_ws/install/object_detection/lib/object_detection/utils/
+copying utils/datasets.py -> /home/zerda/ros2_ws/install/object_detection/lib/object_detection/utils/
+copying utils/google_utils.py -> /home/zerda/ros2_ws/install/object_detection/lib/object_detection/utils/
+copying utils/activations.py -> /home/zerda/ros2_ws/install/object_detection/lib/object_detection/utils/
+copying utils/add_nms.py -> /home/zerda/ros2_ws/install/object_detection/lib/object_detection/utils/
+copying utils/autoanchor.py -> /home/zerda/ros2_ws/install/object_detection/lib/object_detection/utils/
+copying utils/loss.py -> /home/zerda/ros2_ws/install/object_detection/lib/object_detection/utils/
+copying utils/metrics.py -> /home/zerda/ros2_ws/install/object_detection/lib/object_detection/utils/
+running install_egg_info
+Copying ../../../build/object_detection/object_detection.egg-info to /home/zerda/ros2_ws/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.0-py3.10.egg-info
+running install_scripts
+Installing object_detection script to /home/zerda/ros2_ws/install/object_detection/lib/object_detection
+writing list of installed files to '/home/zerda/ros2_ws/build/object_detection/install.log'

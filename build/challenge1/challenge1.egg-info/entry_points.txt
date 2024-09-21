@@ -1,0 +1,3 @@
+[console_scripts]
+turtlec = challenge1.turtle_catcher:main
+

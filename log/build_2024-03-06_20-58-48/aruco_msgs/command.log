@@ -1,0 +1,1 @@
+Invoking command in '/home/zerda/ros2_ws/build/aruco_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake /home/zerda/ros2_ws/src/aruco_ros2/aruco_msgs -DCMAKE_INSTALL_PREFIX=/home/zerda/ros2_ws/install/aruco_msgs

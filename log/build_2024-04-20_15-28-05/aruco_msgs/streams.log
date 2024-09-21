@@ -1,0 +1,24 @@
+[0.506s] Invoking command in '/home/zerda/ros2_ws/build/aruco_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/aruco_msgs -- -j8 -l8
+[1.113s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.431s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.679s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[1.680s]   By not providing "Findrosidl_default_generators.cmake" in CMAKE_MODULE_PATH
+[1.680s]   this project has asked CMake to find a package configuration file provided
+[1.680s]   by "rosidl_default_generators", but CMake did not find one.
+[1.681s] 
+[1.682s]   Could not find a package configuration file provided by
+[1.683s]   "rosidl_default_generators" with any of the following names:
+[1.685s] 
+[1.685s]     rosidl_default_generatorsConfig.cmake
+[1.685s]     rosidl_default_generators-config.cmake
+[1.686s] 
+[1.688s]   Add the installation prefix of "rosidl_default_generators" to
+[1.689s]   CMAKE_PREFIX_PATH or set "rosidl_default_generators_DIR" to a directory
+[1.690s]   containing one of the above files.  If "rosidl_default_generators" provides
+[1.691s]   a separate development package or SDK, be sure it has been installed.
+[1.691s] 
+[1.693s] [0m
+[1.693s] -- Configuring incomplete, errors occurred!
+[1.694s] See also "/home/zerda/ros2_ws/build/aruco_msgs/CMakeFiles/CMakeOutput.log".
+[1.694s] gmake: *** [Makefile:963: cmake_check_build_system] Error 1
+[1.696s] Invoked command in '/home/zerda/ros2_ws/build/aruco_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/aruco_msgs -- -j8 -l8

@@ -1,0 +1,59 @@
+[1.761s] Invoking command in '/home/zerda/ros2_ws/src/YOLOv8-people-detection_ROS2/people_detector': PYTHONPATH=/home/zerda/ros2_ws/build/people_detector/prefix_override:/home/zerda/ros2_ws/install/people_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/people_detector build --build-base /home/zerda/ros2_ws/build/people_detector/build install --record /home/zerda/ros2_ws/build/people_detector/install.log --install-scripts $base/lib/people_detector --single-version-externally-managed install_data
+[2.046s] /home/zerda/.local/lib/python3.10/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[2.046s] !!
+[2.046s] 
+[2.046s]         ********************************************************************************
+[2.046s]         Usage of dash-separated 'script-dir' will not be supported in future
+[2.046s]         versions. Please use the underscore name 'script_dir' instead.
+[2.046s] 
+[2.047s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[2.047s]         or your builds will no longer be supported.
+[2.047s] 
+[2.047s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.047s]         ********************************************************************************
+[2.047s] 
+[2.047s] !!
+[2.047s]   opt = self.warn_dash_deprecation(opt, section)
+[2.302s] running egg_info
+[2.303s] creating ../../../build/people_detector/people_detector.egg-info
+[2.338s] writing ../../../build/people_detector/people_detector.egg-info/PKG-INFO
+[2.339s] writing dependency_links to ../../../build/people_detector/people_detector.egg-info/dependency_links.txt
+[2.339s] writing entry points to ../../../build/people_detector/people_detector.egg-info/entry_points.txt
+[2.340s] writing requirements to ../../../build/people_detector/people_detector.egg-info/requires.txt
+[2.340s] writing top-level names to ../../../build/people_detector/people_detector.egg-info/top_level.txt
+[2.340s] writing manifest file '../../../build/people_detector/people_detector.egg-info/SOURCES.txt'
+[2.419s] reading manifest file '../../../build/people_detector/people_detector.egg-info/SOURCES.txt'
+[2.421s] writing manifest file '../../../build/people_detector/people_detector.egg-info/SOURCES.txt'
+[2.421s] running build
+[2.422s] running build_py
+[2.422s] creating /home/zerda/ros2_ws/build/people_detector/build
+[2.422s] creating /home/zerda/ros2_ws/build/people_detector/build/lib
+[2.423s] creating /home/zerda/ros2_ws/build/people_detector/build/lib/people_detector
+[2.423s] copying people_detector/people_detect.py -> /home/zerda/ros2_ws/build/people_detector/build/lib/people_detector
+[2.423s] copying people_detector/__init__.py -> /home/zerda/ros2_ws/build/people_detector/build/lib/people_detector
+[2.424s] copying people_detector/video_pub.py -> /home/zerda/ros2_ws/build/people_detector/build/lib/people_detector
+[2.424s] running install
+[2.438s] running install_lib
+[2.481s] creating /home/zerda/ros2_ws/install/people_detector/lib/python3.10/site-packages/people_detector
+[2.482s] copying /home/zerda/ros2_ws/build/people_detector/build/lib/people_detector/people_detect.py -> /home/zerda/ros2_ws/install/people_detector/lib/python3.10/site-packages/people_detector
+[2.482s] copying /home/zerda/ros2_ws/build/people_detector/build/lib/people_detector/__init__.py -> /home/zerda/ros2_ws/install/people_detector/lib/python3.10/site-packages/people_detector
+[2.482s] copying /home/zerda/ros2_ws/build/people_detector/build/lib/people_detector/video_pub.py -> /home/zerda/ros2_ws/install/people_detector/lib/python3.10/site-packages/people_detector
+[2.483s] byte-compiling /home/zerda/ros2_ws/install/people_detector/lib/python3.10/site-packages/people_detector/people_detect.py to people_detect.cpython-310.pyc
+[2.484s] byte-compiling /home/zerda/ros2_ws/install/people_detector/lib/python3.10/site-packages/people_detector/__init__.py to __init__.cpython-310.pyc
+[2.485s] byte-compiling /home/zerda/ros2_ws/install/people_detector/lib/python3.10/site-packages/people_detector/video_pub.py to video_pub.cpython-310.pyc
+[2.486s] running install_data
+[2.486s] creating /home/zerda/ros2_ws/install/people_detector/share/ament_index
+[2.486s] creating /home/zerda/ros2_ws/install/people_detector/share/ament_index/resource_index
+[2.486s] creating /home/zerda/ros2_ws/install/people_detector/share/ament_index/resource_index/packages
+[2.487s] copying resource/people_detector -> /home/zerda/ros2_ws/install/people_detector/share/ament_index/resource_index/packages
+[2.487s] copying package.xml -> /home/zerda/ros2_ws/install/people_detector/share/people_detector
+[2.487s] copying launch/people_detection.py -> /home/zerda/ros2_ws/install/people_detector/share/people_detector
+[2.488s] copying data/yolov8n.pt -> /home/zerda/ros2_ws/install/people_detector/share/people_detector
+[2.498s] copying data/video.mp4 -> /home/zerda/ros2_ws/install/people_detector/share/people_detector
+[2.528s] running install_egg_info
+[2.571s] Copying ../../../build/people_detector/people_detector.egg-info to /home/zerda/ros2_ws/install/people_detector/lib/python3.10/site-packages/people_detector-0.0.0-py3.10.egg-info
+[2.573s] running install_scripts
+[2.915s] Installing people_detect_subscriber script to /home/zerda/ros2_ws/install/people_detector/lib/people_detector
+[2.915s] Installing video_publisher script to /home/zerda/ros2_ws/install/people_detector/lib/people_detector
+[2.916s] writing list of installed files to '/home/zerda/ros2_ws/build/people_detector/install.log'
+[2.987s] Invoked command in '/home/zerda/ros2_ws/src/YOLOv8-people-detection_ROS2/people_detector' returned '0': PYTHONPATH=/home/zerda/ros2_ws/build/people_detector/prefix_override:/home/zerda/ros2_ws/install/people_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/people_detector build --build-base /home/zerda/ros2_ws/build/people_detector/build install --record /home/zerda/ros2_ws/build/people_detector/install.log --install-scripts $base/lib/people_detector --single-version-externally-managed install_data

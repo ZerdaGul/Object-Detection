@@ -1,0 +1,10 @@
+[0.986s] Invoking command in '/home/zerda/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[1.079s] [ 50%] [32mBuilding CXX object CMakeFiles/image_converter.dir/src/image_converter.cpp.o[0m
+[1.658s] [01m[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/image_encodings.h: No such file or directory
+[1.658s]     4 | #include [01;31m[K<sensor_msgs/image_encodings.h>[m[K
+[1.658s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.659s] compilation terminated.
+[1.664s] gmake[2]: *** [CMakeFiles/image_converter.dir/build.make:76: CMakeFiles/image_converter.dir/src/image_converter.cpp.o] Error 1
+[1.665s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/image_converter.dir/all] Error 2
+[1.665s] gmake: *** [Makefile:146: all] Error 2
+[1.738s] Invoked command in '/home/zerda/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/my_cpp_pkg -- -j8 -l8

@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target image_converter[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/image_converter.dir/src/image_converter.cpp.o[0m
+[01m[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/image_encodings.h: No such file or directory
+    4 | #include [01;31m[K<sensor_msgs/image_encodings.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/image_converter.dir/build.make:76: CMakeFiles/image_converter.dir/src/image_converter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/image_converter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

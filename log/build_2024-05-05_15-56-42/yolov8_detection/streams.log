@@ -1,0 +1,25 @@
+[1.811s] Invoking command in '/home/zerda/ros2_ws/src/yolov8_detection': PYTHONPATH=/home/zerda/ros2_ws/build/yolov8_detection/prefix_override:/home/zerda/ros2_ws/install/yolov8_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/yolov8_detection build --build-base /home/zerda/ros2_ws/build/yolov8_detection/build install --record /home/zerda/ros2_ws/build/yolov8_detection/install.log --single-version-externally-managed install_data
+[2.379s] running egg_info
+[2.415s] writing ../../build/yolov8_detection/yolov8_detection.egg-info/PKG-INFO
+[2.416s] writing dependency_links to ../../build/yolov8_detection/yolov8_detection.egg-info/dependency_links.txt
+[2.416s] writing entry points to ../../build/yolov8_detection/yolov8_detection.egg-info/entry_points.txt
+[2.416s] writing requirements to ../../build/yolov8_detection/yolov8_detection.egg-info/requires.txt
+[2.417s] writing top-level names to ../../build/yolov8_detection/yolov8_detection.egg-info/top_level.txt
+[2.491s] reading manifest file '../../build/yolov8_detection/yolov8_detection.egg-info/SOURCES.txt'
+[2.492s] writing manifest file '../../build/yolov8_detection/yolov8_detection.egg-info/SOURCES.txt'
+[2.493s] running build
+[2.493s] running build_py
+[2.493s] copying yolov8_detection/car_detector.py -> /home/zerda/ros2_ws/build/yolov8_detection/build/lib/yolov8_detection
+[2.494s] copying yolov8_detection/__init__.py -> /home/zerda/ros2_ws/build/yolov8_detection/build/lib/yolov8_detection
+[2.494s] running install
+[2.507s] running install_lib
+[2.544s] running install_data
+[2.545s] copying resource/yolov8_detection -> /home/zerda/ros2_ws/install/yolov8_detection/share/ament_index/resource_index/packages
+[2.545s] copying package.xml -> /home/zerda/ros2_ws/install/yolov8_detection/share/yolov8_detection
+[2.545s] running install_egg_info
+[2.584s] removing '/home/zerda/ros2_ws/install/yolov8_detection/lib/python3.10/site-packages/yolov8_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[2.585s] Copying ../../build/yolov8_detection/yolov8_detection.egg-info to /home/zerda/ros2_ws/install/yolov8_detection/lib/python3.10/site-packages/yolov8_detection-0.0.0-py3.10.egg-info
+[2.587s] running install_scripts
+[2.910s] Installing car_detector script to /home/zerda/ros2_ws/install/yolov8_detection/lib/yolov8_detection
+[2.911s] writing list of installed files to '/home/zerda/ros2_ws/build/yolov8_detection/install.log'
+[2.966s] Invoked command in '/home/zerda/ros2_ws/src/yolov8_detection' returned '0': PYTHONPATH=/home/zerda/ros2_ws/build/yolov8_detection/prefix_override:/home/zerda/ros2_ws/install/yolov8_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/yolov8_detection build --build-base /home/zerda/ros2_ws/build/yolov8_detection/build install --record /home/zerda/ros2_ws/build/yolov8_detection/install.log --single-version-externally-managed install_data

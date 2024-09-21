@@ -1,0 +1,18 @@
+[0.465s] Invoking command in '/home/zerda/ros2_ws/build/image_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/image_processing -- -j8 -l8
+[0.507s] [35m[1mConsolidate compiler generated dependencies of target my_image_converter_node[0m
+[0.526s] [ 50%] [32mBuilding CXX object CMakeFiles/my_image_converter_node.dir/src/image_converter_node.cpp.o[0m
+[3.574s] [01m[K/home/zerda/ros2_ws/src/image_processing/src/image_converter_node.cpp:[m[K In constructor ‘[01m[KImageConverter::ImageConverter()[m[K’:
+[3.574s] [01m[K/home/zerda/ros2_ws/src/image_processing/src/image_converter_node.cpp:17:44:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kimage_transport::ImageTransport::ImageTransport(ImageConverter*)[m[K’
+[3.574s]    17 |     image_transport::ImageTransport it(this[01;31m[K)[m[K;
+[3.574s]       |                                            [01;31m[K^[m[K
+[3.574s] In file included from [01m[K/home/zerda/ros2_ws/src/image_processing/src/image_converter_node.cpp:2[m[K:
+[3.574s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:111:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::ImageTransport::ImageTransport(rclcpp::Node::SharedPtr)[m[K’
+[3.574s]   111 |   explicit [01;36m[KImageTransport[m[K(rclcpp::Node::SharedPtr node);
+[3.574s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[3.574s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:111:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KImageConverter*[m[K’ to ‘[01m[Krclcpp::Node::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’}
+[3.574s]   111 |   explicit ImageTransport([01;36m[Krclcpp::Node::SharedPtr node[m[K);
+[3.574s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[4.092s] gmake[2]: *** [CMakeFiles/my_image_converter_node.dir/build.make:76: CMakeFiles/my_image_converter_node.dir/src/image_converter_node.cpp.o] Error 1
+[4.092s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_image_converter_node.dir/all] Error 2
+[4.092s] gmake: *** [Makefile:146: all] Error 2
+[4.096s] Invoked command in '/home/zerda/ros2_ws/build/image_processing' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/image_processing -- -j8 -l8

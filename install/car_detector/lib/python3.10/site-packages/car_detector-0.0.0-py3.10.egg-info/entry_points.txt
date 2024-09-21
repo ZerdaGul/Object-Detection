@@ -1,0 +1,3 @@
+[console_scripts]
+camera_publisher = car_detector.camera_pub:main
+car_detection = car_detector.car_detection:main

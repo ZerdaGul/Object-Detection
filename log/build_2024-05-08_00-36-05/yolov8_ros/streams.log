@@ -1,0 +1,31 @@
+[2.079s] Invoking command in '/home/zerda/ros2_ws/src/yolov8_ros': PYTHONPATH=/home/zerda/ros2_ws/build/yolov8_ros/prefix_override:/home/zerda/ros2_ws/install/yolov8_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/yolov8_ros build --build-base /home/zerda/ros2_ws/build/yolov8_ros/build install --record /home/zerda/ros2_ws/build/yolov8_ros/install.log --single-version-externally-managed install_data
+[2.635s] running egg_info
+[2.674s] writing ../../build/yolov8_ros/yolov8_ros.egg-info/PKG-INFO
+[2.683s] writing dependency_links to ../../build/yolov8_ros/yolov8_ros.egg-info/dependency_links.txt
+[2.683s] writing entry points to ../../build/yolov8_ros/yolov8_ros.egg-info/entry_points.txt
+[2.684s] writing requirements to ../../build/yolov8_ros/yolov8_ros.egg-info/requires.txt
+[2.684s] writing top-level names to ../../build/yolov8_ros/yolov8_ros.egg-info/top_level.txt
+[2.774s] reading manifest file '../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[2.776s] writing manifest file '../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[2.776s] running build
+[2.776s] running build_py
+[2.777s] copying yolov8_ros/__init__.py -> /home/zerda/ros2_ws/build/yolov8_ros/build/lib/yolov8_ros
+[2.777s] copying yolov8_ros/debug_node.py -> /home/zerda/ros2_ws/build/yolov8_ros/build/lib/yolov8_ros
+[2.778s] copying yolov8_ros/yolov8_node.py -> /home/zerda/ros2_ws/build/yolov8_ros/build/lib/yolov8_ros
+[2.778s] copying yolov8_ros/tracking_node.py -> /home/zerda/ros2_ws/build/yolov8_ros/build/lib/yolov8_ros
+[2.779s] copying yolov8_ros/detect_3d_node.py -> /home/zerda/ros2_ws/build/yolov8_ros/build/lib/yolov8_ros
+[2.779s] running install
+[2.792s] running install_lib
+[2.830s] running install_data
+[2.830s] copying resource/yolov8_ros -> /home/zerda/ros2_ws/install/yolov8_ros/share/ament_index/resource_index/packages
+[2.831s] copying package.xml -> /home/zerda/ros2_ws/install/yolov8_ros/share/yolov8_ros
+[2.831s] running install_egg_info
+[2.870s] removing '/home/zerda/ros2_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros-0.0.0-py3.10.egg-info' (and everything under it)
+[2.871s] Copying ../../build/yolov8_ros/yolov8_ros.egg-info to /home/zerda/ros2_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros-0.0.0-py3.10.egg-info
+[2.872s] running install_scripts
+[3.194s] Installing debug_node script to /home/zerda/ros2_ws/install/yolov8_ros/lib/yolov8_ros
+[3.194s] Installing detect_3d_node script to /home/zerda/ros2_ws/install/yolov8_ros/lib/yolov8_ros
+[3.202s] Installing tracking_node script to /home/zerda/ros2_ws/install/yolov8_ros/lib/yolov8_ros
+[3.202s] Installing yolov8_node script to /home/zerda/ros2_ws/install/yolov8_ros/lib/yolov8_ros
+[3.203s] writing list of installed files to '/home/zerda/ros2_ws/build/yolov8_ros/install.log'
+[3.256s] Invoked command in '/home/zerda/ros2_ws/src/yolov8_ros' returned '0': PYTHONPATH=/home/zerda/ros2_ws/build/yolov8_ros/prefix_override:/home/zerda/ros2_ws/install/yolov8_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/yolov8_ros build --build-base /home/zerda/ros2_ws/build/yolov8_ros/build install --record /home/zerda/ros2_ws/build/yolov8_ros/install.log --single-version-externally-managed install_data

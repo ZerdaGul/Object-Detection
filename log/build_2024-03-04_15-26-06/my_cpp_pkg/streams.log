@@ -1,0 +1,132 @@
+[0.173s] Invoking command in '/home/zerda/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[0.294s] [ 50%] [32mBuilding CXX object CMakeFiles/image_converter.dir/src/image_converter.cpp.o[0m
+[5.515s] In file included from [01m[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:2[m[K:
+[5.515s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+[5.516s]    32 | Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+[5.516s]       |                                                                       [01;36m[K^[m[K
+[5.516s] 
+[6.129s] [01m[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:12:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ does not name a type
+[6.129s]    12 |   [01;31m[Kros[m[K::NodeHandle nh_;
+[6.130s]       |   [01;31m[K^~~[m[K
+[6.130s] [01m[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:34:35:[m[K [01;31m[Kerror: [m[K‘[01m[KImageConstPtr[m[K’ in namespace ‘[01m[Ksensor_msgs[m[K’ does not name a type
+[6.130s]    34 |   void imageCb(const sensor_msgs::[01;31m[KImageConstPtr[m[K& msg)
+[6.130s]       |                                   [01;31m[K^~~~~~~~~~~~~[m[K
+[6.143s] [01m[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:[m[K In constructor ‘[01m[KImageConverter::ImageConverter()[m[K’:
+[6.143s] [01m[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:19:11:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ was not declared in this scope
+[6.144s]    19 |     : it_([01;31m[Knh_[m[K)
+[6.144s]       |           [01;31m[K^~~[m[K
+[6.161s] [01m[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:22:31:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kimage_transport::ImageTransport::subscribe(const char [18], int, void (ImageConverter::*)(const int&), ImageConverter*)[m[K’
+[6.161s]    22 |     image_sub_ = [01;31m[Kit_.subscribe("/camera/image_raw", 1,[m[K
+[6.161s]       |                  [01;31m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.161s]    23 | [01;31m[K      &ImageConverter::imageCb, this)[m[K;
+[6.161s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.161s] In file included from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34[m[K,
+[6.161s]                  from [01m[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:2[m[K:
+[6.162s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:188:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> image_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, void (T::*)(const ImageConstPtr&), T*, const image_transport::TransportHints*)[m[K’
+[6.162s]   188 |   Subscriber [01;36m[Ksubscribe[m[K(
+[6.162s]       |              [01;36m[K^~~~~~~~~[m[K
+[6.162s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:188:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.162s] [01m[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:22:31:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst ImageConstPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >[m[K’} and ‘[01m[Kconst int[m[K’
+[6.162s]    22 |     image_sub_ = [01;36m[Kit_.subscribe("/camera/image_raw", 1,[m[K
+[6.162s]       |                  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.162s]    23 | [01;36m[K      &ImageConverter::imageCb, this)[m[K;
+[6.163s]       |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.163s] In file included from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34[m[K,
+[6.163s]                  from [01m[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:2[m[K:
+[6.163s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:202:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> image_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, void (T::*)(const ImageConstPtr&), T*, const image_transport::TransportHints*, rclcpp::SubscriptionOptions)[m[K’
+[6.163s]   202 |   Subscriber [01;36m[Ksubscribe[m[K(
+[6.163s]       |              [01;36m[K^~~~~~~~~[m[K
+[6.163s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:202:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.163s] [01m[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:22:31:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst ImageConstPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >[m[K’} and ‘[01m[Kconst int[m[K’
+[6.164s]    22 |     image_sub_ = [01;36m[Kit_.subscribe("/camera/image_raw", 1,[m[K
+[6.164s]       |                  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.164s]    23 | [01;36m[K      &ImageConverter::imageCb, this)[m[K;
+[6.164s]       |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.164s] In file included from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34[m[K,
+[6.164s]                  from [01m[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:2[m[K:
+[6.165s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:217:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> image_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, void (T::*)(const ImageConstPtr&), const std::shared_ptr<_Tp>&, const image_transport::TransportHints*)[m[K’
+[6.165s]   217 |   Subscriber [01;36m[Ksubscribe[m[K(
+[6.165s]       |              [01;36m[K^~~~~~~~~[m[K
+[6.165s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:217:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.165s] [01m[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:22:31:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst ImageConstPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >[m[K’} and ‘[01m[Kconst int[m[K’
+[6.165s]    22 |     image_sub_ = [01;36m[Kit_.subscribe("/camera/image_raw", 1,[m[K
+[6.165s]       |                  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.165s]    23 | [01;36m[K      &ImageConverter::imageCb, this)[m[K;
+[6.165s]       |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.166s] In file included from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34[m[K,
+[6.166s]                  from [01m[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:2[m[K:
+[6.166s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:232:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> image_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, void (T::*)(const ImageConstPtr&), const std::shared_ptr<_Tp>&, const image_transport::TransportHints*, rclcpp::SubscriptionOptions)[m[K’
+[6.166s]   232 |   Subscriber [01;36m[Ksubscribe[m[K(
+[6.166s]       |              [01;36m[K^~~~~~~~~[m[K
+[6.166s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:232:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.166s] [01m[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:22:31:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst ImageConstPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >[m[K’} and ‘[01m[Kconst int[m[K’
+[6.166s]    22 |     image_sub_ = [01;36m[Kit_.subscribe("/camera/image_raw", 1,[m[K
+[6.167s]       |                  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.167s]    23 | [01;36m[K      &ImageConverter::imageCb, this)[m[K;
+[6.167s]       |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.167s] In file included from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34[m[K,
+[6.167s]                  from [01m[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:2[m[K:
+[6.167s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:136:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, const Callback&, const VoidPtr&, const image_transport::TransportHints*)[m[K’
+[6.167s]   136 |   Subscriber [01;36m[Ksubscribe[m[K(
+[6.167s]       |              [01;36m[K^~~~~~~~~[m[K
+[6.168s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:138:34:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kvoid (ImageConverter::*)(const int&)[m[K’ to ‘[01m[Kconst Callback&[m[K’ {aka ‘[01m[Kconst std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)>&[m[K’}
+[6.168s]   138 |     [01;36m[Kconst Subscriber::Callback & callback[m[K,
+[6.168s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[6.168s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:146:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, const Callback&, const VoidPtr&, const image_transport::TransportHints*, rclcpp::SubscriptionOptions)[m[K’
+[6.168s]   146 |   Subscriber [01;36m[Ksubscribe[m[K(
+[6.168s]       |              [01;36m[K^~~~~~~~~[m[K
+[6.168s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:146:14:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 4 provided
+[6.168s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:157:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, void (*)(const ImageConstPtr&), const image_transport::TransportHints*)[m[K’
+[6.169s]   157 |   Subscriber [01;36m[Ksubscribe[m[K(
+[6.169s]       |              [01;36m[K^~~~~~~~~[m[K
+[6.169s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:159:13:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kvoid (ImageConverter::*)(const int&)[m[K’ to ‘[01m[Kvoid (*)(const ImageConstPtr&)[m[K’ {aka ‘[01m[Kvoid (*)(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)[m[K’}
+[6.169s]   159 |     [01;36m[Kvoid (* fp)(const ImageConstPtr &)[m[K,
+[6.169s]       |     [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.169s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:172:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, void (*)(const ImageConstPtr&), const image_transport::TransportHints*, rclcpp::SubscriptionOptions)[m[K’
+[6.169s]   172 |   Subscriber [01;36m[Ksubscribe[m[K(
+[6.169s]       |              [01;36m[K^~~~~~~~~[m[K
+[6.170s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:172:14:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 4 provided
+[6.171s] [01m[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:[m[K In member function ‘[01m[Kvoid ImageConverter::imageCb(const int&)[m[K’:
+[6.171s] [01m[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:39:35:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KtoCvCopy(const int&, const char [5])[m[K’
+[6.171s]    39 |       cv_ptr = [01;31m[Kcv_bridge::toCvCopy(msg, sensor_msgs::image_encodings::BGR8)[m[K;
+[6.171s]       |                [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.171s] In file included from [01m[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:3[m[K:
+[6.171s] [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:177:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const ConstSharedPtr&, const string&)[m[K’
+[6.171s]   177 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+[6.171s]       |                             [01;36m[K^~~~~~~~[m[K
+[6.172s] [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:178:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst int[m[K’ to ‘[01m[Kconst ConstSharedPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&[m[K’}
+[6.172s]   178 |   [01;36m[Kconst sensor_msgs::msg::Image::ConstSharedPtr & source[m[K,
+[6.172s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[6.172s] [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:181:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const ConstSharedPtr&, const string&)[m[K’
+[6.172s]   181 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+[6.172s]       |                             [01;36m[K^~~~~~~~[m[K
+[6.172s] [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:182:61:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst int[m[K’ to ‘[01m[Kconst ConstSharedPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const sensor_msgs::msg::CompressedImage_<std::allocator<void> > >&[m[K’}
+[6.173s]   182 |   [01;36m[Kconst sensor_msgs::msg::CompressedImage::ConstSharedPtr & source[m[K,
+[6.173s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[6.173s] [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:204:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const Image&, const string&)[m[K’
+[6.173s]   204 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+[6.173s]       |                             [01;36m[K^~~~~~~~[m[K
+[6.173s] [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:205:35:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst int[m[K’ to ‘[01m[Kconst Image&[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::Image_<std::allocator<void> >&[m[K’}
+[6.173s]   205 |   [01;36m[Kconst sensor_msgs::msg::Image & source[m[K,
+[6.173s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[6.173s] [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:208:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const CompressedImage&, const string&)[m[K’
+[6.174s]   208 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+[6.174s]       |                             [01;36m[K^~~~~~~~[m[K
+[6.174s] [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:209:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst int[m[K’ to ‘[01m[Kconst CompressedImage&[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::CompressedImage_<std::allocator<void> >&[m[K’}
+[6.174s]   209 |   [01;36m[Kconst sensor_msgs::msg::CompressedImage & source[m[K,
+[6.174s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[6.190s] [01m[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:43:7:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_ERROR[m[K’ was not declared in this scope; did you mean ‘[01m[KCV_ERROR[m[K’?
+[6.190s]    43 |       [01;31m[KROS_ERROR[m[K("cv_bridge exception: %s", e.what());
+[6.190s]       |       [01;31m[K^~~~~~~~~[m[K
+[6.190s]       |       [32m[KCV_ERROR[m[K
+[6.197s] [01m[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.198s] [01m[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:62:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[6.198s]    62 |   [01;31m[Kros[m[K::init(argc, argv, "image_converter");
+[6.198s]       |   [01;31m[K^~~[m[K
+[6.198s] [01m[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:64:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[6.198s]    64 |   [01;31m[Kros[m[K::spin();
+[6.198s]       |   [01;31m[K^~~[m[K
+[7.200s] gmake[2]: *** [CMakeFiles/image_converter.dir/build.make:76: CMakeFiles/image_converter.dir/src/image_converter.cpp.o] Error 1
+[7.201s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/image_converter.dir/all] Error 2
+[7.201s] gmake: *** [Makefile:146: all] Error 2
+[7.205s] Invoked command in '/home/zerda/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/my_cpp_pkg -- -j8 -l8

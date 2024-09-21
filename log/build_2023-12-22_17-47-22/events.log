@@ -1,0 +1,163 @@
+[0.000000] (-) TimerEvent: {}
+[0.000285] (challenge1) JobQueued: {'identifier': 'challenge1', 'dependencies': OrderedDict()}
+[0.000339] (image_processing) JobQueued: {'identifier': 'image_processing', 'dependencies': OrderedDict()}
+[0.000467] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.000489] (challenge1) JobStarted: {'identifier': 'challenge1'}
+[0.066231] (image_processing) JobStarted: {'identifier': 'image_processing'}
+[0.099322] (-) TimerEvent: {}
+[0.140307] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.199754] (-) TimerEvent: {}
+[0.300052] (-) TimerEvent: {}
+[0.400411] (-) TimerEvent: {}
+[0.501112] (-) TimerEvent: {}
+[0.540132] (image_processing) JobProgress: {'identifier': 'image_processing', 'progress': 'cmake'}
+[0.540707] (image_processing) JobProgress: {'identifier': 'image_processing', 'progress': 'build'}
+[0.541507] (image_processing) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zerda/ros2_ws/build/image_processing', '--', '-j8', '-l8'], 'cwd': '/home/zerda/ros2_ws/build/image_processing', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zerda'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zerda'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1857'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=824270ba74967b48a179a885658565c8'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zerda'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zerda'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/zerda/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zerdaGul:@/tmp/.ICE-unix/1857,unix/zerdaGul:/tmp/.ICE-unix/1857'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d1fbcb7f_96cd_493f_b443_88f95ea5ba23'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.454'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zerda/ros2_ws/build/image_processing'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=824270ba74967b48a179a885658565c8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.572764] (image_processing) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.601267] (-) TimerEvent: {}
+[0.701602] (-) TimerEvent: {}
+[0.766822] (image_processing) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.792115] (image_processing) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.796243] (image_processing) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.801783] (-) TimerEvent: {}
+[0.802781] (image_processing) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.815585] (image_processing) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.832593] (image_processing) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.901926] (-) TimerEvent: {}
+[1.002372] (-) TimerEvent: {}
+[1.087458] (image_processing) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[1.102499] (-) TimerEvent: {}
+[1.104264] (image_processing) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.163128] (image_processing) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.164750] (image_processing) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.202672] (-) TimerEvent: {}
+[1.298226] (image_processing) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.302861] (-) TimerEvent: {}
+[1.353015] (challenge1) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/challenge1', 'build', '--build-base', '/home/zerda/ros2_ws/build/challenge1/build', 'install', '--record', '/home/zerda/ros2_ws/build/challenge1/install.log', '--single-version-externally-managed'], 'cwd': '/home/zerda/ros2_ws/src/challenge1', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'zerda', 'LC_TIME': 'tr_TR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/zerda', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'tr_TR.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1857', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=824270ba74967b48a179a885658565c8', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'zerda', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zerda', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/zerda/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/zerdaGul:@/tmp/.ICE-unix/1857,unix/zerdaGul:/tmp/.ICE-unix/1857', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'tr_TR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d1fbcb7f_96cd_493f_b443_88f95ea5ba23', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'tr_TR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.454', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'tr_TR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'tr_TR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'tr_TR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zerda/ros2_ws/build/challenge1', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=824270ba74967b48a179a885658565c8', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/zerda/ros2_ws/build/challenge1/prefix_override:/home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'tr_TR.UTF-8', 'LC_PAPER': 'tr_TR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.364676] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/home/zerda/ros2_ws/build/my_py_pkg/build', 'install', '--record', '/home/zerda/ros2_ws/build/my_py_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/zerda/ros2_ws/src/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'zerda', 'LC_TIME': 'tr_TR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/zerda', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'tr_TR.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1857', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=824270ba74967b48a179a885658565c8', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'zerda', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zerda', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/zerda/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/zerdaGul:@/tmp/.ICE-unix/1857,unix/zerdaGul:/tmp/.ICE-unix/1857', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'tr_TR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d1fbcb7f_96cd_493f_b443_88f95ea5ba23', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'tr_TR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.454', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'tr_TR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'tr_TR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'tr_TR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zerda/ros2_ws/build/my_py_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=824270ba74967b48a179a885658565c8', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/zerda/ros2_ws/build/my_py_pkg/prefix_override:/home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'tr_TR.UTF-8', 'LC_PAPER': 'tr_TR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.403024] (-) TimerEvent: {}
+[1.465270] (image_processing) StdoutLine: {'line': b'-- Found image_common: 3.1.7 (/opt/ros/humble/share/image_common/cmake)\n'}
+[1.470074] (image_processing) StdoutLine: {'line': b'-- Found image_transport: 3.1.7 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[1.503199] (-) TimerEvent: {}
+[1.505837] (image_processing) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.593180] (image_processing) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.593413] (image_processing) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/zerda/ros2_ws/src/image_processing/include\n'}
+[1.593485] (image_processing) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.593886] (image_processing) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.594493] (image_processing) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.594569] (image_processing) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.594846] (image_processing) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.595558] (image_processing) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.603311] (-) TimerEvent: {}
+[1.608387] (image_processing) StdoutLine: {'line': b'-- Generating done\n'}
+[1.609866] (image_processing) StdoutLine: {'line': b'-- Build files have been written to: /home/zerda/ros2_ws/build/image_processing\n'}
+[1.620823] (challenge1) StdoutLine: {'line': b'running egg_info\n'}
+[1.621821] (challenge1) StdoutLine: {'line': b'writing ../../build/challenge1/challenge1.egg-info/PKG-INFO\n'}
+[1.622052] (challenge1) StdoutLine: {'line': b'writing dependency_links to ../../build/challenge1/challenge1.egg-info/dependency_links.txt\n'}
+[1.622213] (challenge1) StdoutLine: {'line': b'writing entry points to ../../build/challenge1/challenge1.egg-info/entry_points.txt\n'}
+[1.622317] (challenge1) StdoutLine: {'line': b'writing requirements to ../../build/challenge1/challenge1.egg-info/requires.txt\n'}
+[1.622407] (challenge1) StdoutLine: {'line': b'writing top-level names to ../../build/challenge1/challenge1.egg-info/top_level.txt\n'}
+[1.624292] (challenge1) StdoutLine: {'line': b"reading manifest file '../../build/challenge1/challenge1.egg-info/SOURCES.txt'\n"}
+[1.625294] (challenge1) StdoutLine: {'line': b"writing manifest file '../../build/challenge1/challenge1.egg-info/SOURCES.txt'\n"}
+[1.625543] (challenge1) StdoutLine: {'line': b'running build\n'}
+[1.625675] (challenge1) StdoutLine: {'line': b'running build_py\n'}
+[1.625932] (challenge1) StdoutLine: {'line': b'running install\n'}
+[1.626461] (challenge1) StdoutLine: {'line': b'running install_lib\n'}
+[1.628258] (challenge1) StdoutLine: {'line': b'running install_data\n'}
+[1.629107] (challenge1) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.632000] (challenge1) StdoutLine: {'line': b"removing '/home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages/challenge1-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.632554] (challenge1) StdoutLine: {'line': b'Copying ../../build/challenge1/challenge1.egg-info to /home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages/challenge1-0.0.0-py3.10.egg-info\n'}
+[1.633703] (challenge1) StdoutLine: {'line': b'running install_scripts\n'}
+[1.639418] (image_processing) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_image_converter_node\x1b[0m\n'}
+[1.647556] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.648908] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[1.649161] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[1.649383] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[1.649523] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[1.649655] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[1.652299] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.653310] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.653560] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[1.653684] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.653933] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[1.654280] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.655842] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.656391] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.656600] (challenge1) StdoutLine: {'line': b'Installing turtlec script to /home/zerda/ros2_ws/install/challenge1/lib/challenge1\n'}
+[1.657073] (challenge1) StdoutLine: {'line': b"writing list of installed files to '/home/zerda/ros2_ws/build/challenge1/install.log'\n"}
+[1.658489] (my_py_pkg) StdoutLine: {'line': b"removing '/home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.658830] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info\n'}
+[1.659712] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.660172] (image_processing) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_image_converter_node.dir/src/image_converter_node.cpp.o\x1b[0m\n'}
+[1.682053] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client_no_oop script to /home/zerda/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.682333] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_server script to /home/zerda/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.682532] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/zerda/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.682702] (my_py_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/zerda/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.682840] (my_py_pkg) StdoutLine: {'line': b'Installing smartphone script to /home/zerda/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.683020] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/zerda/ros2_ws/build/my_py_pkg/install.log'\n"}
+[1.694821] (challenge1) CommandEnded: {'returncode': 0}
+[1.703467] (-) TimerEvent: {}
+[1.756167] (challenge1) JobEnded: {'identifier': 'challenge1', 'rc': 0}
+[1.757333] (my_py_pkg) CommandEnded: {'returncode': 0}
+[1.801619] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[1.803565] (-) TimerEvent: {}
+[1.903810] (-) TimerEvent: {}
+[2.004165] (-) TimerEvent: {}
+[2.104533] (-) TimerEvent: {}
+[2.204886] (-) TimerEvent: {}
+[2.305256] (-) TimerEvent: {}
+[2.405621] (-) TimerEvent: {}
+[2.505973] (-) TimerEvent: {}
+[2.606327] (-) TimerEvent: {}
+[2.706720] (-) TimerEvent: {}
+[2.807065] (-) TimerEvent: {}
+[2.907379] (-) TimerEvent: {}
+[3.007742] (-) TimerEvent: {}
+[3.108106] (-) TimerEvent: {}
+[3.208530] (-) TimerEvent: {}
+[3.309040] (-) TimerEvent: {}
+[3.409371] (-) TimerEvent: {}
+[3.509717] (-) TimerEvent: {}
+[3.610040] (-) TimerEvent: {}
+[3.710395] (-) TimerEvent: {}
+[3.810713] (-) TimerEvent: {}
+[3.911148] (-) TimerEvent: {}
+[4.011485] (-) TimerEvent: {}
+[4.111851] (-) TimerEvent: {}
+[4.212222] (-) TimerEvent: {}
+[4.312563] (-) TimerEvent: {}
+[4.412939] (-) TimerEvent: {}
+[4.513295] (-) TimerEvent: {}
+[4.613628] (-) TimerEvent: {}
+[4.661647] (image_processing) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable my_image_converter_node\x1b[0m\n'}
+[4.713795] (-) TimerEvent: {}
+[4.814147] (-) TimerEvent: {}
+[4.914483] (-) TimerEvent: {}
+[5.014856] (-) TimerEvent: {}
+[5.047712] (image_processing) StdoutLine: {'line': b'[100%] Built target my_image_converter_node\n'}
+[5.057840] (image_processing) CommandEnded: {'returncode': 0}
+[5.085045] (image_processing) JobProgress: {'identifier': 'image_processing', 'progress': 'install'}
+[5.099840] (image_processing) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zerda/ros2_ws/build/image_processing'], 'cwd': '/home/zerda/ros2_ws/build/image_processing', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zerda'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zerda'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1857'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=824270ba74967b48a179a885658565c8'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zerda'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zerda'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/zerda/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zerdaGul:@/tmp/.ICE-unix/1857,unix/zerdaGul:/tmp/.ICE-unix/1857'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d1fbcb7f_96cd_493f_b443_88f95ea5ba23'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.454'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zerda/ros2_ws/build/image_processing'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=824270ba74967b48a179a885658565c8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.110010] (image_processing) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.110230] (image_processing) StdoutLine: {'line': b'-- Installing: /home/zerda/ros2_ws/install/image_processing/lib/image_processing/my_image_converter_node\n'}
+[5.110479] (image_processing) StdoutLine: {'line': b'-- Set runtime path of "/home/zerda/ros2_ws/install/image_processing/lib/image_processing/my_image_converter_node" to ""\n'}
+[5.110656] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/ament_index/resource_index/package_run_dependencies/image_processing\n'}
+[5.110765] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/ament_index/resource_index/parent_prefix_path/image_processing\n'}
+[5.110892] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/image_processing/environment/ament_prefix_path.sh\n'}
+[5.111030] (image_processing) StdoutLine: {'line': b'-- Installing: /home/zerda/ros2_ws/install/image_processing/share/image_processing/environment/ament_prefix_path.dsv\n'}
+[5.111146] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/image_processing/environment/path.sh\n'}
+[5.111273] (image_processing) StdoutLine: {'line': b'-- Installing: /home/zerda/ros2_ws/install/image_processing/share/image_processing/environment/path.dsv\n'}
+[5.111423] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/image_processing/local_setup.bash\n'}
+[5.111517] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/image_processing/local_setup.sh\n'}
+[5.111628] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/image_processing/local_setup.zsh\n'}
+[5.111729] (image_processing) StdoutLine: {'line': b'-- Installing: /home/zerda/ros2_ws/install/image_processing/share/image_processing/local_setup.dsv\n'}
+[5.111835] (image_processing) StdoutLine: {'line': b'-- Installing: /home/zerda/ros2_ws/install/image_processing/share/image_processing/package.dsv\n'}
+[5.111947] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/ament_index/resource_index/packages/image_processing\n'}
+[5.112054] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/image_processing/cmake/image_processingConfig.cmake\n'}
+[5.112159] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/image_processing/cmake/image_processingConfig-version.cmake\n'}
+[5.112259] (image_processing) StdoutLine: {'line': b'-- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/image_processing/package.xml\n'}
+[5.113302] (image_processing) CommandEnded: {'returncode': 0}
+[5.114968] (-) TimerEvent: {}
+[5.215308] (-) TimerEvent: {}
+[5.233634] (image_processing) JobEnded: {'identifier': 'image_processing', 'rc': 0}
+[5.234378] (-) EventReactorShutdown: {}

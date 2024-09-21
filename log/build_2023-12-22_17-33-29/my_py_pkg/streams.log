@@ -1,0 +1,53 @@
+[1.142s] Invoking command in '/home/zerda/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/zerda/ros2_ws/build/my_py_pkg/prefix_override:/home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/zerda/ros2_ws/build/my_py_pkg/build install --record /home/zerda/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[1.412s] running egg_info
+[1.414s] creating ../../build/my_py_pkg/my_py_pkg.egg-info
+[1.414s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.414s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.414s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.414s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.414s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.415s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.417s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.418s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.418s] running build
+[1.418s] running build_py
+[1.419s] creating /home/zerda/ros2_ws/build/my_py_pkg/build
+[1.419s] creating /home/zerda/ros2_ws/build/my_py_pkg/build/lib
+[1.419s] creating /home/zerda/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.419s] copying my_py_pkg/__init__.py -> /home/zerda/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.419s] copying my_py_pkg/smartphone.py -> /home/zerda/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.420s] copying my_py_pkg/my_first_node.py -> /home/zerda/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.420s] copying my_py_pkg/robot_news_station.py -> /home/zerda/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.420s] copying my_py_pkg/add_two_ints_client_no_oop.py -> /home/zerda/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.420s] copying my_py_pkg/add_two_ints_server.py -> /home/zerda/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.420s] running install
+[1.420s] running install_lib
+[1.421s] creating /home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.421s] copying /home/zerda/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.421s] copying /home/zerda/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.421s] copying /home/zerda/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.421s] copying /home/zerda/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.421s] copying /home/zerda/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_no_oop.py -> /home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.421s] copying /home/zerda/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.422s] byte-compiling /home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[1.422s] byte-compiling /home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-310.pyc
+[1.423s] byte-compiling /home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[1.423s] byte-compiling /home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-310.pyc
+[1.423s] byte-compiling /home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-310.pyc
+[1.424s] byte-compiling /home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc
+[1.424s] running install_data
+[1.425s] creating /home/zerda/ros2_ws/install/my_py_pkg/share/ament_index
+[1.425s] creating /home/zerda/ros2_ws/install/my_py_pkg/share/ament_index/resource_index
+[1.425s] creating /home/zerda/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.425s] copying resource/my_py_pkg -> /home/zerda/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.425s] copying package.xml -> /home/zerda/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[1.425s] running install_egg_info
+[1.427s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[1.428s] running install_scripts
+[1.452s] Installing add_two_ints_client_no_oop script to /home/zerda/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.453s] Installing add_two_ints_server script to /home/zerda/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.453s] Installing py_node script to /home/zerda/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.453s] Installing robot_news_station script to /home/zerda/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.453s] Installing smartphone script to /home/zerda/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.454s] writing list of installed files to '/home/zerda/ros2_ws/build/my_py_pkg/install.log'
+[1.569s] Invoked command in '/home/zerda/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/zerda/ros2_ws/build/my_py_pkg/prefix_override:/home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/zerda/ros2_ws/build/my_py_pkg/build install --record /home/zerda/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed

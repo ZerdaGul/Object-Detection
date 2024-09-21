@@ -1,0 +1,9 @@
+-- Install configuration: ""
+-- Up-to-date: /home/zerda/ros2_ws/install/yolobot_recognition/share/yolobot_recognition//scripts
+-- Installing: /home/zerda/ros2_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/yolov8_ros2.py
+-- Up-to-date: /home/zerda/ros2_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/best.pt
+-- Up-to-date: /home/zerda/ros2_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/.dockerignore
+-- Up-to-date: /home/zerda/ros2_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/.gitattributes
+-- Up-to-date: /home/zerda/ros2_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/.gitignore
+-- Up-to-date: /home/zerda/ros2_ws/install/yolobot_recognition/share/yolobot_recognition//launch
+-- Installing: /home/zerda/ros2_ws/install/yolobot_recognition/share/yolobot_recognition//launch/launch_yolov8.launch.py

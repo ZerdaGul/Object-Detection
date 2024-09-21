@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/people_detector/people_detector.egg-info/PKG-INFO
+writing dependency_links to ../../build/people_detector/people_detector.egg-info/dependency_links.txt
+writing entry points to ../../build/people_detector/people_detector.egg-info/entry_points.txt
+writing requirements to ../../build/people_detector/people_detector.egg-info/requires.txt
+writing top-level names to ../../build/people_detector/people_detector.egg-info/top_level.txt
+reading manifest file '../../build/people_detector/people_detector.egg-info/SOURCES.txt'
+writing manifest file '../../build/people_detector/people_detector.egg-info/SOURCES.txt'
+running build
+running build_py
+copying people_detector/people_detect.py -> /home/zerda/ros2_ws/build/people_detector/build/lib/people_detector
+copying people_detector/__init__.py -> /home/zerda/ros2_ws/build/people_detector/build/lib/people_detector
+copying people_detector/video_pub.py -> /home/zerda/ros2_ws/build/people_detector/build/lib/people_detector
+running install
+running install_lib
+copying /home/zerda/ros2_ws/build/people_detector/build/lib/people_detector/people_detect.py -> /home/zerda/ros2_ws/install/people_detector/lib/python3.10/site-packages/people_detector
+byte-compiling /home/zerda/ros2_ws/install/people_detector/lib/python3.10/site-packages/people_detector/people_detect.py to people_detect.cpython-310.pyc
+running install_data
+copying resource/people_detector -> /home/zerda/ros2_ws/install/people_detector/share/ament_index/resource_index/packages
+copying package.xml -> /home/zerda/ros2_ws/install/people_detector/share/people_detector
+copying launch/people_detection.py -> /home/zerda/ros2_ws/install/people_detector/share/people_detector

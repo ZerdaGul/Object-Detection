@@ -1,0 +1,21 @@
+[1.323s] Invoking command in '/home/zerda/ros2_ws/src/challenge1': PYTHONPATH=/home/zerda/ros2_ws/build/challenge1/prefix_override:/home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/challenge1 build --build-base /home/zerda/ros2_ws/build/challenge1/build install --record /home/zerda/ros2_ws/build/challenge1/install.log --single-version-externally-managed
+[1.629s] running egg_info
+[1.631s] writing ../../build/challenge1/challenge1.egg-info/PKG-INFO
+[1.632s] writing dependency_links to ../../build/challenge1/challenge1.egg-info/dependency_links.txt
+[1.632s] writing entry points to ../../build/challenge1/challenge1.egg-info/entry_points.txt
+[1.632s] writing requirements to ../../build/challenge1/challenge1.egg-info/requires.txt
+[1.632s] writing top-level names to ../../build/challenge1/challenge1.egg-info/top_level.txt
+[1.636s] reading manifest file '../../build/challenge1/challenge1.egg-info/SOURCES.txt'
+[1.638s] writing manifest file '../../build/challenge1/challenge1.egg-info/SOURCES.txt'
+[1.638s] running build
+[1.638s] running build_py
+[1.638s] running install
+[1.639s] running install_lib
+[1.640s] running install_data
+[1.641s] running install_egg_info
+[1.643s] removing '/home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages/challenge1-0.0.0-py3.10.egg-info' (and everything under it)
+[1.643s] Copying ../../build/challenge1/challenge1.egg-info to /home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages/challenge1-0.0.0-py3.10.egg-info
+[1.645s] running install_scripts
+[1.668s] Installing turtlec script to /home/zerda/ros2_ws/install/challenge1/lib/challenge1
+[1.669s] writing list of installed files to '/home/zerda/ros2_ws/build/challenge1/install.log'
+[1.753s] Invoked command in '/home/zerda/ros2_ws/src/challenge1' returned '0': PYTHONPATH=/home/zerda/ros2_ws/build/challenge1/prefix_override:/home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/challenge1 build --build-base /home/zerda/ros2_ws/build/challenge1/build install --record /home/zerda/ros2_ws/build/challenge1/install.log --single-version-externally-managed

@@ -1,0 +1,217 @@
+[0.228s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.228s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x796fcb5317e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x796fcb530e50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x796fcb530e50>>)
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.311s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zerda/ros2_ws'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_recognition) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_recognition) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_recognition) by extension 'ignore_ament_install'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_recognition) by extensions ['colcon_pkg']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_recognition) by extension 'colcon_pkg'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_recognition) by extensions ['colcon_meta']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_recognition) by extension 'colcon_meta'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_recognition) by extensions ['ros']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_recognition) by extension 'ros'
+[0.362s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolobot_recognition' with type 'ros.ament_cmake' and name 'yolobot_recognition'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extension 'ignore'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extension 'ignore_ament_install'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extensions ['colcon_pkg']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extension 'colcon_pkg'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extensions ['colcon_meta']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extension 'colcon_meta'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extensions ['ros']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extension 'ros'
+[0.365s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolov8_msgs' with type 'ros.ament_cmake' and name 'yolov8_msgs'
+[0.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.412s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/zerda/ros2_ws/install
+[0.414s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 269 installed packages in /opt/ros/humble
+[0.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'cmake_args' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'cmake_target' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'cmake_clean_cache' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'cmake_clean_first' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'cmake_force_configure' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'ament_cmake_args' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'catkin_cmake_args' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.493s] DEBUG:colcon.colcon_core.verb:Building package 'yolobot_recognition' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zerda/ros2_ws/build/yolobot_recognition', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zerda/ros2_ws/install/yolobot_recognition', 'merge_install': False, 'path': '/home/zerda/ros2_ws/src/yolobot_recognition', 'symlink_install': False, 'test_result_base': None}
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_args' from command line to 'None'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_target' from command line to 'None'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.495s] DEBUG:colcon.colcon_core.verb:Building package 'yolov8_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zerda/ros2_ws/build/yolov8_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zerda/ros2_ws/install/yolov8_msgs', 'merge_install': False, 'path': '/home/zerda/ros2_ws/src/yolov8_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.495s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.497s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.497s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zerda/ros2_ws/src/yolobot_recognition' with build type 'ament_cmake'
+[0.497s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zerda/ros2_ws/src/yolobot_recognition'
+[0.502s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.502s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.502s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.517s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zerda/ros2_ws/src/yolov8_msgs' with build type 'ament_cmake'
+[0.517s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zerda/ros2_ws/src/yolov8_msgs'
+[0.517s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.518s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zerda/ros2_ws/build/yolobot_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/object_detection:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/my_object_detection_pkg:/home/zerda/ros2_ws/install/challenge1:/home/zerda/ros2_ws/install/car_detection:/opt/ros/humble /usr/bin/cmake /home/zerda/ros2_ws/src/yolobot_recognition -DCMAKE_INSTALL_PREFIX=/home/zerda/ros2_ws/install/yolobot_recognition
+[0.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zerda/ros2_ws/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/object_detection:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/my_object_detection_pkg:/home/zerda/ros2_ws/install/challenge1:/home/zerda/ros2_ws/install/car_detection:/opt/ros/humble /usr/bin/cmake /home/zerda/ros2_ws/src/yolov8_msgs -DCMAKE_INSTALL_PREFIX=/home/zerda/ros2_ws/install/yolov8_msgs
+[2.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zerda/ros2_ws/build/yolobot_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/object_detection:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/my_object_detection_pkg:/home/zerda/ros2_ws/install/challenge1:/home/zerda/ros2_ws/install/car_detection:/opt/ros/humble /usr/bin/cmake /home/zerda/ros2_ws/src/yolobot_recognition -DCMAKE_INSTALL_PREFIX=/home/zerda/ros2_ws/install/yolobot_recognition
+[2.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zerda/ros2_ws/build/yolobot_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/object_detection:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/my_object_detection_pkg:/home/zerda/ros2_ws/install/challenge1:/home/zerda/ros2_ws/install/car_detection:/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/yolobot_recognition -- -j8 -l8
+[2.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zerda/ros2_ws/build/yolobot_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/object_detection:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/my_object_detection_pkg:/home/zerda/ros2_ws/install/challenge1:/home/zerda/ros2_ws/install/car_detection:/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/yolobot_recognition -- -j8 -l8
+[2.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zerda/ros2_ws/build/yolobot_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/object_detection:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/my_object_detection_pkg:/home/zerda/ros2_ws/install/challenge1:/home/zerda/ros2_ws/install/car_detection:/opt/ros/humble /usr/bin/cmake --install /home/zerda/ros2_ws/build/yolobot_recognition
+[2.677s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolobot_recognition)
+[2.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zerda/ros2_ws/build/yolobot_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/object_detection:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/my_object_detection_pkg:/home/zerda/ros2_ws/install/challenge1:/home/zerda/ros2_ws/install/car_detection:/opt/ros/humble /usr/bin/cmake --install /home/zerda/ros2_ws/build/yolobot_recognition
+[2.686s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/yolobot_recognition' for CMake module files
+[2.687s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/yolobot_recognition' for CMake config files
+[2.687s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolobot_recognition', 'cmake_prefix_path')
+[2.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerda/ros2_ws/install/yolobot_recognition/share/yolobot_recognition/hook/cmake_prefix_path.ps1'
+[2.689s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zerda/ros2_ws/install/yolobot_recognition/share/yolobot_recognition/hook/cmake_prefix_path.dsv'
+[2.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerda/ros2_ws/install/yolobot_recognition/share/yolobot_recognition/hook/cmake_prefix_path.sh'
+[2.692s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/yolobot_recognition/lib'
+[2.692s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/yolobot_recognition/bin'
+[2.692s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/yolobot_recognition/lib/pkgconfig/yolobot_recognition.pc'
+[2.693s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/yolobot_recognition/lib/python3.10/site-packages'
+[2.693s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/yolobot_recognition/bin'
+[2.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerda/ros2_ws/install/yolobot_recognition/share/yolobot_recognition/package.ps1'
+[2.695s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zerda/ros2_ws/install/yolobot_recognition/share/yolobot_recognition/package.dsv'
+[2.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerda/ros2_ws/install/yolobot_recognition/share/yolobot_recognition/package.sh'
+[2.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerda/ros2_ws/install/yolobot_recognition/share/yolobot_recognition/package.bash'
+[2.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerda/ros2_ws/install/yolobot_recognition/share/yolobot_recognition/package.zsh'
+[2.701s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zerda/ros2_ws/install/yolobot_recognition/share/colcon-core/packages/yolobot_recognition)
+[2.744s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolobot_recognition)
+[2.745s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/yolobot_recognition' for CMake module files
+[2.746s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/yolobot_recognition' for CMake config files
+[2.746s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolobot_recognition', 'cmake_prefix_path')
+[2.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerda/ros2_ws/install/yolobot_recognition/share/yolobot_recognition/hook/cmake_prefix_path.ps1'
+[2.748s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zerda/ros2_ws/install/yolobot_recognition/share/yolobot_recognition/hook/cmake_prefix_path.dsv'
+[2.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerda/ros2_ws/install/yolobot_recognition/share/yolobot_recognition/hook/cmake_prefix_path.sh'
+[2.749s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/yolobot_recognition/lib'
+[2.749s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/yolobot_recognition/bin'
+[2.750s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/yolobot_recognition/lib/pkgconfig/yolobot_recognition.pc'
+[2.750s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/yolobot_recognition/lib/python3.10/site-packages'
+[2.750s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/yolobot_recognition/bin'
+[2.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerda/ros2_ws/install/yolobot_recognition/share/yolobot_recognition/package.ps1'
+[2.752s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zerda/ros2_ws/install/yolobot_recognition/share/yolobot_recognition/package.dsv'
+[2.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerda/ros2_ws/install/yolobot_recognition/share/yolobot_recognition/package.sh'
+[2.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerda/ros2_ws/install/yolobot_recognition/share/yolobot_recognition/package.bash'
+[2.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerda/ros2_ws/install/yolobot_recognition/share/yolobot_recognition/package.zsh'
+[2.755s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zerda/ros2_ws/install/yolobot_recognition/share/colcon-core/packages/yolobot_recognition)
+[4.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zerda/ros2_ws/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/object_detection:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/my_object_detection_pkg:/home/zerda/ros2_ws/install/challenge1:/home/zerda/ros2_ws/install/car_detection:/opt/ros/humble /usr/bin/cmake /home/zerda/ros2_ws/src/yolov8_msgs -DCMAKE_INSTALL_PREFIX=/home/zerda/ros2_ws/install/yolov8_msgs
+[4.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zerda/ros2_ws/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/object_detection:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/my_object_detection_pkg:/home/zerda/ros2_ws/install/challenge1:/home/zerda/ros2_ws/install/car_detection:/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/yolov8_msgs -- -j8 -l8
+[10.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zerda/ros2_ws/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/object_detection:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/my_object_detection_pkg:/home/zerda/ros2_ws/install/challenge1:/home/zerda/ros2_ws/install/car_detection:/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/yolov8_msgs -- -j8 -l8
+[10.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zerda/ros2_ws/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/object_detection:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/my_object_detection_pkg:/home/zerda/ros2_ws/install/challenge1:/home/zerda/ros2_ws/install/car_detection:/opt/ros/humble /usr/bin/cmake --install /home/zerda/ros2_ws/build/yolov8_msgs
+[10.322s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8_msgs)
+[10.323s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/yolov8_msgs' for CMake module files
+[10.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zerda/ros2_ws/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/object_detection:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/my_object_detection_pkg:/home/zerda/ros2_ws/install/challenge1:/home/zerda/ros2_ws/install/car_detection:/opt/ros/humble /usr/bin/cmake --install /home/zerda/ros2_ws/build/yolov8_msgs
+[10.325s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/yolov8_msgs' for CMake config files
+[10.325s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'cmake_prefix_path')
+[10.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.ps1'
+[10.327s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.dsv'
+[10.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.sh'
+[10.328s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/yolov8_msgs/lib'
+[10.329s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'ld_library_path_lib')
+[10.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.ps1'
+[10.329s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.dsv'
+[10.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.sh'
+[10.330s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/yolov8_msgs/bin'
+[10.331s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/yolov8_msgs/lib/pkgconfig/yolov8_msgs.pc'
+[10.331s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/yolov8_msgs/lib/python3.10/site-packages'
+[10.331s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/yolov8_msgs/bin'
+[10.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/package.ps1'
+[10.333s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/package.dsv'
+[10.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/package.sh'
+[10.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/package.bash'
+[10.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/package.zsh'
+[10.335s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zerda/ros2_ws/install/yolov8_msgs/share/colcon-core/packages/yolov8_msgs)
+[10.477s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8_msgs)
+[10.478s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/yolov8_msgs' for CMake module files
+[10.479s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/yolov8_msgs' for CMake config files
+[10.479s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'cmake_prefix_path')
+[10.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.ps1'
+[10.481s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.dsv'
+[10.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.sh'
+[10.482s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/yolov8_msgs/lib'
+[10.482s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'ld_library_path_lib')
+[10.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.ps1'
+[10.483s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.dsv'
+[10.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.sh'
+[10.484s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/yolov8_msgs/bin'
+[10.484s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/yolov8_msgs/lib/pkgconfig/yolov8_msgs.pc'
+[10.485s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/yolov8_msgs/lib/python3.10/site-packages'
+[10.485s] Level 1:colcon.colcon_core.environment:checking '/home/zerda/ros2_ws/install/yolov8_msgs/bin'
+[10.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/package.ps1'
+[10.487s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/package.dsv'
+[10.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/package.sh'
+[10.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/package.bash'
+[10.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/package.zsh'
+[10.489s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zerda/ros2_ws/install/yolov8_msgs/share/colcon-core/packages/yolov8_msgs)
+[10.490s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.490s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.490s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.490s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.500s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.501s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.501s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.527s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.527s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zerda/ros2_ws/install/local_setup.ps1'
+[10.529s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zerda/ros2_ws/install/_local_setup_util_ps1.py'
+[10.532s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zerda/ros2_ws/install/setup.ps1'
+[10.535s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zerda/ros2_ws/install/local_setup.sh'
+[10.536s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zerda/ros2_ws/install/_local_setup_util_sh.py'
+[10.537s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zerda/ros2_ws/install/setup.sh'
+[10.539s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zerda/ros2_ws/install/local_setup.bash'
+[10.540s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zerda/ros2_ws/install/setup.bash'
+[10.542s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zerda/ros2_ws/install/local_setup.zsh'
+[10.543s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zerda/ros2_ws/install/setup.zsh'

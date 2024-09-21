@@ -1,0 +1,27 @@
+[1.597s] Invoking command in '/home/zerda/ros2_ws/src/my_object_detection_pkg': PYTHONPATH=/home/zerda/ros2_ws/build/my_object_detection_pkg/prefix_override:/home/zerda/ros2_ws/install/my_object_detection_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_object_detection_pkg build --build-base /home/zerda/ros2_ws/build/my_object_detection_pkg/build install --record /home/zerda/ros2_ws/build/my_object_detection_pkg/install.log --single-version-externally-managed install_data
+[2.100s] running egg_info
+[2.131s] writing ../../build/my_object_detection_pkg/my_object_detection_pkg.egg-info/PKG-INFO
+[2.132s] writing dependency_links to ../../build/my_object_detection_pkg/my_object_detection_pkg.egg-info/dependency_links.txt
+[2.132s] writing entry points to ../../build/my_object_detection_pkg/my_object_detection_pkg.egg-info/entry_points.txt
+[2.133s] writing requirements to ../../build/my_object_detection_pkg/my_object_detection_pkg.egg-info/requires.txt
+[2.133s] writing top-level names to ../../build/my_object_detection_pkg/my_object_detection_pkg.egg-info/top_level.txt
+[2.199s] reading manifest file '../../build/my_object_detection_pkg/my_object_detection_pkg.egg-info/SOURCES.txt'
+[2.201s] writing manifest file '../../build/my_object_detection_pkg/my_object_detection_pkg.egg-info/SOURCES.txt'
+[2.202s] running build
+[2.202s] running build_py
+[2.202s] copying my_object_detection_pkg/__init__.py -> /home/zerda/ros2_ws/build/my_object_detection_pkg/build/lib/my_object_detection_pkg
+[2.202s] copying my_object_detection_pkg/ros2_object_detector.py -> /home/zerda/ros2_ws/build/my_object_detection_pkg/build/lib/my_object_detection_pkg
+[2.203s] running install
+[2.214s] running install_lib
+[2.247s] copying /home/zerda/ros2_ws/build/my_object_detection_pkg/build/lib/my_object_detection_pkg/ros2_object_detector.py -> /home/zerda/ros2_ws/install/my_object_detection_pkg/lib/python3.10/site-packages/my_object_detection_pkg
+[2.249s] byte-compiling /home/zerda/ros2_ws/install/my_object_detection_pkg/lib/python3.10/site-packages/my_object_detection_pkg/ros2_object_detector.py to ros2_object_detector.cpython-310.pyc
+[2.251s] running install_data
+[2.251s] copying resource/my_object_detection_pkg -> /home/zerda/ros2_ws/install/my_object_detection_pkg/share/ament_index/resource_index/packages
+[2.251s] copying package.xml -> /home/zerda/ros2_ws/install/my_object_detection_pkg/share/my_object_detection_pkg
+[2.251s] running install_egg_info
+[2.287s] removing '/home/zerda/ros2_ws/install/my_object_detection_pkg/lib/python3.10/site-packages/my_object_detection_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.287s] Copying ../../build/my_object_detection_pkg/my_object_detection_pkg.egg-info to /home/zerda/ros2_ws/install/my_object_detection_pkg/lib/python3.10/site-packages/my_object_detection_pkg-0.0.0-py3.10.egg-info
+[2.289s] running install_scripts
+[2.582s] Installing detector script to /home/zerda/ros2_ws/install/my_object_detection_pkg/lib/my_object_detection_pkg
+[2.582s] writing list of installed files to '/home/zerda/ros2_ws/build/my_object_detection_pkg/install.log'
+[2.632s] Invoked command in '/home/zerda/ros2_ws/src/my_object_detection_pkg' returned '0': PYTHONPATH=/home/zerda/ros2_ws/build/my_object_detection_pkg/prefix_override:/home/zerda/ros2_ws/install/my_object_detection_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_object_detection_pkg build --build-base /home/zerda/ros2_ws/build/my_object_detection_pkg/build install --record /home/zerda/ros2_ws/build/my_object_detection_pkg/install.log --single-version-externally-managed install_data

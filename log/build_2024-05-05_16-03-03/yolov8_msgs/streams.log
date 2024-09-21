@@ -1,0 +1,161 @@
+[0.531s] Invoking command in '/home/zerda/ros2_ws/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/yolov8_detection:/home/zerda/ros2_ws/install/object_detection:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/my_object_detection_pkg:/home/zerda/ros2_ws/install/challenge1:/home/zerda/ros2_ws/install/car_detection:/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/yolov8_msgs -- -j8 -l8
+[0.628s] [  2%] Built target yolov8_msgs__cpp
+[0.631s] [ 12%] Built target yolov8_msgs__rosidl_generator_c
+[0.680s] [ 12%] Built target ament_cmake_python_copy_yolov8_msgs
+[0.695s] [ 23%] Built target yolov8_msgs__rosidl_typesupport_cpp
+[0.696s] [ 33%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_cpp
+[0.697s] [ 43%] Built target yolov8_msgs__rosidl_typesupport_introspection_c
+[0.699s] [ 53%] Built target yolov8_msgs__rosidl_typesupport_c
+[0.702s] [ 64%] Built target yolov8_msgs__rosidl_typesupport_introspection_cpp
+[0.717s] [ 74%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c
+[0.763s] [ 74%] Built target yolov8_msgs
+[0.805s] [ 76%] Built target yolov8_msgs__py
+[0.851s] [ 84%] Built target yolov8_msgs__rosidl_generator_py
+[0.908s] [ 92%] Built target yolov8_msgs__rosidl_typesupport_introspection_c__pyext
+[0.908s] [ 94%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.916s] [100%] Built target yolov8_msgs__rosidl_typesupport_c__pyext
+[1.209s] running egg_info
+[1.248s] writing yolov8_msgs.egg-info/PKG-INFO
+[1.249s] writing dependency_links to yolov8_msgs.egg-info/dependency_links.txt
+[1.250s] writing top-level names to yolov8_msgs.egg-info/top_level.txt
+[1.361s] reading manifest file 'yolov8_msgs.egg-info/SOURCES.txt'
+[1.363s] writing manifest file 'yolov8_msgs.egg-info/SOURCES.txt'
+[1.417s] [100%] Built target ament_cmake_python_build_yolov8_msgs_egg
+[1.441s] Invoked command in '/home/zerda/ros2_ws/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/yolov8_detection:/home/zerda/ros2_ws/install/object_detection:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/my_object_detection_pkg:/home/zerda/ros2_ws/install/challenge1:/home/zerda/ros2_ws/install/car_detection:/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/yolov8_msgs -- -j8 -l8
+[1.624s] Invoking command in '/home/zerda/ros2_ws/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/yolov8_detection:/home/zerda/ros2_ws/install/object_detection:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/my_object_detection_pkg:/home/zerda/ros2_ws/install/challenge1:/home/zerda/ros2_ws/install/car_detection:/opt/ros/humble /usr/bin/cmake --install /home/zerda/ros2_ws/build/yolov8_msgs
+[1.639s] -- Install configuration: ""
+[1.640s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/ament_index/resource_index/rosidl_interfaces/yolov8_msgs
+[1.640s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs
+[1.640s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg
+[1.641s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/inference_result.h
+[1.641s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail
+[1.641s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__functions.h
+[1.642s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__type_support.h
+[1.642s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__struct.h
+[1.642s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__type_support.h
+[1.643s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__struct.h
+[1.643s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__functions.c
+[1.643s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__functions.c
+[1.644s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__functions.h
+[1.644s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/yolov8_inference.h
+[1.644s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.645s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.sh
+[1.645s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.dsv
+[1.645s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_c.so
+[1.646s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs
+[1.646s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg
+[1.646s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail
+[1.647s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_c.h
+[1.647s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_fastrtps_c.h
+[1.647s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.647s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_c.so
+[1.648s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs
+[1.648s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg
+[1.648s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/yolov8_inference.hpp
+[1.649s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail
+[1.649s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__traits.hpp
+[1.649s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__builder.hpp
+[1.649s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__traits.hpp
+[1.650s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__builder.hpp
+[1.650s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__struct.hpp
+[1.650s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__struct.hpp
+[1.650s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/inference_result.hpp
+[1.651s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs
+[1.651s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg
+[1.651s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.651s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail
+[1.651s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_cpp.hpp
+[1.652s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_fastrtps_cpp.hpp
+[1.652s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/dds_fastrtps
+[1.652s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.652s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs
+[1.653s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg
+[1.653s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.653s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail
+[1.653s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_introspection_c.h
+[1.654s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_introspection_c.h
+[1.654s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__type_support.c
+[1.654s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__type_support.c
+[1.654s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_c.so
+[1.655s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_c.so
+[1.655s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs
+[1.655s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg
+[1.655s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail
+[1.656s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_introspection_cpp.hpp
+[1.656s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__type_support.cpp
+[1.656s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__type_support.cpp
+[1.656s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_introspection_cpp.hpp
+[1.657s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_cpp.so
+[1.657s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_cpp.so
+[1.657s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.sh
+[1.658s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.dsv
+[1.658s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-0.0.0-py3.10.egg-info
+[1.658s] -- Installing: /home/zerda/ros2_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[1.658s] -- Installing: /home/zerda/ros2_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.658s] -- Installing: /home/zerda/ros2_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[1.659s] -- Installing: /home/zerda/ros2_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.659s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs
+[1.659s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.659s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/__init__.py
+[1.660s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_c.c
+[1.660s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.660s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/libyolov8_msgs__rosidl_generator_py.so
+[1.660s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.660s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.661s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.661s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg
+[1.661s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/__init__.py
+[1.661s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_yolov8_inference.py
+[1.662s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_inference_result.py
+[1.662s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_yolov8_inference_s.c
+[1.662s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_inference_result_s.c
+[1.726s] Listing '/home/zerda/ros2_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs'...
+[1.727s] Listing '/home/zerda/ros2_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg'...
+[1.736s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.737s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.737s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.738s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_py.so
+[1.738s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/InferenceResult.idl
+[1.738s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Yolov8Inference.idl
+[1.739s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/InferenceResult.msg
+[1.739s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Yolov8Inference.msg
+[1.740s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/ament_index/resource_index/package_run_dependencies/yolov8_msgs
+[1.740s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/ament_index/resource_index/parent_prefix_path/yolov8_msgs
+[1.740s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.sh
+[1.741s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.dsv
+[1.741s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/environment/path.sh
+[1.742s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/environment/path.dsv
+[1.742s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.bash
+[1.743s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.sh
+[1.743s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.zsh
+[1.743s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.dsv
+[1.743s] -- Installing: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/package.dsv
+[1.744s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/ament_index/resource_index/packages/yolov8_msgs
+[1.744s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cExport.cmake
+[1.744s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.744s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.745s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.745s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cppExport.cmake
+[1.745s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.746s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.746s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.746s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.748s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport.cmake
+[1.748s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.749s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.750s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.750s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport.cmake
+[1.751s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.752s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_pyExport.cmake
+[1.752s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.753s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake-extras.cmake
+[1.754s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.754s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.755s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.756s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.757s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.757s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.761s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig.cmake
+[1.762s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig-version.cmake
+[1.763s] -- Up-to-date: /home/zerda/ros2_ws/install/yolov8_msgs/share/yolov8_msgs/package.xml
+[1.764s] Invoked command in '/home/zerda/ros2_ws/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/yolov8_detection:/home/zerda/ros2_ws/install/object_detection:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/my_object_detection_pkg:/home/zerda/ros2_ws/install/challenge1:/home/zerda/ros2_ws/install/car_detection:/opt/ros/humble /usr/bin/cmake --install /home/zerda/ros2_ws/build/yolov8_msgs

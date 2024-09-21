@@ -1,0 +1,329 @@
+[0.000000] (-) TimerEvent: {}
+[0.000512] (-) JobUnselected: {'identifier': 'challenge1'}
+[0.001056] (-) JobUnselected: {'identifier': 'image_processing'}
+[0.001103] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.001143] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.001422] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.099383] (-) TimerEvent: {}
+[0.162834] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.164677] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.166023] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zerda/ros2_ws/build/my_cpp_pkg', '--', '-j8', '-l8'], 'cwd': '/home/zerda/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zerda'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zerda'), ('OLDPWD', '/home/zerda'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1515'), ('SYSTEMD_EXEC_PID', '1902'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5301'), ('COLCON_PREFIX_PATH', '/home/zerda/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zerda'), ('JOURNAL_STREAM', '8:29382'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zerda'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/zerda/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zerdaGul:@/tmp/.ICE-unix/1879,unix/zerdaGul:/tmp/.ICE-unix/1879'), ('INVOCATION_ID', '81aec59721d6450e86acfc497eadc2ac'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/my_cpp_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:f9d708c4-b2d1-44e0-8af2-07d8a810e1ef'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zerda/ros2_ws/build/my_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zerda/ros2_ws/install/my_cpp_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble')]), 'shell': False}
+[0.199557] (-) TimerEvent: {}
+[0.223634] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299700] (-) TimerEvent: {}
+[0.400193] (-) TimerEvent: {}
+[0.500763] (-) TimerEvent: {}
+[0.555575] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.600930] (-) TimerEvent: {}
+[0.625471] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.632393] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.647619] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.674888] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.701104] (-) TimerEvent: {}
+[0.709206] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.801303] (-) TimerEvent: {}
+[0.839098] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.843332] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.901480] (-) TimerEvent: {}
+[1.002002] (-) TimerEvent: {}
+[1.080929] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.102156] (-) TimerEvent: {}
+[1.202642] (-) TimerEvent: {}
+[1.303147] (-) TimerEvent: {}
+[1.404205] (-) TimerEvent: {}
+[1.445472] (my_cpp_pkg) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.504397] (-) TimerEvent: {}
+[1.604949] (-) TimerEvent: {}
+[1.705424] (-) TimerEvent: {}
+[1.712486] (my_cpp_pkg) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[1.744324] (my_cpp_pkg) StdoutLine: {'line': b'-- Found image_transport: 3.1.7 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[1.805613] (-) TimerEvent: {}
+[1.829941] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.905794] (-) TimerEvent: {}
+[1.981287] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.981759] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.981987] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.982479] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.984013] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.984254] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.984609] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.986521] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.005971] (-) TimerEvent: {}
+[2.015867] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[2.019143] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/zerda/ros2_ws/build/my_cpp_pkg\n'}
+[2.088752] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/image_converter_node.dir/src/image_converter.cpp.o\x1b[0m\n'}
+[2.106127] (-) TimerEvent: {}
+[2.206595] (-) TimerEvent: {}
+[2.307120] (-) TimerEvent: {}
+[2.407582] (-) TimerEvent: {}
+[2.508012] (-) TimerEvent: {}
+[2.608490] (-) TimerEvent: {}
+[2.708964] (-) TimerEvent: {}
+[2.809459] (-) TimerEvent: {}
+[2.909901] (-) TimerEvent: {}
+[3.010330] (-) TimerEvent: {}
+[3.110915] (-) TimerEvent: {}
+[3.211410] (-) TimerEvent: {}
+[3.311849] (-) TimerEvent: {}
+[3.412318] (-) TimerEvent: {}
+[3.512753] (-) TimerEvent: {}
+[3.613234] (-) TimerEvent: {}
+[3.713717] (-) TimerEvent: {}
+[3.814235] (-) TimerEvent: {}
+[3.914696] (-) TimerEvent: {}
+[4.015265] (-) TimerEvent: {}
+[4.115779] (-) TimerEvent: {}
+[4.216322] (-) TimerEvent: {}
+[4.316889] (-) TimerEvent: {}
+[4.417433] (-) TimerEvent: {}
+[4.517952] (-) TimerEvent: {}
+[4.618507] (-) TimerEvent: {}
+[4.719002] (-) TimerEvent: {}
+[4.819575] (-) TimerEvent: {}
+[4.920067] (-) TimerEvent: {}
+[5.020564] (-) TimerEvent: {}
+[5.121005] (-) TimerEvent: {}
+[5.221473] (-) TimerEvent: {}
+[5.322036] (-) TimerEvent: {}
+[5.422492] (-) TimerEvent: {}
+[5.522904] (-) TimerEvent: {}
+[5.623347] (-) TimerEvent: {}
+[5.723853] (-) TimerEvent: {}
+[5.824363] (-) TimerEvent: {}
+[5.924851] (-) TimerEvent: {}
+[6.025415] (-) TimerEvent: {}
+[6.125928] (-) TimerEvent: {}
+[6.226453] (-) TimerEvent: {}
+[6.326922] (-) TimerEvent: {}
+[6.427458] (-) TimerEvent: {}
+[6.527950] (-) TimerEvent: {}
+[6.628434] (-) TimerEvent: {}
+[6.728914] (-) TimerEvent: {}
+[6.829415] (-) TimerEvent: {}
+[6.841173] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:2\x1b[m\x1b[K:\n'}
+[6.841510] (my_cpp_pkg) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead\x1b[m\x1b[K\xe2\x80\x99\n"}
+[6.841658] (my_cpp_pkg) StderrLine: {'line': b'   32 | Warning: This header is deprecated. Use \'image_transport.hpp\' instead"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[6.841777] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                       \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.841889] (my_cpp_pkg) StderrLine: {'line': b'\n'}
+[6.929600] (-) TimerEvent: {}
+[7.030100] (-) TimerEvent: {}
+[7.130602] (-) TimerEvent: {}
+[7.231088] (-) TimerEvent: {}
+[7.331592] (-) TimerEvent: {}
+[7.432073] (-) TimerEvent: {}
+[7.434643] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:34:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImageConstPtr\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[7.434949] (my_cpp_pkg) StderrLine: {'line': b'   34 |   void imageCb(const sensor_msgs::\x1b[01;31m\x1b[KImageConstPtr\x1b[m\x1b[K& msg)\n'}
+[7.435614] (my_cpp_pkg) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.435767] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KImageConverter::ImageConverter()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.435906] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:19:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.436049] (my_cpp_pkg) StderrLine: {'line': b'   19 |     : it_(nh_\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[7.436179] (my_cpp_pkg) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.436304] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[7.436431] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[7.436558] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.436684] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:1\x1b[m\x1b[K:\n'}
+[7.436811] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const rclcpp::Node&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.437227] (my_cpp_pkg) StderrLine: {'line': b' 1294 |   \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[7.437449] (my_cpp_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.437586] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[7.437713] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.437840] (my_cpp_pkg) StderrLine: {'line': b'  101 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[7.437958] (my_cpp_pkg) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.438075] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[7.438217] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.438343] (my_cpp_pkg) StderrLine: {'line': b'   89 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[7.438492] (my_cpp_pkg) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.438616] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[7.438738] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:19:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::ImageTransport::ImageTransport(rclcpp::Node&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.438880] (my_cpp_pkg) StderrLine: {'line': b'   19 |     : \x1b[01;31m\x1b[Kit_(nh_)\x1b[m\x1b[K\n'}
+[7.439011] (my_cpp_pkg) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.439150] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34\x1b[m\x1b[K,\n'}
+[7.439276] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:2\x1b[m\x1b[K:\n'}
+[7.439400] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:111:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::ImageTransport::ImageTransport(rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.439524] (my_cpp_pkg) StderrLine: {'line': b'  111 |   explicit \x1b[01;36m\x1b[KImageTransport\x1b[m\x1b[K(rclcpp::Node::SharedPtr node);\n'}
+[7.439651] (my_cpp_pkg) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.439773] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:111:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Node>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[7.439904] (my_cpp_pkg) StderrLine: {'line': b'  111 |   explicit ImageTransport(\x1b[01;36m\x1b[Krclcpp::Node::SharedPtr node\x1b[m\x1b[K);\n'}
+[7.440034] (my_cpp_pkg) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[7.452330] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:22:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::ImageTransport::subscribe(const char [18], int, void (ImageConverter::*)(const int&), ImageConverter*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.452657] (my_cpp_pkg) StderrLine: {'line': b'   22 |     image_sub_ = \x1b[01;31m\x1b[Kit_.subscribe("/camera/image_raw", 1,\x1b[m\x1b[K\n'}
+[7.452808] (my_cpp_pkg) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.452952] (my_cpp_pkg) StderrLine: {'line': b'   23 | \x1b[01;31m\x1b[K      &ImageConverter::imageCb, this)\x1b[m\x1b[K;\n'}
+[7.453078] (my_cpp_pkg) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.453200] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34\x1b[m\x1b[K,\n'}
+[7.453320] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:2\x1b[m\x1b[K:\n'}
+[7.453439] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:188:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> image_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, void (T::*)(const ImageConstPtr&), T*, const image_transport::TransportHints*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.453589] (my_cpp_pkg) StderrLine: {'line': b'  188 |   Subscriber \x1b[01;36m\x1b[Ksubscribe\x1b[m\x1b[K(\n'}
+[7.453709] (my_cpp_pkg) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.453831] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:188:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.453975] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:22:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst ImageConstPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.454117] (my_cpp_pkg) StderrLine: {'line': b'   22 |     image_sub_ = \x1b[01;36m\x1b[Kit_.subscribe("/camera/image_raw", 1,\x1b[m\x1b[K\n'}
+[7.454246] (my_cpp_pkg) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.454374] (my_cpp_pkg) StderrLine: {'line': b'   23 | \x1b[01;36m\x1b[K      &ImageConverter::imageCb, this)\x1b[m\x1b[K;\n'}
+[7.454535] (my_cpp_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.454665] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34\x1b[m\x1b[K,\n'}
+[7.454785] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:2\x1b[m\x1b[K:\n'}
+[7.454905] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:202:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> image_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, void (T::*)(const ImageConstPtr&), T*, const image_transport::TransportHints*, rclcpp::SubscriptionOptions)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.455043] (my_cpp_pkg) StderrLine: {'line': b'  202 |   Subscriber \x1b[01;36m\x1b[Ksubscribe\x1b[m\x1b[K(\n'}
+[7.455166] (my_cpp_pkg) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.455283] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:202:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.455403] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:22:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst ImageConstPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.455528] (my_cpp_pkg) StderrLine: {'line': b'   22 |     image_sub_ = \x1b[01;36m\x1b[Kit_.subscribe("/camera/image_raw", 1,\x1b[m\x1b[K\n'}
+[7.455649] (my_cpp_pkg) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.455767] (my_cpp_pkg) StderrLine: {'line': b'   23 | \x1b[01;36m\x1b[K      &ImageConverter::imageCb, this)\x1b[m\x1b[K;\n'}
+[7.455889] (my_cpp_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.456012] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34\x1b[m\x1b[K,\n'}
+[7.456133] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:2\x1b[m\x1b[K:\n'}
+[7.456249] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:217:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> image_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, void (T::*)(const ImageConstPtr&), const std::shared_ptr<_Tp>&, const image_transport::TransportHints*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.456398] (my_cpp_pkg) StderrLine: {'line': b'  217 |   Subscriber \x1b[01;36m\x1b[Ksubscribe\x1b[m\x1b[K(\n'}
+[7.456520] (my_cpp_pkg) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.456646] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:217:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.456834] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:22:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst ImageConstPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.457064] (my_cpp_pkg) StderrLine: {'line': b'   22 |     image_sub_ = \x1b[01;36m\x1b[Kit_.subscribe("/camera/image_raw", 1,\x1b[m\x1b[K\n'}
+[7.457333] (my_cpp_pkg) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.457555] (my_cpp_pkg) StderrLine: {'line': b'   23 | \x1b[01;36m\x1b[K      &ImageConverter::imageCb, this)\x1b[m\x1b[K;\n'}
+[7.457783] (my_cpp_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.458002] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34\x1b[m\x1b[K,\n'}
+[7.458240] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:2\x1b[m\x1b[K:\n'}
+[7.458511] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:232:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> image_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, void (T::*)(const ImageConstPtr&), const std::shared_ptr<_Tp>&, const image_transport::TransportHints*, rclcpp::SubscriptionOptions)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.458826] (my_cpp_pkg) StderrLine: {'line': b'  232 |   Subscriber \x1b[01;36m\x1b[Ksubscribe\x1b[m\x1b[K(\n'}
+[7.459084] (my_cpp_pkg) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.459225] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:232:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.459350] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:22:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst ImageConstPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.459479] (my_cpp_pkg) StderrLine: {'line': b'   22 |     image_sub_ = \x1b[01;36m\x1b[Kit_.subscribe("/camera/image_raw", 1,\x1b[m\x1b[K\n'}
+[7.459602] (my_cpp_pkg) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.459814] (my_cpp_pkg) StderrLine: {'line': b'   23 | \x1b[01;36m\x1b[K      &ImageConverter::imageCb, this)\x1b[m\x1b[K;\n'}
+[7.460021] (my_cpp_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.460222] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:34\x1b[m\x1b[K,\n'}
+[7.460464] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:2\x1b[m\x1b[K:\n'}
+[7.460601] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:136:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, const Callback&, const VoidPtr&, const image_transport::TransportHints*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.460754] (my_cpp_pkg) StderrLine: {'line': b'  136 |   Subscriber \x1b[01;36m\x1b[Ksubscribe\x1b[m\x1b[K(\n'}
+[7.460883] (my_cpp_pkg) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.461006] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:138:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 3 from \xe2\x80\x98\x1b[01m\x1b[Kvoid (ImageConverter::*)(const int&)\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst Callback&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[7.461153] (my_cpp_pkg) StderrLine: {'line': b'  138 |     \x1b[01;36m\x1b[Kconst Subscriber::Callback & callback\x1b[m\x1b[K,\n'}
+[7.461280] (my_cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[7.461427] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:146:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, const Callback&, const VoidPtr&, const image_transport::TransportHints*, rclcpp::SubscriptionOptions)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.461562] (my_cpp_pkg) StderrLine: {'line': b'  146 |   Subscriber \x1b[01;36m\x1b[Ksubscribe\x1b[m\x1b[K(\n'}
+[7.461704] (my_cpp_pkg) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.461838] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:146:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 6 arguments, 4 provided\n'}
+[7.462007] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:157:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, void (*)(const ImageConstPtr&), const image_transport::TransportHints*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.462247] (my_cpp_pkg) StderrLine: {'line': b'  157 |   Subscriber \x1b[01;36m\x1b[Ksubscribe\x1b[m\x1b[K(\n'}
+[7.462385] (my_cpp_pkg) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.462558] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:159:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 3 from \xe2\x80\x98\x1b[01m\x1b[Kvoid (ImageConverter::*)(const int&)\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kvoid (*)(const ImageConstPtr&)\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kvoid (*)(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[7.462694] (my_cpp_pkg) StderrLine: {'line': b'  159 |     \x1b[01;36m\x1b[Kvoid (* fp)(const ImageConstPtr &)\x1b[m\x1b[K,\n'}
+[7.462815] (my_cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.462948] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:172:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, void (*)(const ImageConstPtr&), const image_transport::TransportHints*, rclcpp::SubscriptionOptions)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.463098] (my_cpp_pkg) StderrLine: {'line': b'  172 |   Subscriber \x1b[01;36m\x1b[Ksubscribe\x1b[m\x1b[K(\n'}
+[7.463252] (my_cpp_pkg) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.463432] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:172:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 5 arguments, 4 provided\n'}
+[7.463761] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ImageConverter::imageCb(const int&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.464412] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:39:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KtoCvCopy(const int&, const char [5])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.464558] (my_cpp_pkg) StderrLine: {'line': b'   39 |       cv_ptr = \x1b[01;31m\x1b[Kcv_bridge::toCvCopy(msg, sensor_msgs::image_encodings::BGR8)\x1b[m\x1b[K;\n'}
+[7.464678] (my_cpp_pkg) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.464797] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:3\x1b[m\x1b[K:\n'}
+[7.464923] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:177:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const ConstSharedPtr&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.465257] (my_cpp_pkg) StderrLine: {'line': b'  177 | CV_BRIDGE_EXPORT CvImagePtr \x1b[01;36m\x1b[KtoCvCopy\x1b[m\x1b[K(\n'}
+[7.465387] (my_cpp_pkg) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.465512] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:178:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst ConstSharedPtr&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[7.465656] (my_cpp_pkg) StderrLine: {'line': b'  178 |   \x1b[01;36m\x1b[Kconst sensor_msgs::msg::Image::ConstSharedPtr & source\x1b[m\x1b[K,\n'}
+[7.465782] (my_cpp_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[7.465908] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:181:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const ConstSharedPtr&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.466034] (my_cpp_pkg) StderrLine: {'line': b'  181 | CV_BRIDGE_EXPORT CvImagePtr \x1b[01;36m\x1b[KtoCvCopy\x1b[m\x1b[K(\n'}
+[7.466249] (my_cpp_pkg) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.466367] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:182:61:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst ConstSharedPtr&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<const sensor_msgs::msg::CompressedImage_<std::allocator<void> > >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[7.466537] (my_cpp_pkg) StderrLine: {'line': b'  182 |   \x1b[01;36m\x1b[Kconst sensor_msgs::msg::CompressedImage::ConstSharedPtr & source\x1b[m\x1b[K,\n'}
+[7.466781] (my_cpp_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[7.466901] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:204:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const Image&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.467026] (my_cpp_pkg) StderrLine: {'line': b'  204 | CV_BRIDGE_EXPORT CvImagePtr \x1b[01;36m\x1b[KtoCvCopy\x1b[m\x1b[K(\n'}
+[7.467160] (my_cpp_pkg) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.467277] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:205:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst Image&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst sensor_msgs::msg::Image_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[7.467403] (my_cpp_pkg) StderrLine: {'line': b'  205 |   \x1b[01;36m\x1b[Kconst sensor_msgs::msg::Image & source\x1b[m\x1b[K,\n'}
+[7.467521] (my_cpp_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[7.467639] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:208:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const CompressedImage&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.467767] (my_cpp_pkg) StderrLine: {'line': b'  208 | CV_BRIDGE_EXPORT CvImagePtr \x1b[01;36m\x1b[KtoCvCopy\x1b[m\x1b[K(\n'}
+[7.467886] (my_cpp_pkg) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.468003] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:209:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst CompressedImage&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst sensor_msgs::msg::CompressedImage_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[7.468138] (my_cpp_pkg) StderrLine: {'line': b'  209 |   \x1b[01;36m\x1b[Kconst sensor_msgs::msg::CompressedImage & source\x1b[m\x1b[K,\n'}
+[7.468256] (my_cpp_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[7.468380] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[7.468500] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[7.468621] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[7.468741] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[7.468863] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.468987] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[7.469103] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[7.469219] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[7.469337] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.469526] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.469716] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:1\x1b[m\x1b[K:\n'}
+[7.469947] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:43:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: First argument to logging macros must be an rclcpp::Logger\n'}
+[7.470170] (my_cpp_pkg) StderrLine: {'line': b'   43 |       \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K("cv_bridge exception: %s", e.what());\n'}
+[7.470365] (my_cpp_pkg) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.470633] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[7.470877] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[7.471122] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[7.471269] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[7.471474] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[7.471623] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.471755] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[7.471924] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[7.472049] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[7.472190] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.472315] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.472435] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:1\x1b[m\x1b[K:\n'}
+[7.472556] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:43:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kget_name\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K("cv_bridge exception: %s")\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst char [24]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.472710] (my_cpp_pkg) StderrLine: {'line': b'   43 |       \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K("cv_bridge exception: %s", e.what());\n'}
+[7.472833] (my_cpp_pkg) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.472951] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:43:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kget_name\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K("cv_bridge exception: %s")\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst char [24]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.473091] (my_cpp_pkg) StderrLine: {'line': b'   43 |       \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K("cv_bridge exception: %s", e.what());\n'}
+[7.473223] (my_cpp_pkg) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.473675] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.473828] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:62:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid initialization of reference of type \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::InitOptions&\x1b[m\x1b[K\xe2\x80\x99 from expression of type \xe2\x80\x98\x1b[01m\x1b[Kconst char [16]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.473974] (my_cpp_pkg) StderrLine: {'line': b'   62 |   rclcpp::init(argc, argv, \x1b[01;31m\x1b[K"image_converter"\x1b[m\x1b[K);\n'}
+[7.474127] (my_cpp_pkg) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.474743] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:25\x1b[m\x1b[K,\n'}
+[7.474986] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[7.475125] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[7.475250] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[7.475370] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[7.475489] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.475608] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[7.475726] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[7.475846] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[7.475968] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.476091] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.476208] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:1\x1b[m\x1b[K:\n'}
+[7.476327] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:78:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin passing argument 3 of \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::init(int, const char* const*, const rclcpp::InitOptions&, rclcpp::SignalHandlerOptions)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.476476] (my_cpp_pkg) StderrLine: {'line': b'   78 |   \x1b[01;36m\x1b[Kconst InitOptions & init_options = InitOptions()\x1b[m\x1b[K,\n'}
+[7.476597] (my_cpp_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.476717] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:64:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kspin()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.476841] (my_cpp_pkg) StderrLine: {'line': b'   64 |   \x1b[01;31m\x1b[Krclcpp::spin()\x1b[m\x1b[K;\n'}
+[7.476963] (my_cpp_pkg) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[7.477082] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.477211] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zerda/ros2_ws/src/my_cpp_pkg/src/image_converter.cpp:1\x1b[m\x1b[K:\n'}
+[7.477330] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.477452] (my_cpp_pkg) StderrLine: {'line': b'   45 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);\n'}
+[7.477568] (my_cpp_pkg) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.477684] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[7.477804] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.477922] (my_cpp_pkg) StderrLine: {'line': b'   49 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::Node::SharedPtr node_ptr);\n'}
+[7.478039] (my_cpp_pkg) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.478155] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[7.532251] (-) TimerEvent: {}
+[7.632746] (-) TimerEvent: {}
+[7.733212] (-) TimerEvent: {}
+[7.833763] (-) TimerEvent: {}
+[7.934270] (-) TimerEvent: {}
+[8.034755] (-) TimerEvent: {}
+[8.135212] (-) TimerEvent: {}
+[8.235644] (-) TimerEvent: {}
+[8.336125] (-) TimerEvent: {}
+[8.436678] (-) TimerEvent: {}
+[8.473364] (my_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/image_converter_node.dir/build.make:76: CMakeFiles/image_converter_node.dir/src/image_converter.cpp.o] Error 1\n'}
+[8.473771] (my_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/image_converter_node.dir/all] Error 2\n'}
+[8.474190] (my_cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.477491] (my_cpp_pkg) CommandEnded: {'returncode': 2}
+[8.536960] (-) TimerEvent: {}
+[8.637859] (-) TimerEvent: {}
+[8.674007] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 2}
+[8.685008] (-) EventReactorShutdown: {}

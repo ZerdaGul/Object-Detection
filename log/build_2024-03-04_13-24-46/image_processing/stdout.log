@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target my_image_converter_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/my_image_converter_node.dir/src/image_converter_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable my_image_converter_node[0m
+[100%] Built target my_image_converter_node

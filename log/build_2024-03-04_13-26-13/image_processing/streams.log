@@ -1,0 +1,24 @@
+[1.059s] Invoking command in '/home/zerda/ros2_ws/build/image_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/image_processing -- -j8 -l8
+[1.140s] [35m[1mConsolidate compiler generated dependencies of target my_image_converter_node[0m
+[1.178s] [100%] Built target my_image_converter_node
+[1.817s] Invoked command in '/home/zerda/ros2_ws/build/image_processing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/image_processing -- -j8 -l8
+[1.885s] Invoking command in '/home/zerda/ros2_ws/build/image_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake --install /home/zerda/ros2_ws/build/image_processing
+[1.899s] -- Install configuration: ""
+[1.901s] -- Installing: /home/zerda/ros2_ws/install/image_processing/lib/image_processing/my_image_converter_node
+[1.902s] -- Set runtime path of "/home/zerda/ros2_ws/install/image_processing/lib/image_processing/my_image_converter_node" to ""
+[1.902s] -- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/ament_index/resource_index/package_run_dependencies/image_processing
+[1.903s] -- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/ament_index/resource_index/parent_prefix_path/image_processing
+[1.903s] -- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/image_processing/environment/ament_prefix_path.sh
+[1.903s] -- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/image_processing/environment/ament_prefix_path.dsv
+[1.904s] -- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/image_processing/environment/path.sh
+[1.904s] -- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/image_processing/environment/path.dsv
+[1.904s] -- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/image_processing/local_setup.bash
+[1.904s] -- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/image_processing/local_setup.sh
+[1.905s] -- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/image_processing/local_setup.zsh
+[1.905s] -- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/image_processing/local_setup.dsv
+[1.905s] -- Installing: /home/zerda/ros2_ws/install/image_processing/share/image_processing/package.dsv
+[1.905s] -- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/ament_index/resource_index/packages/image_processing
+[1.906s] -- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/image_processing/cmake/image_processingConfig.cmake
+[1.906s] -- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/image_processing/cmake/image_processingConfig-version.cmake
+[1.906s] -- Up-to-date: /home/zerda/ros2_ws/install/image_processing/share/image_processing/package.xml
+[1.909s] Invoked command in '/home/zerda/ros2_ws/build/image_processing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake --install /home/zerda/ros2_ws/build/image_processing

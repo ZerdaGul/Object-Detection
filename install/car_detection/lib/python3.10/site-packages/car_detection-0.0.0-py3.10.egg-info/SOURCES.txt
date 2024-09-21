@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/car_detection/car_detection.egg-info/PKG-INFO
+../../build/car_detection/car_detection.egg-info/SOURCES.txt
+../../build/car_detection/car_detection.egg-info/dependency_links.txt
+../../build/car_detection/car_detection.egg-info/entry_points.txt
+../../build/car_detection/car_detection.egg-info/requires.txt
+../../build/car_detection/car_detection.egg-info/top_level.txt
+../../build/car_detection/car_detection.egg-info/zip-safe
+car_detection/__init__.py
+car_detection/ros_detection_yolo.py
+resource/car_detection
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

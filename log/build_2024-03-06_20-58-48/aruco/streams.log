@@ -1,0 +1,46 @@
+[1.003s] Invoking command in '/home/zerda/ros2_ws/build/aruco': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake /home/zerda/ros2_ws/src/aruco_ros2/aruco -DCMAKE_INSTALL_PREFIX=/home/zerda/ros2_ws/install/aruco
+[1.814s] -- The C compiler identification is GNU 11.4.0
+[1.814s] -- The CXX compiler identification is GNU 11.4.0
+[1.815s] -- Detecting C compiler ABI info
+[1.815s] -- Detecting C compiler ABI info - done
+[1.816s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.817s] -- Detecting C compile features
+[1.820s] -- Detecting C compile features - done
+[1.821s] -- Detecting CXX compiler ABI info
+[1.821s] -- Detecting CXX compiler ABI info - done
+[1.821s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.821s] -- Detecting CXX compile features
+[1.822s] -- Detecting CXX compile features - done
+[1.822s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.155s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.402s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[2.519s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.531s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.553s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.589s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.636s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.855s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.867s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.204s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.285s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.446s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.487s] -- Looking for pthread.h
+[3.653s] -- Looking for pthread.h - found
+[3.653s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.829s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.832s] -- Found Threads: TRUE  
+[4.389s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.890s] [31mCMake Error at CMakeLists.txt:21 (find_package):
+[4.891s]   Could not find a configuration file for package "OpenCV" that is compatible
+[4.891s]   with requested version "3".
+[4.891s] 
+[4.891s]   The following configuration files were considered but not accepted:
+[4.891s] 
+[4.891s]     /usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake, version: 4.5.4
+[4.892s]     /lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake, version: 4.5.4
+[4.892s] 
+[4.892s] 
+[4.892s] [0m
+[4.892s] -- Configuring incomplete, errors occurred!
+[4.892s] See also "/home/zerda/ros2_ws/build/aruco/CMakeFiles/CMakeOutput.log".
+[4.909s] Invoked command in '/home/zerda/ros2_ws/build/aruco' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake /home/zerda/ros2_ws/src/aruco_ros2/aruco -DCMAKE_INSTALL_PREFIX=/home/zerda/ros2_ws/install/aruco

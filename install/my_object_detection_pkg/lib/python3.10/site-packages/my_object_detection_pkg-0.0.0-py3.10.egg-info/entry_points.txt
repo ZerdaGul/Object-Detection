@@ -1,0 +1,2 @@
+[console_scripts]
+detector = my_object_detection_pkg.ros2_object_detector:main

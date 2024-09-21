@@ -1,0 +1,4 @@
+[0.435s] Invoking command in '/home/zerda/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerda/ros2_ws/install/my_py_pkg:/home/zerda/ros2_ws/install/image_processing:/home/zerda/ros2_ws/install/challenge1:/opt/ros/humble /usr/bin/cmake --build /home/zerda/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[0.635s] [ 50%] [32mBuilding CXX object CMakeFiles/image_converter_node.dir/src/image_converter.cpp.o[0m
+[9.801s] [100%] [32m[1mLinking CXX executable image_converter_node[0m
+[11.025s] [100%] Built target image_converter_node

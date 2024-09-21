@@ -1,0 +1,19 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/zerda/ros2_ws/build/my_py_pkg",
+        "/home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
+        "/home/zerda/ros2_ws/build/challenge1",
+        "/home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/zerda/ros2_ws/build/my_py_pkg",
+        "/home/zerda/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
+        "/home/zerda/ros2_ws/build/challenge1",
+        "/home/zerda/ros2_ws/install/challenge1/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "ros.distro": "humble"
+}

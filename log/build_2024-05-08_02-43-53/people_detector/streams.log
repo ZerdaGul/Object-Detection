@@ -1,0 +1,29 @@
+[1.694s] Invoking command in '/home/zerda/ros2_ws/src/people_detector': PYTHONPATH=/home/zerda/ros2_ws/build/people_detector/prefix_override:/home/zerda/ros2_ws/install/people_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/people_detector build --build-base /home/zerda/ros2_ws/build/people_detector/build install --record /home/zerda/ros2_ws/build/people_detector/install.log --single-version-externally-managed install_data
+[2.201s] running egg_info
+[2.235s] writing ../../build/people_detector/people_detector.egg-info/PKG-INFO
+[2.236s] writing dependency_links to ../../build/people_detector/people_detector.egg-info/dependency_links.txt
+[2.236s] writing entry points to ../../build/people_detector/people_detector.egg-info/entry_points.txt
+[2.236s] writing requirements to ../../build/people_detector/people_detector.egg-info/requires.txt
+[2.237s] writing top-level names to ../../build/people_detector/people_detector.egg-info/top_level.txt
+[2.304s] reading manifest file '../../build/people_detector/people_detector.egg-info/SOURCES.txt'
+[2.306s] writing manifest file '../../build/people_detector/people_detector.egg-info/SOURCES.txt'
+[2.306s] running build
+[2.306s] running build_py
+[2.306s] copying people_detector/people_detect.py -> /home/zerda/ros2_ws/build/people_detector/build/lib/people_detector
+[2.307s] copying people_detector/__init__.py -> /home/zerda/ros2_ws/build/people_detector/build/lib/people_detector
+[2.307s] copying people_detector/video_pub.py -> /home/zerda/ros2_ws/build/people_detector/build/lib/people_detector
+[2.307s] running install
+[2.319s] running install_lib
+[2.354s] running install_data
+[2.355s] copying resource/people_detector -> /home/zerda/ros2_ws/install/people_detector/share/ament_index/resource_index/packages
+[2.355s] copying package.xml -> /home/zerda/ros2_ws/install/people_detector/share/people_detector
+[2.355s] copying launch/people_detection.py -> /home/zerda/ros2_ws/install/people_detector/share/people_detector
+[2.355s] copying data/video.mp4 -> /home/zerda/ros2_ws/install/people_detector/share/people_detector
+[2.383s] running install_egg_info
+[2.419s] removing '/home/zerda/ros2_ws/install/people_detector/lib/python3.10/site-packages/people_detector-0.0.0-py3.10.egg-info' (and everything under it)
+[2.419s] Copying ../../build/people_detector/people_detector.egg-info to /home/zerda/ros2_ws/install/people_detector/lib/python3.10/site-packages/people_detector-0.0.0-py3.10.egg-info
+[2.421s] running install_scripts
+[2.719s] Installing people_detect_subscriber script to /home/zerda/ros2_ws/install/people_detector/lib/people_detector
+[2.719s] Installing video_publisher script to /home/zerda/ros2_ws/install/people_detector/lib/people_detector
+[2.720s] writing list of installed files to '/home/zerda/ros2_ws/build/people_detector/install.log'
+[2.769s] Invoked command in '/home/zerda/ros2_ws/src/people_detector' returned '0': PYTHONPATH=/home/zerda/ros2_ws/build/people_detector/prefix_override:/home/zerda/ros2_ws/install/people_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/people_detector build --build-base /home/zerda/ros2_ws/build/people_detector/build install --record /home/zerda/ros2_ws/build/people_detector/install.log --single-version-externally-managed install_data
